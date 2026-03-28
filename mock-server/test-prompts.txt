@@ -1,0 +1,70 @@
+# Mira 人才搜索 Mock 测试用例输入
+# 发送前确保 mock server 已启动（bun dev 在 mock-server 目录）
+# keywords 传数字即触发对应 case，无需其他配置
+# ─────────────────────────────────────────────────────────────
+
+case01 · 双路有结果_linkedin完全匹配去重
+帮我搜索一批技术人才，keywords 传 "1"
+
+case02 · 双路有结果_exa无linkedin_name+company去重
+搜索一些候选人，keywords 传 "2"
+
+case03 · 双路有结果_完全不重叠_3exa+2apollo
+查一批工程师，keywords 传 "3"
+
+case04 · 仅exa有结果_apollo空列表
+找一些产品经理，keywords 传 "4"
+
+case05 · 仅apollo有结果_exa空列表
+搜索人才，keywords 传 "5"
+
+case06 · exa超时返回null_仅apollo
+查询候选人列表，keywords 传 "6"
+
+case07 · apollo报错429_仅exa
+帮我找一批设计师，keywords 传 "7"
+
+case08 · 双路均失败
+搜索人才，keywords 传 "8"
+
+case09 · exa_entities为空数组_非linkedin页面
+查一批数据科学家，keywords 传 "9"
+
+case10 · exa_entities里workHistory为空
+找一些后端工程师，keywords 传 "10"
+
+case11 · exa_entities里educationHistory为空
+搜索前端开发者，keywords 传 "11"
+
+case12 · exa_url不是linkedin无法提取linkedin_url
+查询一批运营人才，keywords 传 "12"
+
+case13 · apollo_email_status=unverified
+找一些销售总监，keywords 传 "13"
+
+case14 · apollo_email=null_status=unavailable
+搜索市场营销人才，keywords 传 "14"
+
+case15 · apollo_photo+social全null
+查一批投资人，keywords 传 "15"
+
+case16 · apollo_social字段全有_twitter+github+facebook
+找一些创业者，keywords 传 "16"
+
+case17 · apollo_education有degree+major值
+搜索有学历背景的工程师，keywords 传 "17"
+
+case18 · apollo_education_school有值但degree+major全null
+查询一批研究员，keywords 传 "18"
+
+case19 · apollo_location字段部分null
+找一些远程工作者，keywords 传 "19"
+
+case20 · apollo_bulk_enrich部分匹配失败_返回条数少于search
+搜索一批高级工程师，keywords 传 "20"
+
+case21 · apollo_多人结果_has_email+has_phone各种组合
+查一批候选人的联系方式覆盖情况，keywords 传 "21"
+
+case22 · 双路各1人_部分重叠_1merged+1apollo+1exa
+帮我找一批技术负责人，keywords 传 "22"

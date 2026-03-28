@@ -1,0 +1,1789 @@
+{
+  "case01_双路有结果_linkedin完全匹配去重": {
+    "exa_response": {
+      "requestId": "exa-req-001",
+      "results": [
+        {
+          "id": "exa-a1b2c3d4",
+          "url": "https://www.linkedin.com/in/sarah-chen-pm",
+          "title": "Sarah Chen - Senior Product Manager at Stripe | LinkedIn",
+          "publishedDate": "2024-11-15",
+          "author": null,
+          "score": 0.9241,
+          "text": "Sarah Chen\nSenior Product Manager · Stripe\nSan Francisco Bay Area\n\nExperience\nStripe · Senior Product Manager\nJan 2022 – Present\n\nGoogle · Product Manager\nMar 2019 – Dec 2021\n\nAmazon · Associate Product Manager\nJul 2017 – Feb 2019\n\nEducation\nStanford University\nMaster of Science, Computer Science · 2015 – 2017\n\nUniversity of California, Berkeley\nBachelor of Science, EECS · 2011 – 2015\n\nSkills\nProduct Strategy · Machine Learning · SQL · Python · A/B Testing · Roadmap Planning · APIs · Data Analysis",
+          "highlights": ["Senior Product Manager at Stripe, AI/ML platform"],
+          "highlightScores": [0.9134],
+          "summary": "Sarah Chen is a Senior PM at Stripe with 8+ years in AI/ML product.",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "sarah chen",
+                "location": "San Francisco Bay Area",
+                "workHistory": [
+                  { "title": "Senior Product Manager", "company": { "name": "Stripe", "domain": "stripe.com" }, "startDate": "2022-01", "endDate": null, "isCurrent": true },
+                  { "title": "Product Manager", "company": { "name": "Google", "domain": "google.com" }, "startDate": "2019-03", "endDate": "2021-12", "isCurrent": false },
+                  { "title": "Associate Product Manager", "company": { "name": "Amazon", "domain": "amazon.com" }, "startDate": "2017-07", "endDate": "2019-02", "isCurrent": false }
+                ],
+                "educationHistory": [
+                  { "school": "Stanford University", "degree": "Master of Science", "major": "Computer Science", "startDate": "2015-09", "endDate": "2017-06" },
+                  { "school": "University of California, Berkeley", "degree": "Bachelor of Science", "major": "Electrical Engineering & Computer Science", "startDate": "2011-09", "endDate": "2015-05" }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": { "total": 0.005 }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [
+        {
+          "id": "64a8c3f2e1b4d900218ae112",
+          "first_name": "Sarah",
+          "last_name": "Chen",
+          "name": "Sarah Chen",
+          "email": null,
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/sarah-chen-pm",
+          "title": "Senior Product Manager",
+          "headline": "Senior PM @ Stripe | AI/ML Platform | Ex-Google, Amazon",
+          "photo_url": "https://media.licdn.com/dms/image/sarah_chen/profile.jpg",
+          "organization_id": "5f9c2a1b3e8d4700123abc45",
+          "organization_name": "Stripe",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "seniority": "senior",
+          "departments": ["product_management"],
+          "subdepartments": ["product_management"],
+          "functions": ["product_management"],
+          "is_likely_to_engage": true,
+          "has_email": true,
+          "has_direct_phone": false
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 1, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "64a8c3f2e1b4d900218ae112",
+          "first_name": "Sarah",
+          "last_name": "Chen",
+          "name": "Sarah Chen",
+          "email": "sarah.chen@stripe.com",
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/sarah-chen-pm",
+          "title": "Senior Product Manager",
+          "headline": "Senior PM @ Stripe | AI/ML Platform | Ex-Google, Amazon",
+          "photo_url": "https://media.licdn.com/dms/image/sarah_chen/profile.jpg",
+          "twitter_url": "https://twitter.com/sarahchenpm",
+          "github_url": null,
+          "facebook_url": null,
+          "organization_id": "5f9c2a1b3e8d4700123abc45",
+          "organization_name": "Stripe",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "seniority": "senior",
+          "has_email": true,
+          "has_direct_phone": false,
+          "revealed_for_current_team": false,
+          "employment_history": [
+            { "_id": "emp_sc_001", "id": "emp_sc_001", "current": true, "organization_id": "5f9c2a1b3e8d4700123abc45", "organization_name": "Stripe", "title": "Senior Product Manager", "start_date": "2022-01-01", "end_date": null, "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_sc_002", "id": "emp_sc_002", "current": false, "organization_id": "5d8b1c3a2f7e6900456def78", "organization_name": "Google", "title": "Product Manager", "start_date": "2019-03-01", "end_date": "2021-12-31", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_sc_003", "id": "emp_sc_003", "current": false, "organization_id": "5a3d4e5f6a7b8c9d0e1f2a3b", "organization_name": "Amazon", "title": "Associate Product Manager", "start_date": "2017-07-01", "end_date": "2019-02-28", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_sc_004", "id": "emp_sc_004", "current": false, "organization_id": null, "organization_name": "Stanford University", "title": null, "start_date": "2015-09-01", "end_date": "2017-06-30", "kind": "education", "degree": null, "major": null, "grade_level": "graduate" },
+            { "_id": "emp_sc_005", "id": "emp_sc_005", "current": false, "organization_id": null, "organization_name": "University of California, Berkeley", "title": null, "start_date": "2011-09-01", "end_date": "2015-05-31", "kind": "education", "degree": null, "major": null, "grade_level": "undergraduate" }
+          ],
+          "organization": {
+            "id": "5f9c2a1b3e8d4700123abc45",
+            "name": "Stripe",
+            "website_url": "https://stripe.com",
+            "primary_domain": "stripe.com",
+            "industry": "financial services",
+            "estimated_num_employees": 8000,
+            "founded_year": 2010
+          }
+        }
+      ]
+    }
+  },
+
+  "case02_双路有结果_exa无linkedin_name+company去重": {
+    "exa_response": {
+      "requestId": "exa-req-002",
+      "results": [
+        {
+          "id": "exa-b2c3d4e5",
+          "url": "https://www.databricks.com/blog/author/james-wilson",
+          "title": "James Wilson - CTO at Databricks",
+          "publishedDate": "2024-10-08",
+          "author": "James Wilson",
+          "score": 0.8934,
+          "text": "James Wilson\nChief Technology Officer · Databricks\nSan Francisco, CA\n\nExperience\nDatabricks · CTO\nSep 2020 – Present\n\nNetflix · Senior Software Engineer\nAug 2016 – Aug 2020\n\nEducation\nUC Berkeley · PhD, Computer Science · 2011 – 2016\n\nSkills\nApache Spark · Scala · Python · Distributed Systems · Data Engineering",
+          "highlights": ["CTO at Databricks, Apache Spark contributor"],
+          "highlightScores": [0.9012],
+          "summary": "James Wilson is CTO at Databricks.",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "james wilson",
+                "location": "San Francisco, CA",
+                "workHistory": [
+                  { "title": "Chief Technology Officer", "company": { "name": "Databricks", "domain": "databricks.com" }, "startDate": "2020-09", "endDate": null, "isCurrent": true },
+                  { "title": "Senior Software Engineer", "company": { "name": "Netflix", "domain": "netflix.com" }, "startDate": "2016-08", "endDate": "2020-08", "isCurrent": false }
+                ],
+                "educationHistory": [
+                  { "school": "UC Berkeley", "degree": "Doctor of Philosophy", "major": "Computer Science", "startDate": "2011-09", "endDate": "2016-05" }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": { "total": 0.005 }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [
+        {
+          "id": "63b5d1a0c9e2f800345bc678",
+          "first_name": "James",
+          "last_name": "Wilson",
+          "name": "James Wilson",
+          "email": null,
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/james-wilson-cto",
+          "title": "Chief Technology Officer",
+          "headline": "CTO @ Databricks | Apache Spark PMC",
+          "photo_url": "https://media.licdn.com/dms/image/james_wilson/profile.jpg",
+          "organization_id": "6a7b8c9d0e1f2a3b4c5d6e7f",
+          "organization_name": "Databricks",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "seniority": "c_suite",
+          "departments": ["engineering"],
+          "subdepartments": ["engineering_management"],
+          "functions": ["engineering"],
+          "is_likely_to_engage": false,
+          "has_email": true,
+          "has_direct_phone": false
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 1, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "63b5d1a0c9e2f800345bc678",
+          "first_name": "James",
+          "last_name": "Wilson",
+          "name": "James Wilson",
+          "email": "james.wilson@databricks.com",
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/james-wilson-cto",
+          "title": "Chief Technology Officer",
+          "photo_url": "https://media.licdn.com/dms/image/james_wilson/profile.jpg",
+          "twitter_url": "https://twitter.com/jameswilson_cto",
+          "github_url": "https://github.com/jameswilson-db",
+          "facebook_url": null,
+          "organization_name": "Databricks",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "has_email": true,
+          "has_direct_phone": false,
+          "revealed_for_current_team": false,
+          "employment_history": [
+            { "_id": "emp_jw_001", "id": "emp_jw_001", "current": true, "organization_name": "Databricks", "title": "Chief Technology Officer", "start_date": "2020-09-01", "end_date": null, "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_jw_002", "id": "emp_jw_002", "current": false, "organization_name": "Netflix", "title": "Senior Software Engineer", "start_date": "2016-08-01", "end_date": "2020-08-31", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_jw_003", "id": "emp_jw_003", "current": false, "organization_name": "UC Berkeley", "title": null, "start_date": "2011-09-01", "end_date": "2016-05-31", "kind": "education", "degree": null, "major": null, "grade_level": "graduate" }
+          ],
+          "organization": {
+            "id": "6a7b8c9d0e1f2a3b4c5d6e7f",
+            "name": "Databricks",
+            "website_url": "https://www.databricks.com",
+            "primary_domain": "databricks.com",
+            "industry": "information technology & services",
+            "estimated_num_employees": 6000,
+            "founded_year": 2013
+          }
+        }
+      ]
+    }
+  },
+
+  "case03_双路有结果_完全不重叠_3exa+2apollo": {
+    "exa_response": {
+      "requestId": "exa-req-003",
+      "results": [
+        {
+          "id": "exa-c1",
+          "url": "https://www.linkedin.com/in/emma-watson-quant",
+          "title": "Emma Watson - Senior Data Scientist at Citadel | LinkedIn",
+          "publishedDate": "2024-08-10",
+          "author": null,
+          "score": 0.8530,
+          "text": "Emma Watson\nSenior Data Scientist · Citadel · New York, NY\n\nExperience\nCitadel · Senior Data Scientist · May 2021 – Present\nTwo Sigma · Data Scientist · Sep 2018 – Apr 2021\n\nEducation\nColumbia University · PhD, Statistics · 2014 – 2018\n\nSkills\nPython · NLP · PyTorch · Deep Learning · Statistical Modeling · Quantitative Finance",
+          "highlights": ["Senior Data Scientist at Citadel"],
+          "highlightScores": [0.8622],
+          "summary": "Emma Watson is a Senior Data Scientist at Citadel with a Columbia PhD.",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "emma watson",
+                "location": "New York, NY",
+                "workHistory": [
+                  { "title": "Senior Data Scientist", "company": { "name": "Citadel" }, "startDate": "2021-05", "endDate": null, "isCurrent": true },
+                  { "title": "Data Scientist", "company": { "name": "Two Sigma" }, "startDate": "2018-09", "endDate": "2021-04", "isCurrent": false }
+                ],
+                "educationHistory": [
+                  { "school": "Columbia University", "degree": "Doctor of Philosophy", "major": "Statistics", "startDate": "2014-09", "endDate": "2018-05" }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "exa-c2",
+          "url": "https://www.linkedin.com/in/raj-patel-nlp",
+          "title": "Raj Patel - ML Engineer at Bloomberg | LinkedIn",
+          "publishedDate": "2024-07-22",
+          "author": null,
+          "score": 0.8120,
+          "text": "Raj Patel\nML Engineer · Bloomberg · New York, NY\n\nExperience\nBloomberg · ML Engineer · Jan 2022 – Present\nJP Morgan · Data Scientist · Aug 2019 – Dec 2021\n\nEducation\nNew York University · MS, Data Science · 2017 – 2019\n\nSkills\nNLP · BERT · Transformers · Python · Financial NLP · Time Series",
+          "highlights": ["ML Engineer at Bloomberg, financial NLP"],
+          "highlightScores": [0.8234],
+          "summary": "Raj Patel is an ML Engineer at Bloomberg.",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "raj patel",
+                "location": "New York, NY",
+                "workHistory": [
+                  { "title": "ML Engineer", "company": { "name": "Bloomberg" }, "startDate": "2022-01", "endDate": null, "isCurrent": true },
+                  { "title": "Data Scientist", "company": { "name": "JP Morgan" }, "startDate": "2019-08", "endDate": "2021-12", "isCurrent": false }
+                ],
+                "educationHistory": [
+                  { "school": "New York University", "degree": "Master of Science", "major": "Data Science", "startDate": "2017-09", "endDate": "2019-05" }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "exa-c3",
+          "url": "https://www.linkedin.com/in/lisa-zhang-nlp",
+          "title": "Lisa Zhang - NLP Scientist at Two Sigma | LinkedIn",
+          "publishedDate": "2024-06-05",
+          "author": null,
+          "score": 0.7940,
+          "text": "Lisa Zhang\nNLP Research Scientist · Two Sigma · New York, NY\n\nExperience\nTwo Sigma · NLP Research Scientist · Mar 2020 – Present\n\nEducation\nPrinceton University · PhD, Computer Science · 2015 – 2020\n\nSkills\nNLP · LLMs · PyTorch · Reinforcement Learning",
+          "highlights": ["NLP Research Scientist at Two Sigma"],
+          "highlightScores": [0.7956],
+          "summary": "Lisa Zhang is a NLP Research Scientist at Two Sigma.",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "lisa zhang",
+                "location": "New York, NY",
+                "workHistory": [
+                  { "title": "NLP Research Scientist", "company": { "name": "Two Sigma" }, "startDate": "2020-03", "endDate": null, "isCurrent": true }
+                ],
+                "educationHistory": [
+                  { "school": "Princeton University", "degree": "Doctor of Philosophy", "major": "Computer Science", "startDate": "2015-09", "endDate": "2020-05" }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": { "total": 0.007 }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [
+        {
+          "id": "83d5f3c2e1b0a900567de901",
+          "first_name": "Tom",
+          "last_name": "Carter",
+          "name": "Tom Carter",
+          "email": null,
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/tom-carter-ds",
+          "title": "Senior Data Scientist",
+          "headline": "Senior Data Scientist @ Goldman Sachs",
+          "photo_url": "https://media.licdn.com/dms/image/tom_carter/profile.jpg",
+          "organization_id": "7e8f9a0b1c2d3e4f5a6b7c8d",
+          "organization_name": "Goldman Sachs",
+          "state": "New York",
+          "city": "New York",
+          "country": "United States",
+          "seniority": "senior",
+          "departments": ["data_science"],
+          "subdepartments": ["data_science"],
+          "functions": ["data_science"],
+          "is_likely_to_engage": false,
+          "has_email": true,
+          "has_direct_phone": false
+        },
+        {
+          "id": "94e6a4d3f2c1b000678ef012",
+          "first_name": "Maria",
+          "last_name": "Brown",
+          "name": "Maria Brown",
+          "email": null,
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/maria-brown-fintech",
+          "title": "Data Science Manager",
+          "headline": "Data Science Manager @ Stripe",
+          "photo_url": "https://media.licdn.com/dms/image/maria_brown/profile.jpg",
+          "organization_id": "5f9c2a1b3e8d4700123abc45",
+          "organization_name": "Stripe",
+          "state": "New York",
+          "city": "New York",
+          "country": "United States",
+          "seniority": "manager",
+          "departments": ["data_science"],
+          "subdepartments": ["data_science"],
+          "functions": ["data_science"],
+          "is_likely_to_engage": true,
+          "has_email": true,
+          "has_direct_phone": true
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 2, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "83d5f3c2e1b0a900567de901",
+          "name": "Tom Carter",
+          "email": "tom.carter@gs.com",
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/tom-carter-ds",
+          "title": "Senior Data Scientist",
+          "photo_url": "https://media.licdn.com/dms/image/tom_carter/profile.jpg",
+          "twitter_url": null,
+          "github_url": "https://github.com/tomcarter-ds",
+          "facebook_url": null,
+          "organization_name": "Goldman Sachs",
+          "state": "New York",
+          "city": "New York",
+          "country": "United States",
+          "has_email": true,
+          "has_direct_phone": false,
+          "employment_history": [
+            { "_id": "emp_tc_001", "id": "emp_tc_001", "current": true, "organization_name": "Goldman Sachs", "title": "Senior Data Scientist", "start_date": "2020-06-01", "end_date": null, "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_tc_002", "id": "emp_tc_002", "current": false, "organization_name": "Citi", "title": "Data Scientist", "start_date": "2017-08-01", "end_date": "2020-05-31", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_tc_003", "id": "emp_tc_003", "current": false, "organization_name": "Cornell University", "title": null, "start_date": "2013-09-01", "end_date": "2017-05-31", "kind": "education", "degree": null, "major": null, "grade_level": "undergraduate" }
+          ],
+          "organization": { "id": "7e8f9a0b1c2d3e4f5a6b7c8d", "name": "Goldman Sachs", "primary_domain": "goldmansachs.com", "industry": "financial services", "estimated_num_employees": 50000 }
+        },
+        {
+          "id": "94e6a4d3f2c1b000678ef012",
+          "name": "Maria Brown",
+          "email": "maria.brown@stripe.com",
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/maria-brown-fintech",
+          "title": "Data Science Manager",
+          "photo_url": "https://media.licdn.com/dms/image/maria_brown/profile.jpg",
+          "twitter_url": "https://twitter.com/mariabrown_ds",
+          "github_url": null,
+          "facebook_url": null,
+          "organization_name": "Stripe",
+          "state": "New York",
+          "city": "New York",
+          "country": "United States",
+          "has_email": true,
+          "has_direct_phone": true,
+          "employment_history": [
+            { "_id": "emp_mb_001", "id": "emp_mb_001", "current": true, "organization_name": "Stripe", "title": "Data Science Manager", "start_date": "2022-09-01", "end_date": null, "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_mb_002", "id": "emp_mb_002", "current": false, "organization_name": "Plaid", "title": "Senior Data Scientist", "start_date": "2019-04-01", "end_date": "2022-08-31", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_mb_003", "id": "emp_mb_003", "current": false, "organization_name": "MIT", "title": null, "start_date": "2015-09-01", "end_date": "2019-06-30", "kind": "education", "degree": "Bachelor of Science", "major": "Mathematics", "grade_level": "undergraduate" }
+          ],
+          "organization": { "id": "5f9c2a1b3e8d4700123abc45", "name": "Stripe", "primary_domain": "stripe.com", "industry": "financial services", "estimated_num_employees": 8000 }
+        }
+      ]
+    }
+  },
+
+  "case04_仅exa有结果_apollo空列表": {
+    "exa_response": {
+      "requestId": "exa-req-004",
+      "results": [
+        {
+          "id": "exa-d1",
+          "url": "https://www.linkedin.com/in/alex-rodriguez-defi",
+          "title": "Alex Rodriguez - Lead Blockchain Engineer at Uniswap Labs | LinkedIn",
+          "publishedDate": "2024-09-20",
+          "author": null,
+          "score": 0.8821,
+          "text": "Alex Rodriguez\nLead Blockchain Engineer · Uniswap Labs · New York, NY\n\nExperience\nUniswap Labs · Lead Blockchain Engineer · Aug 2021 – Present\nConsenSys · Senior Smart Contract Developer · Jan 2019 – Jul 2021\nIBM · Software Engineer · Jun 2017 – Dec 2018\n\nEducation\nNew York University · BS, Computer Science · 2013 – 2017\n\nSkills\nSolidity · Ethereum · Smart Contracts · DeFi · Web3.js · Hardhat · TypeScript · Rust · Zero-Knowledge Proofs · Gas Optimization",
+          "highlights": ["Lead Blockchain Engineer at Uniswap Labs"],
+          "highlightScores": [0.9102],
+          "summary": "Alex Rodriguez is Lead Blockchain Engineer at Uniswap Labs.",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "alex rodriguez",
+                "location": "New York, NY",
+                "workHistory": [
+                  { "title": "Lead Blockchain Engineer", "company": { "name": "Uniswap Labs", "domain": "uniswap.org" }, "startDate": "2021-08", "endDate": null, "isCurrent": true },
+                  { "title": "Senior Smart Contract Developer", "company": { "name": "ConsenSys", "domain": "consensys.net" }, "startDate": "2019-01", "endDate": "2021-07", "isCurrent": false },
+                  { "title": "Software Engineer", "company": { "name": "IBM", "domain": "ibm.com" }, "startDate": "2017-06", "endDate": "2018-12", "isCurrent": false }
+                ],
+                "educationHistory": [
+                  { "school": "New York University", "degree": "Bachelor of Science", "major": "Computer Science", "startDate": "2013-09", "endDate": "2017-05" }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": { "total": 0.005 }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 0, "total_pages": 0 }
+    },
+    "apollo_bulk_enrich_response": null
+  },
+
+  "case05_仅apollo有结果_exa空列表": {
+    "exa_response": {
+      "requestId": "exa-req-005",
+      "results": [],
+      "searchType": "neural",
+      "costDollars": { "total": 0.003 }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [
+        {
+          "id": "72c4e2b1d0f3a900456cd890",
+          "first_name": "Michael",
+          "last_name": "Kim",
+          "name": "Michael Kim",
+          "email": null,
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/michael-kim-vpeng",
+          "title": "VP of Engineering",
+          "headline": "VP Engineering @ OpenAI | Prev Meta, Uber",
+          "photo_url": "https://media.licdn.com/dms/image/michael_kim/profile.jpg",
+          "organization_id": "9b8c7d6e5f4a3b2c1d0e9f8a",
+          "organization_name": "OpenAI",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "seniority": "vp",
+          "departments": ["engineering"],
+          "subdepartments": ["engineering_management"],
+          "functions": ["engineering"],
+          "is_likely_to_engage": true,
+          "has_email": true,
+          "has_direct_phone": true
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 1, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "72c4e2b1d0f3a900456cd890",
+          "first_name": "Michael",
+          "last_name": "Kim",
+          "name": "Michael Kim",
+          "email": "michael.kim@openai.com",
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/michael-kim-vpeng",
+          "title": "VP of Engineering",
+          "photo_url": "https://media.licdn.com/dms/image/michael_kim/profile.jpg",
+          "twitter_url": null,
+          "github_url": "https://github.com/michaelkim-eng",
+          "facebook_url": null,
+          "organization_name": "OpenAI",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "has_email": true,
+          "has_direct_phone": true,
+          "revealed_for_current_team": false,
+          "employment_history": [
+            { "_id": "emp_mk_001", "id": "emp_mk_001", "current": true, "organization_name": "OpenAI", "title": "VP of Engineering", "start_date": "2023-06-01", "end_date": null, "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_mk_002", "id": "emp_mk_002", "current": false, "organization_name": "Meta", "title": "Senior Engineering Manager", "start_date": "2020-02-01", "end_date": "2023-05-31", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_mk_003", "id": "emp_mk_003", "current": false, "organization_name": "Uber", "title": "Staff Software Engineer", "start_date": "2016-08-01", "end_date": "2020-01-31", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_mk_004", "id": "emp_mk_004", "current": false, "organization_name": "MIT", "title": null, "start_date": "2012-09-01", "end_date": "2016-06-30", "kind": "education", "degree": null, "major": null, "grade_level": "undergraduate" }
+          ],
+          "organization": { "id": "9b8c7d6e5f4a3b2c1d0e9f8a", "name": "OpenAI", "primary_domain": "openai.com", "industry": "artificial intelligence", "estimated_num_employees": 1000, "founded_year": 2015 }
+        }
+      ]
+    }
+  },
+
+  "case06_exa超时返回null_仅apollo": {
+    "exa_response": null,
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [
+        {
+          "id": "55e3f1c0b9d2a800234ab567",
+          "first_name": "Jessica",
+          "last_name": "Liu",
+          "name": "Jessica Liu",
+          "email": null,
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/jessica-liu-growth",
+          "title": "Senior Growth Marketing Manager",
+          "headline": "Growth @ HubSpot | SaaS B2B",
+          "photo_url": "https://media.licdn.com/dms/image/jessica_liu/profile.jpg",
+          "organization_id": "3c4d5e6f7a8b9c0d1e2f3a4b",
+          "organization_name": "HubSpot",
+          "state": "Texas",
+          "city": "Austin",
+          "country": "United States",
+          "seniority": "senior",
+          "departments": ["marketing"],
+          "subdepartments": ["growth_marketing"],
+          "functions": ["marketing"],
+          "is_likely_to_engage": true,
+          "has_email": true,
+          "has_direct_phone": false
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 1, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "55e3f1c0b9d2a800234ab567",
+          "name": "Jessica Liu",
+          "email": "jessica.liu@hubspot.com",
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/jessica-liu-growth",
+          "title": "Senior Growth Marketing Manager",
+          "photo_url": "https://media.licdn.com/dms/image/jessica_liu/profile.jpg",
+          "twitter_url": "https://twitter.com/jessicaliu_mktg",
+          "github_url": null,
+          "facebook_url": null,
+          "organization_name": "HubSpot",
+          "state": "Texas",
+          "city": "Austin",
+          "country": "United States",
+          "has_email": true,
+          "has_direct_phone": false,
+          "revealed_for_current_team": false,
+          "employment_history": [
+            { "_id": "emp_jl_001", "id": "emp_jl_001", "current": true, "organization_name": "HubSpot", "title": "Senior Growth Marketing Manager", "start_date": "2022-04-01", "end_date": null, "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_jl_002", "id": "emp_jl_002", "current": false, "organization_name": "Mailchimp", "title": "Growth Marketing Manager", "start_date": "2020-01-01", "end_date": "2022-03-31", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_jl_003", "id": "emp_jl_003", "current": false, "organization_name": "University of Texas at Austin", "title": null, "start_date": "2014-09-01", "end_date": "2018-05-31", "kind": "education", "degree": "Bachelor of Business Administration", "major": "Marketing", "grade_level": "undergraduate" }
+          ],
+          "organization": { "id": "3c4d5e6f7a8b9c0d1e2f3a4b", "name": "HubSpot", "primary_domain": "hubspot.com", "industry": "information technology & services", "estimated_num_employees": 7000 }
+        }
+      ]
+    }
+  },
+
+  "case07_apollo报错429_仅exa": {
+    "exa_response": {
+      "requestId": "exa-req-007",
+      "results": [
+        {
+          "id": "exa-g1",
+          "url": "https://www.linkedin.com/in/priya-patel-ds",
+          "title": "Priya Patel - Director of Data Science at Airbnb | LinkedIn",
+          "publishedDate": "2024-12-01",
+          "author": null,
+          "score": 0.8710,
+          "text": "Priya Patel\nDirector of Data Science · Airbnb · San Francisco, CA\n\nExperience\nAirbnb · Director of Data Science · Mar 2021 – Present\nPinterest · Senior Data Scientist · Jun 2018 – Feb 2021\nLinkedIn · Data Scientist · Aug 2015 – May 2018\n\nEducation\nStanford University · MS, Statistics · 2013 – 2015\nIIT Bombay · BTech, CS · 2009 – 2013\n\nSkills\nPython · R · Causal Inference · Experimentation · Machine Learning · Trust & Safety · SQL · Spark",
+          "highlights": ["Director of Data Science at Airbnb, trust & safety ML"],
+          "highlightScores": [0.8923],
+          "summary": "Priya Patel is Director of Data Science at Airbnb.",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "priya patel",
+                "location": "San Francisco, CA",
+                "workHistory": [
+                  { "title": "Director of Data Science", "company": { "name": "Airbnb", "domain": "airbnb.com" }, "startDate": "2021-03", "endDate": null, "isCurrent": true },
+                  { "title": "Senior Data Scientist", "company": { "name": "Pinterest", "domain": "pinterest.com" }, "startDate": "2018-06", "endDate": "2021-02", "isCurrent": false },
+                  { "title": "Data Scientist", "company": { "name": "LinkedIn", "domain": "linkedin.com" }, "startDate": "2015-08", "endDate": "2018-05", "isCurrent": false }
+                ],
+                "educationHistory": [
+                  { "school": "Stanford University", "degree": "Master of Science", "major": "Statistics", "startDate": "2013-09", "endDate": "2015-06" },
+                  { "school": "IIT Bombay", "degree": "Bachelor of Technology", "major": "Computer Science", "startDate": "2009-08", "endDate": "2013-05" }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": { "total": 0.005 }
+    },
+    "apollo_people_search_response": {
+      "status": 429,
+      "error": "Too Many Requests",
+      "message": "Rate limit exceeded. Retry after 60 seconds.",
+      "people": null
+    },
+    "apollo_bulk_enrich_response": null
+  },
+
+  "case08_双路均失败": {
+    "exa_response": null,
+    "apollo_people_search_response": {
+      "status": 500,
+      "error": "Internal Server Error",
+      "people": null
+    },
+    "apollo_bulk_enrich_response": null
+  },
+
+  "case09_exa_entities为空数组_非linkedin页面": {
+    "exa_response": {
+      "requestId": "exa-req-009",
+      "results": [
+        {
+          "id": "exa-h1",
+          "url": "https://techcrunch.com/author/nina-chen",
+          "title": "Nina Chen - TechCrunch",
+          "publishedDate": "2024-05-20",
+          "author": "Nina Chen",
+          "score": 0.7230,
+          "text": "Nina Chen covers enterprise software and AI at TechCrunch. Previously engineering at Scale AI.",
+          "highlights": ["Nina Chen covers enterprise software and AI at TechCrunch"],
+          "highlightScores": [0.7301],
+          "summary": "Nina Chen is a tech journalist covering AI.",
+          "entities": []
+        },
+        {
+          "id": "exa-h2",
+          "url": "https://www.linkedin.com/in/david-park-cto",
+          "title": "David Park - CTO at Figma | LinkedIn",
+          "publishedDate": "2025-01-10",
+          "author": null,
+          "score": 0.9011,
+          "text": "David Park\nChief Technology Officer · Figma · San Francisco, CA\n\nExperience\nFigma · CTO · Jan 2023 – Present\nAdobe · VP Engineering · May 2019 – Dec 2022\nDropbox · Staff Engineer · Sep 2015 – Apr 2019\n\nEducation\nCaltech · BS, Computer Science · 2011 – 2015\n\nSkills\nSystem Design · C++ · Rust · WebAssembly · Graphics · Real-time Collaboration",
+          "highlights": ["CTO at Figma"],
+          "highlightScores": [0.9111],
+          "summary": "David Park is CTO at Figma.",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "david park",
+                "location": "San Francisco, CA",
+                "workHistory": [
+                  { "title": "Chief Technology Officer", "company": { "name": "Figma", "domain": "figma.com" }, "startDate": "2023-01", "endDate": null, "isCurrent": true },
+                  { "title": "VP Engineering", "company": { "name": "Adobe", "domain": "adobe.com" }, "startDate": "2019-05", "endDate": "2022-12", "isCurrent": false },
+                  { "title": "Staff Engineer", "company": { "name": "Dropbox", "domain": "dropbox.com" }, "startDate": "2015-09", "endDate": "2019-04", "isCurrent": false }
+                ],
+                "educationHistory": [
+                  { "school": "Caltech", "degree": "Bachelor of Science", "major": "Computer Science", "startDate": "2011-09", "endDate": "2015-06" }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": { "total": 0.005 }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 0, "total_pages": 0 }
+    },
+    "apollo_bulk_enrich_response": null
+  },
+
+  "case10_exa_entities里workHistory为空": {
+    "exa_response": {
+      "requestId": "exa-req-010",
+      "results": [
+        {
+          "id": "exa-i1",
+          "url": "https://www.linkedin.com/in/kevin-zhao-newgrad",
+          "title": "Kevin Zhao - Software Engineer | LinkedIn",
+          "publishedDate": "2025-02-01",
+          "author": null,
+          "score": 0.7810,
+          "text": "Kevin Zhao\nSoftware Engineer · San Jose, CA\n\nEducation\nUC San Diego · BS, Computer Science · 2021 – 2025\n\nSkills\nPython · Java · LeetCode · System Design · React",
+          "highlights": ["Software Engineer, recent graduate"],
+          "highlightScores": [0.7820],
+          "summary": "Kevin Zhao is a new grad software engineer.",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "kevin zhao",
+                "location": "San Jose, CA",
+                "workHistory": [],
+                "educationHistory": [
+                  { "school": "UC San Diego", "degree": "Bachelor of Science", "major": "Computer Science", "startDate": "2021-09", "endDate": "2025-06" }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": { "total": 0.005 }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 0, "total_pages": 0 }
+    },
+    "apollo_bulk_enrich_response": null
+  },
+
+  "case11_exa_entities里educationHistory为空": {
+    "exa_response": {
+      "requestId": "exa-req-011",
+      "results": [
+        {
+          "id": "exa-j1",
+          "url": "https://www.linkedin.com/in/mark-taylor-senior",
+          "title": "Mark Taylor - VP Engineering at Snowflake | LinkedIn",
+          "publishedDate": "2024-07-15",
+          "author": null,
+          "score": 0.8560,
+          "text": "Mark Taylor\nVP Engineering · Snowflake · Seattle, WA\n\nExperience\nSnowflake · VP Engineering · Feb 2021 – Present\nMicrosoft · Principal Engineer · Jun 2015 – Jan 2021\nAmazon · Senior SDE · Mar 2010 – May 2015\n\nSkills\nCloud Infrastructure · Distributed Systems · Java · Go · Leadership",
+          "highlights": ["VP Engineering at Snowflake"],
+          "highlightScores": [0.8601],
+          "summary": "Mark Taylor is VP Engineering at Snowflake.",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "mark taylor",
+                "location": "Seattle, WA",
+                "workHistory": [
+                  { "title": "VP Engineering", "company": { "name": "Snowflake", "domain": "snowflake.com" }, "startDate": "2021-02", "endDate": null, "isCurrent": true },
+                  { "title": "Principal Engineer", "company": { "name": "Microsoft", "domain": "microsoft.com" }, "startDate": "2015-06", "endDate": "2021-01", "isCurrent": false },
+                  { "title": "Senior SDE", "company": { "name": "Amazon", "domain": "amazon.com" }, "startDate": "2010-03", "endDate": "2015-05", "isCurrent": false }
+                ],
+                "educationHistory": []
+              }
+            }
+          ]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": { "total": 0.005 }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 0, "total_pages": 0 }
+    },
+    "apollo_bulk_enrich_response": null
+  },
+
+  "case12_exa_url不是linkedin无法提取linkedin_url": {
+    "exa_response": {
+      "requestId": "exa-req-012",
+      "results": [
+        {
+          "id": "exa-k1",
+          "url": "https://www.crunchbase.com/person/anna-white-vc",
+          "title": "Anna White - Partner at Andreessen Horowitz",
+          "publishedDate": "2024-09-05",
+          "author": null,
+          "score": 0.8340,
+          "text": "Anna White\nPartner · Andreessen Horowitz · San Francisco, CA\n\nPreviously: Partner at Sequoia Capital, VP at Google Ventures\n\nFocus areas: AI, SaaS, Consumer",
+          "highlights": ["Partner at Andreessen Horowitz"],
+          "highlightScores": [0.8412],
+          "summary": "Anna White is a Partner at Andreessen Horowitz focusing on AI and SaaS.",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "anna white",
+                "location": "San Francisco, CA",
+                "workHistory": [
+                  { "title": "Partner", "company": { "name": "Andreessen Horowitz", "domain": "a16z.com" }, "startDate": "2020-01", "endDate": null, "isCurrent": true },
+                  { "title": "Partner", "company": { "name": "Sequoia Capital", "domain": "sequoiacap.com" }, "startDate": "2016-03", "endDate": "2019-12", "isCurrent": false }
+                ],
+                "educationHistory": [
+                  { "school": "Harvard University", "degree": "Master of Business Administration", "major": "Finance", "startDate": "2010-09", "endDate": "2012-05" }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": { "total": 0.005 }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 0, "total_pages": 0 }
+    },
+    "apollo_bulk_enrich_response": null
+  },
+
+  "case13_apollo_email_status=unverified": {
+    "exa_response": {
+      "requestId": "exa-req-013",
+      "results": [],
+      "searchType": "neural",
+      "costDollars": { "total": 0.003 }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [
+        {
+          "id": "b7c8d9e0f1a2b3c4d5e6f7a8",
+          "first_name": "Daniel",
+          "last_name": "Garcia",
+          "name": "Daniel Garcia",
+          "email": null,
+          "email_status": "unverified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/daniel-garcia-sf",
+          "title": "Director of Enterprise Sales",
+          "headline": "Director Enterprise Sales @ Salesforce",
+          "photo_url": null,
+          "organization_id": "b6c7d8e9f0a1b2c3d4e5f6a7",
+          "organization_name": "Salesforce",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "seniority": "director",
+          "departments": ["sales"],
+          "subdepartments": ["enterprise_sales"],
+          "functions": ["sales"],
+          "is_likely_to_engage": false,
+          "has_email": true,
+          "has_direct_phone": false
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 1, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "b7c8d9e0f1a2b3c4d5e6f7a8",
+          "name": "Daniel Garcia",
+          "email": "d.garcia@salesforce.com",
+          "email_status": "unverified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/daniel-garcia-sf",
+          "title": "Director of Enterprise Sales",
+          "photo_url": null,
+          "twitter_url": null,
+          "github_url": null,
+          "facebook_url": null,
+          "organization_name": "Salesforce",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "has_email": true,
+          "has_direct_phone": false,
+          "revealed_for_current_team": false,
+          "employment_history": [
+            { "_id": "emp_dg_001", "id": "emp_dg_001", "current": true, "organization_name": "Salesforce", "title": "Director of Enterprise Sales", "start_date": "2019-11-01", "end_date": null, "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_dg_002", "id": "emp_dg_002", "current": false, "organization_name": "SAP", "title": "Senior Account Manager", "start_date": "2016-05-01", "end_date": "2019-10-31", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_dg_003", "id": "emp_dg_003", "current": false, "organization_name": "UCLA", "title": null, "start_date": "2010-09-01", "end_date": "2014-06-30", "kind": "education", "degree": null, "major": null, "grade_level": "undergraduate" }
+          ],
+          "organization": { "id": "b6c7d8e9f0a1b2c3d4e5f6a7", "name": "Salesforce", "primary_domain": "salesforce.com", "industry": "cloud computing", "estimated_num_employees": 80000 }
+        }
+      ]
+    }
+  },
+
+  "case14_apollo_email=null_status=unavailable": {
+    "exa_response": {
+      "requestId": "exa-req-014",
+      "results": [],
+      "searchType": "neural",
+      "costDollars": { "total": 0.003 }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [
+        {
+          "id": "e0f1a2b3c4d5e6f7a8b9c0d1",
+          "first_name": "Chris",
+          "last_name": "Wang",
+          "name": "Chris Wang",
+          "email": null,
+          "email_status": "unavailable",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/chris-wang-backend",
+          "title": "Software Engineer III",
+          "headline": "SWE @ DoorDash",
+          "photo_url": null,
+          "organization_id": "f2a3b4c5d6e7f8a9b0c1d2e3",
+          "organization_name": "DoorDash",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "seniority": "entry",
+          "departments": ["engineering"],
+          "subdepartments": ["backend"],
+          "functions": ["engineering"],
+          "is_likely_to_engage": false,
+          "has_email": false,
+          "has_direct_phone": false
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 1, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "e0f1a2b3c4d5e6f7a8b9c0d1",
+          "name": "Chris Wang",
+          "email": null,
+          "email_status": "unavailable",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/chris-wang-backend",
+          "title": "Software Engineer III",
+          "photo_url": null,
+          "twitter_url": null,
+          "github_url": null,
+          "facebook_url": null,
+          "organization_name": "DoorDash",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "has_email": false,
+          "has_direct_phone": false,
+          "revealed_for_current_team": false,
+          "employment_history": [
+            { "_id": "emp_cw_001", "id": "emp_cw_001", "current": true, "organization_name": "DoorDash", "title": "Software Engineer III", "start_date": "2023-02-01", "end_date": null, "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_cw_002", "id": "emp_cw_002", "current": false, "organization_name": "UC San Diego", "title": null, "start_date": "2019-09-01", "end_date": "2023-06-30", "kind": "education", "degree": "Bachelor of Science", "major": "Computer Engineering", "grade_level": "undergraduate" }
+          ],
+          "organization": { "id": "f2a3b4c5d6e7f8a9b0c1d2e3", "name": "DoorDash", "primary_domain": "doordash.com", "industry": "on-demand delivery", "estimated_num_employees": 8000 }
+        }
+      ]
+    }
+  },
+
+  "case15_apollo_photo+social全null": {
+    "exa_response": {
+      "requestId": "exa-req-015",
+      "results": [],
+      "searchType": "neural",
+      "costDollars": { "total": 0.003 }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [
+        {
+          "id": "f1a2b3c4d5e6f7a8b9c0d1e2",
+          "first_name": "Wei",
+          "last_name": "Zhang",
+          "name": "Wei Zhang",
+          "email": null,
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/wei-zhang-ml",
+          "title": "Machine Learning Engineer",
+          "headline": "ML Engineer @ ByteDance",
+          "photo_url": null,
+          "organization_id": "a2b3c4d5e6f7a8b9c0d1e2f3",
+          "organization_name": "ByteDance",
+          "state": "California",
+          "city": "San Jose",
+          "country": "United States",
+          "seniority": "senior",
+          "departments": ["engineering"],
+          "subdepartments": ["machine_learning"],
+          "functions": ["engineering"],
+          "is_likely_to_engage": false,
+          "has_email": true,
+          "has_direct_phone": false
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 1, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "f1a2b3c4d5e6f7a8b9c0d1e2",
+          "name": "Wei Zhang",
+          "email": "wei.zhang@bytedance.com",
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/wei-zhang-ml",
+          "title": "Machine Learning Engineer",
+          "photo_url": null,
+          "twitter_url": null,
+          "github_url": null,
+          "facebook_url": null,
+          "organization_name": "ByteDance",
+          "state": "California",
+          "city": "San Jose",
+          "country": "United States",
+          "has_email": true,
+          "has_direct_phone": false,
+          "revealed_for_current_team": false,
+          "employment_history": [
+            { "_id": "emp_wz_001", "id": "emp_wz_001", "current": true, "organization_name": "ByteDance", "title": "Machine Learning Engineer", "start_date": "2022-07-01", "end_date": null, "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_wz_002", "id": "emp_wz_002", "current": false, "organization_name": "Tencent", "title": "Software Engineer", "start_date": "2020-03-01", "end_date": "2022-06-30", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_wz_003", "id": "emp_wz_003", "current": false, "organization_name": "Peking University", "title": null, "start_date": "2016-09-01", "end_date": "2020-06-30", "kind": "education", "degree": "Bachelor of Science", "major": "Computer Science", "grade_level": "undergraduate" }
+          ],
+          "organization": { "id": "a2b3c4d5e6f7a8b9c0d1e2f3", "name": "ByteDance", "primary_domain": "bytedance.com", "industry": "internet", "estimated_num_employees": 110000 }
+        }
+      ]
+    }
+  },
+
+  "case16_apollo_social字段全有_twitter+github+facebook": {
+    "exa_response": {
+      "requestId": "exa-req-016",
+      "results": [],
+      "searchType": "neural",
+      "costDollars": { "total": 0.003 }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [
+        {
+          "id": "a3b4c5d6e7f8a9b0c1d2e3f4",
+          "first_name": "Ryan",
+          "last_name": "O'Brien",
+          "name": "Ryan O'Brien",
+          "email": null,
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/ryan-obrien-dev",
+          "title": "Staff Software Engineer",
+          "headline": "Staff SWE @ GitHub | Open Source | DevTools",
+          "photo_url": "https://media.licdn.com/dms/image/ryan_obrien/profile.jpg",
+          "organization_id": "b4c5d6e7f8a9b0c1d2e3f4a5",
+          "organization_name": "GitHub",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "seniority": "senior",
+          "departments": ["engineering"],
+          "subdepartments": ["backend"],
+          "functions": ["engineering"],
+          "is_likely_to_engage": true,
+          "has_email": true,
+          "has_direct_phone": false
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 1, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "a3b4c5d6e7f8a9b0c1d2e3f4",
+          "name": "Ryan O'Brien",
+          "email": "ryan.obrien@github.com",
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/ryan-obrien-dev",
+          "title": "Staff Software Engineer",
+          "photo_url": "https://media.licdn.com/dms/image/ryan_obrien/profile.jpg",
+          "twitter_url": "https://twitter.com/ryanobrien_dev",
+          "github_url": "https://github.com/ryanobrien",
+          "facebook_url": "https://www.facebook.com/ryanobrien.dev",
+          "organization_name": "GitHub",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "has_email": true,
+          "has_direct_phone": false,
+          "revealed_for_current_team": false,
+          "employment_history": [
+            { "_id": "emp_rob_001", "id": "emp_rob_001", "current": true, "organization_name": "GitHub", "title": "Staff Software Engineer", "start_date": "2021-05-01", "end_date": null, "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_rob_002", "id": "emp_rob_002", "current": false, "organization_name": "Atlassian", "title": "Senior Software Engineer", "start_date": "2018-02-01", "end_date": "2021-04-30", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_rob_003", "id": "emp_rob_003", "current": false, "organization_name": "University of Dublin", "title": null, "start_date": "2012-09-01", "end_date": "2016-05-31", "kind": "education", "degree": "Bachelor of Science", "major": "Computer Science", "grade_level": "undergraduate" }
+          ],
+          "organization": { "id": "b4c5d6e7f8a9b0c1d2e3f4a5", "name": "GitHub", "primary_domain": "github.com", "industry": "software development", "estimated_num_employees": 3000 }
+        }
+      ]
+    }
+  },
+
+  "case17_apollo_education有degree+major值_best-effort有数据": {
+    "exa_response": {
+      "requestId": "exa-req-017",
+      "results": [],
+      "searchType": "neural",
+      "costDollars": { "total": 0.003 }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [
+        {
+          "id": "c4d5e6f7a8b9c0d1e2f3a4b5",
+          "first_name": "Sophia",
+          "last_name": "Martinez",
+          "name": "Sophia Martinez",
+          "email": null,
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/sophia-martinez-sales",
+          "title": "Chief Sales Officer",
+          "headline": "CSO @ Zendesk | Enterprise SaaS",
+          "photo_url": "https://media.licdn.com/dms/image/sophia_martinez/profile.jpg",
+          "organization_id": "b4c5d6e7f8a9b0c1d2e3f4a5",
+          "organization_name": "Zendesk",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "seniority": "c_suite",
+          "departments": ["sales"],
+          "subdepartments": ["enterprise_sales"],
+          "functions": ["sales"],
+          "is_likely_to_engage": false,
+          "has_email": true,
+          "has_direct_phone": true
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 1, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "c4d5e6f7a8b9c0d1e2f3a4b5",
+          "name": "Sophia Martinez",
+          "email": "sophia.martinez@zendesk.com",
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/sophia-martinez-sales",
+          "title": "Chief Sales Officer",
+          "photo_url": "https://media.licdn.com/dms/image/sophia_martinez/profile.jpg",
+          "twitter_url": "https://twitter.com/sophiamartinez",
+          "github_url": null,
+          "facebook_url": null,
+          "organization_name": "Zendesk",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "has_email": true,
+          "has_direct_phone": true,
+          "revealed_for_current_team": false,
+          "employment_history": [
+            { "_id": "emp_sm_001", "id": "emp_sm_001", "current": true, "organization_name": "Zendesk", "title": "Chief Sales Officer", "start_date": "2022-05-01", "end_date": null, "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_sm_002", "id": "emp_sm_002", "current": false, "organization_name": "Salesforce", "title": "VP of Sales APAC", "start_date": "2018-09-01", "end_date": "2022-04-30", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_sm_003", "id": "emp_sm_003", "current": false, "organization_name": "HubSpot", "title": "Director of Sales", "start_date": "2015-03-01", "end_date": "2018-08-31", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_sm_004", "id": "emp_sm_004", "current": false, "organization_name": "Georgetown University", "title": null, "start_date": "2008-09-01", "end_date": "2012-05-31", "kind": "education", "degree": "Bachelor of Science", "major": "Business Administration", "grade_level": "undergraduate" }
+          ],
+          "organization": { "id": "b4c5d6e7f8a9b0c1d2e3f4a5", "name": "Zendesk", "primary_domain": "zendesk.com", "industry": "customer service software", "estimated_num_employees": 6000 }
+        }
+      ]
+    }
+  },
+
+  "case18_apollo_education_school有值但degree+major+grade_level全null": {
+    "exa_response": {
+      "requestId": "exa-req-018",
+      "results": [],
+      "searchType": "neural",
+      "costDollars": { "total": 0.003 }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [
+        {
+          "id": "d5e6f7a8b9c0d1e2f3a4b5c6",
+          "first_name": "Jason",
+          "last_name": "Lee",
+          "name": "Jason Lee",
+          "email": null,
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/jason-lee-infra",
+          "title": "Infrastructure Engineer",
+          "headline": "Infra @ Cloudflare",
+          "photo_url": "https://media.licdn.com/dms/image/jason_lee/profile.jpg",
+          "organization_id": "e6f7a8b9c0d1e2f3a4b5c6d7",
+          "organization_name": "Cloudflare",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "seniority": "senior",
+          "departments": ["engineering"],
+          "subdepartments": ["infrastructure"],
+          "functions": ["engineering"],
+          "is_likely_to_engage": true,
+          "has_email": true,
+          "has_direct_phone": false
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 1, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "d5e6f7a8b9c0d1e2f3a4b5c6",
+          "name": "Jason Lee",
+          "email": "jason.lee@cloudflare.com",
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/jason-lee-infra",
+          "title": "Infrastructure Engineer",
+          "photo_url": "https://media.licdn.com/dms/image/jason_lee/profile.jpg",
+          "twitter_url": null,
+          "github_url": "https://github.com/jasonlee-infra",
+          "facebook_url": null,
+          "organization_name": "Cloudflare",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "has_email": true,
+          "has_direct_phone": false,
+          "revealed_for_current_team": false,
+          "employment_history": [
+            { "_id": "emp_jl_001", "id": "emp_jl_001", "current": true, "organization_name": "Cloudflare", "title": "Infrastructure Engineer", "start_date": "2021-09-01", "end_date": null, "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_jl_002", "id": "emp_jl_002", "current": false, "organization_name": "DigitalOcean", "title": "Site Reliability Engineer", "start_date": "2019-01-01", "end_date": "2021-08-31", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_jl_003", "id": "emp_jl_003", "current": false, "organization_name": "Georgia Institute of Technology", "title": null, "start_date": "2015-08-01", "end_date": "2019-05-31", "kind": "education", "degree": null, "major": null, "grade_level": null }
+          ],
+          "organization": { "id": "e6f7a8b9c0d1e2f3a4b5c6d7", "name": "Cloudflare", "primary_domain": "cloudflare.com", "industry": "network security", "estimated_num_employees": 3500 }
+        }
+      ]
+    }
+  },
+
+  "case19_apollo_location字段部分null": {
+    "exa_response": {
+      "requestId": "exa-req-019",
+      "results": [],
+      "searchType": "neural",
+      "costDollars": { "total": 0.003 }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [
+        {
+          "id": "e6f7a8b9c0d1e2f3a4b5c6d7",
+          "first_name": "Yuki",
+          "last_name": "Tanaka",
+          "name": "Yuki Tanaka",
+          "email": null,
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/yuki-tanaka-pm",
+          "title": "Product Manager",
+          "headline": "PM @ Mercari",
+          "photo_url": null,
+          "organization_id": "f7a8b9c0d1e2f3a4b5c6d7e8",
+          "organization_name": "Mercari",
+          "state": null,
+          "city": "Tokyo",
+          "country": "Japan",
+          "seniority": "entry",
+          "departments": ["product_management"],
+          "subdepartments": ["product_management"],
+          "functions": ["product_management"],
+          "is_likely_to_engage": true,
+          "has_email": true,
+          "has_direct_phone": false
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 1, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "e6f7a8b9c0d1e2f3a4b5c6d7",
+          "name": "Yuki Tanaka",
+          "email": "yuki.tanaka@mercari.com",
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/yuki-tanaka-pm",
+          "title": "Product Manager",
+          "photo_url": null,
+          "twitter_url": null,
+          "github_url": null,
+          "facebook_url": null,
+          "organization_name": "Mercari",
+          "state": null,
+          "city": "Tokyo",
+          "country": "Japan",
+          "has_email": true,
+          "has_direct_phone": false,
+          "revealed_for_current_team": false,
+          "employment_history": [
+            { "_id": "emp_yt_001", "id": "emp_yt_001", "current": true, "organization_name": "Mercari", "title": "Product Manager", "start_date": "2023-04-01", "end_date": null, "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_yt_002", "id": "emp_yt_002", "current": false, "organization_name": "Rakuten", "title": "Associate Product Manager", "start_date": "2021-04-01", "end_date": "2023-03-31", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_yt_003", "id": "emp_yt_003", "current": false, "organization_name": "University of Tokyo", "title": null, "start_date": "2017-04-01", "end_date": "2021-03-31", "kind": "education", "degree": "Bachelor of Engineering", "major": "Information Science", "grade_level": "undergraduate" }
+          ],
+          "organization": { "id": "f7a8b9c0d1e2f3a4b5c6d7e8", "name": "Mercari", "primary_domain": "mercari.com", "industry": "e-commerce", "estimated_num_employees": 2000 }
+        }
+      ]
+    }
+  },
+
+  "case20_apollo_bulk_enrich部分匹配失败_返回条数少于search": {
+    "exa_response": {
+      "requestId": "exa-req-020",
+      "results": [],
+      "searchType": "neural",
+      "costDollars": { "total": 0.003 }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [
+        {
+          "id": "f7a8b9c0d1e2f3a4b5c6d7e8",
+          "first_name": "Alice",
+          "last_name": "Johnson",
+          "name": "Alice Johnson",
+          "email": null,
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/alice-johnson-hr",
+          "title": "Head of People",
+          "headline": "Head of People @ Notion",
+          "photo_url": "https://media.licdn.com/dms/image/alice_johnson/profile.jpg",
+          "organization_id": "a8b9c0d1e2f3a4b5c6d7e8f9",
+          "organization_name": "Notion",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "seniority": "head",
+          "departments": ["human_resources"],
+          "subdepartments": ["hr"],
+          "functions": ["human_resources"],
+          "is_likely_to_engage": true,
+          "has_email": true,
+          "has_direct_phone": false
+        },
+        {
+          "id": "a8b9c0d1e2f3a4b5c6d7e8f9",
+          "first_name": "Bob",
+          "last_name": "Smith",
+          "name": "Bob Smith",
+          "email": null,
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/bob-smith-hr",
+          "title": "Recruiter",
+          "headline": "Recruiter @ Notion",
+          "photo_url": null,
+          "organization_id": "a8b9c0d1e2f3a4b5c6d7e8f9",
+          "organization_name": "Notion",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "seniority": "entry",
+          "departments": ["human_resources"],
+          "subdepartments": ["recruiting"],
+          "functions": ["human_resources"],
+          "is_likely_to_engage": false,
+          "has_email": true,
+          "has_direct_phone": false
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 2, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "f7a8b9c0d1e2f3a4b5c6d7e8",
+          "name": "Alice Johnson",
+          "email": "alice.johnson@notion.so",
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/alice-johnson-hr",
+          "title": "Head of People",
+          "photo_url": "https://media.licdn.com/dms/image/alice_johnson/profile.jpg",
+          "twitter_url": null,
+          "github_url": null,
+          "facebook_url": null,
+          "organization_name": "Notion",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "has_email": true,
+          "has_direct_phone": false,
+          "revealed_for_current_team": false,
+          "employment_history": [
+            { "_id": "emp_aj_001", "id": "emp_aj_001", "current": true, "organization_name": "Notion", "title": "Head of People", "start_date": "2021-06-01", "end_date": null, "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_aj_002", "id": "emp_aj_002", "current": false, "organization_name": "Airbnb", "title": "Senior HR Business Partner", "start_date": "2018-03-01", "end_date": "2021-05-31", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_aj_003", "id": "emp_aj_003", "current": false, "organization_name": "Cornell University", "title": null, "start_date": "2012-09-01", "end_date": "2016-05-31", "kind": "education", "degree": "Bachelor of Science", "major": "Industrial & Labor Relations", "grade_level": "undergraduate" }
+          ],
+          "organization": { "id": "a8b9c0d1e2f3a4b5c6d7e8f9", "name": "Notion", "primary_domain": "notion.so", "industry": "productivity software", "estimated_num_employees": 500 }
+        }
+      ]
+    }
+  },
+
+  "case21_apollo_多人结果_has_email+has_phone各种组合": {
+    "exa_response": {
+      "requestId": "exa-req-021",
+      "results": [],
+      "searchType": "neural",
+      "costDollars": { "total": 0.003 }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [
+        {
+          "id": "b9c0d1e2f3a4b5c6d7e8f9a0",
+          "first_name": "Kevin",
+          "last_name": "Park",
+          "name": "Kevin Park",
+          "email": null,
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/kevin-park-eng",
+          "title": "Principal Engineer",
+          "headline": "Principal Engineer @ Twilio",
+          "photo_url": "https://media.licdn.com/dms/image/kevin_park/profile.jpg",
+          "organization_id": "c0d1e2f3a4b5c6d7e8f9a0b1",
+          "organization_name": "Twilio",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "seniority": "senior",
+          "departments": ["engineering"],
+          "subdepartments": ["backend"],
+          "functions": ["engineering"],
+          "is_likely_to_engage": true,
+          "has_email": true,
+          "has_direct_phone": true
+        },
+        {
+          "id": "c0d1e2f3a4b5c6d7e8f9a0b1",
+          "first_name": "Amanda",
+          "last_name": "Lee",
+          "name": "Amanda Lee",
+          "email": null,
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/amanda-lee-mobile",
+          "title": "Senior iOS Engineer",
+          "headline": "Senior iOS @ Lyft",
+          "photo_url": null,
+          "organization_id": "d1e2f3a4b5c6d7e8f9a0b1c2",
+          "organization_name": "Lyft",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "seniority": "senior",
+          "departments": ["engineering"],
+          "subdepartments": ["mobile"],
+          "functions": ["engineering"],
+          "is_likely_to_engage": false,
+          "has_email": true,
+          "has_direct_phone": false
+        },
+        {
+          "id": "d1e2f3a4b5c6d7e8f9a0b1c2",
+          "first_name": "Steve",
+          "last_name": "Brown",
+          "name": "Steve Brown",
+          "email": null,
+          "email_status": "unavailable",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/steve-brown-swe",
+          "title": "Software Engineer",
+          "headline": "SWE @ Instacart",
+          "photo_url": null,
+          "organization_id": "e2f3a4b5c6d7e8f9a0b1c2d3",
+          "organization_name": "Instacart",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "seniority": "entry",
+          "departments": ["engineering"],
+          "subdepartments": ["backend"],
+          "functions": ["engineering"],
+          "is_likely_to_engage": false,
+          "has_email": false,
+          "has_direct_phone": false
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 3, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "b9c0d1e2f3a4b5c6d7e8f9a0",
+          "name": "Kevin Park",
+          "email": "kevin.park@twilio.com",
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/kevin-park-eng",
+          "title": "Principal Engineer",
+          "photo_url": "https://media.licdn.com/dms/image/kevin_park/profile.jpg",
+          "twitter_url": null,
+          "github_url": "https://github.com/kevinpark-dev",
+          "facebook_url": null,
+          "organization_name": "Twilio",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "has_email": true,
+          "has_direct_phone": true,
+          "revealed_for_current_team": false,
+          "employment_history": [
+            { "_id": "emp_kp_001", "id": "emp_kp_001", "current": true, "organization_name": "Twilio", "title": "Principal Engineer", "start_date": "2021-03-01", "end_date": null, "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_kp_002", "id": "emp_kp_002", "current": false, "organization_name": "Shopify", "title": "Senior Software Engineer", "start_date": "2018-06-01", "end_date": "2021-02-28", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_kp_003", "id": "emp_kp_003", "current": false, "organization_name": "University of Waterloo", "title": null, "start_date": "2012-09-01", "end_date": "2017-04-30", "kind": "education", "degree": "Bachelor of Computer Science", "major": "Computer Science", "grade_level": "undergraduate" }
+          ],
+          "organization": { "id": "c0d1e2f3a4b5c6d7e8f9a0b1", "name": "Twilio", "primary_domain": "twilio.com", "industry": "telecommunications", "estimated_num_employees": 5000 }
+        },
+        {
+          "id": "c0d1e2f3a4b5c6d7e8f9a0b1",
+          "name": "Amanda Lee",
+          "email": "amanda.lee@lyft.com",
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/amanda-lee-mobile",
+          "title": "Senior iOS Engineer",
+          "photo_url": null,
+          "twitter_url": null,
+          "github_url": "https://github.com/amandaleemobile",
+          "facebook_url": null,
+          "organization_name": "Lyft",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "has_email": true,
+          "has_direct_phone": false,
+          "revealed_for_current_team": false,
+          "employment_history": [
+            { "_id": "emp_al_001", "id": "emp_al_001", "current": true, "organization_name": "Lyft", "title": "Senior iOS Engineer", "start_date": "2020-08-01", "end_date": null, "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_al_002", "id": "emp_al_002", "current": false, "organization_name": "Apple", "title": "iOS Engineer", "start_date": "2018-01-01", "end_date": "2020-07-31", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_al_003", "id": "emp_al_003", "current": false, "organization_name": "Carnegie Mellon University", "title": null, "start_date": "2014-09-01", "end_date": "2018-05-31", "kind": "education", "degree": "Bachelor of Science", "major": "Computer Science", "grade_level": "undergraduate" }
+          ],
+          "organization": { "id": "d1e2f3a4b5c6d7e8f9a0b1c2", "name": "Lyft", "primary_domain": "lyft.com", "industry": "transportation", "estimated_num_employees": 4000 }
+        },
+        {
+          "id": "d1e2f3a4b5c6d7e8f9a0b1c2",
+          "name": "Steve Brown",
+          "email": null,
+          "email_status": "unavailable",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/steve-brown-swe",
+          "title": "Software Engineer",
+          "photo_url": null,
+          "twitter_url": null,
+          "github_url": null,
+          "facebook_url": null,
+          "organization_name": "Instacart",
+          "state": "California",
+          "city": "San Francisco",
+          "country": "United States",
+          "has_email": false,
+          "has_direct_phone": false,
+          "revealed_for_current_team": false,
+          "employment_history": [
+            { "_id": "emp_sb_001", "id": "emp_sb_001", "current": true, "organization_name": "Instacart", "title": "Software Engineer", "start_date": "2024-01-01", "end_date": null, "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_sb_002", "id": "emp_sb_002", "current": false, "organization_name": "UC Berkeley", "title": null, "start_date": "2020-08-01", "end_date": "2024-05-31", "kind": "education", "degree": "Bachelor of Science", "major": "Electrical Engineering & Computer Science", "grade_level": "undergraduate" }
+          ],
+          "organization": { "id": "e2f3a4b5c6d7e8f9a0b1c2d3", "name": "Instacart", "primary_domain": "instacart.com", "industry": "on-demand delivery", "estimated_num_employees": 3000 }
+        }
+      ]
+    }
+  },
+
+  "case22_双路各1人_部分重叠_1merged+1apollo+1exa": {
+    "exa_response": {
+      "requestId": "exa-req-022",
+      "results": [
+        {
+          "id": "exa-v1",
+          "url": "https://www.linkedin.com/in/oliver-smith-eng",
+          "title": "Oliver Smith - Staff Engineer at Spotify | LinkedIn",
+          "publishedDate": "2024-10-20",
+          "author": null,
+          "score": 0.8820,
+          "text": "Oliver Smith\nStaff Engineer · Spotify · Stockholm, Sweden\n\nExperience\nSpotify · Staff Engineer · Jun 2020 – Present\nSoundCloud · Senior Engineer · Jan 2017 – May 2020\n\nEducation\nKTH Royal Institute of Technology · MS, Computer Science · 2014 – 2016\n\nSkills\nPython · Scala · Kafka · Microservices · Distributed Systems · Music Streaming",
+          "highlights": ["Staff Engineer at Spotify"],
+          "highlightScores": [0.8901],
+          "summary": "Oliver Smith is Staff Engineer at Spotify.",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "oliver smith",
+                "location": "Stockholm, Sweden",
+                "workHistory": [
+                  { "title": "Staff Engineer", "company": { "name": "Spotify", "domain": "spotify.com" }, "startDate": "2020-06", "endDate": null, "isCurrent": true },
+                  { "title": "Senior Engineer", "company": { "name": "SoundCloud", "domain": "soundcloud.com" }, "startDate": "2017-01", "endDate": "2020-05", "isCurrent": false }
+                ],
+                "educationHistory": [
+                  { "school": "KTH Royal Institute of Technology", "degree": "Master of Science", "major": "Computer Science", "startDate": "2014-09", "endDate": "2016-06" }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "exa-v2",
+          "url": "https://www.linkedin.com/in/claire-dubois-pm",
+          "title": "Claire Dubois - Product Lead at Mistral AI | LinkedIn",
+          "publishedDate": "2025-01-05",
+          "author": null,
+          "score": 0.8540,
+          "text": "Claire Dubois\nProduct Lead · Mistral AI · Paris, France\n\nExperience\nMistral AI · Product Lead · Nov 2023 – Present\nMeta · Product Manager · Mar 2020 – Oct 2023\n\nEducation\nÉcole Polytechnique · MS, Data Science · 2017 – 2019\n\nSkills\nLLMs · Product Strategy · Python · AI Research · Go-to-Market · French · English",
+          "highlights": ["Product Lead at Mistral AI"],
+          "highlightScores": [0.8612],
+          "summary": "Claire Dubois is Product Lead at Mistral AI.",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "claire dubois",
+                "location": "Paris, France",
+                "workHistory": [
+                  { "title": "Product Lead", "company": { "name": "Mistral AI", "domain": "mistral.ai" }, "startDate": "2023-11", "endDate": null, "isCurrent": true },
+                  { "title": "Product Manager", "company": { "name": "Meta", "domain": "meta.com" }, "startDate": "2020-03", "endDate": "2023-10", "isCurrent": false }
+                ],
+                "educationHistory": [
+                  { "school": "École Polytechnique", "degree": "Master of Science", "major": "Data Science", "startDate": "2017-09", "endDate": "2019-06" }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": { "total": 0.006 }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [
+        {
+          "id": "e3f4a5b6c7d8e9f0a1b2c3d4",
+          "first_name": "Oliver",
+          "last_name": "Smith",
+          "name": "Oliver Smith",
+          "email": null,
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/oliver-smith-eng",
+          "title": "Staff Engineer",
+          "headline": "Staff Engineer @ Spotify",
+          "photo_url": "https://media.licdn.com/dms/image/oliver_smith/profile.jpg",
+          "organization_id": "f4a5b6c7d8e9f0a1b2c3d4e5",
+          "organization_name": "Spotify",
+          "state": null,
+          "city": "Stockholm",
+          "country": "Sweden",
+          "seniority": "senior",
+          "departments": ["engineering"],
+          "subdepartments": ["backend"],
+          "functions": ["engineering"],
+          "is_likely_to_engage": true,
+          "has_email": true,
+          "has_direct_phone": false
+        },
+        {
+          "id": "f4a5b6c7d8e9f0a1b2c3d4e5",
+          "first_name": "Lucas",
+          "last_name": "Müller",
+          "name": "Lucas Müller",
+          "email": null,
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/lucas-muller-sap",
+          "title": "Senior Consultant",
+          "headline": "Senior Consultant @ SAP",
+          "photo_url": null,
+          "organization_id": "a5b6c7d8e9f0a1b2c3d4e5f6",
+          "organization_name": "SAP",
+          "state": null,
+          "city": "Berlin",
+          "country": "Germany",
+          "seniority": "senior",
+          "departments": ["consulting"],
+          "subdepartments": ["it_consulting"],
+          "functions": ["consulting"],
+          "is_likely_to_engage": false,
+          "has_email": true,
+          "has_direct_phone": false
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 2, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "e3f4a5b6c7d8e9f0a1b2c3d4",
+          "name": "Oliver Smith",
+          "email": "oliver.smith@spotify.com",
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/oliver-smith-eng",
+          "title": "Staff Engineer",
+          "photo_url": "https://media.licdn.com/dms/image/oliver_smith/profile.jpg",
+          "twitter_url": null,
+          "github_url": "https://github.com/oliversmith-spotify",
+          "facebook_url": null,
+          "organization_name": "Spotify",
+          "state": null,
+          "city": "Stockholm",
+          "country": "Sweden",
+          "has_email": true,
+          "has_direct_phone": false,
+          "revealed_for_current_team": false,
+          "employment_history": [
+            { "_id": "emp_os_001", "id": "emp_os_001", "current": true, "organization_name": "Spotify", "title": "Staff Engineer", "start_date": "2020-06-01", "end_date": null, "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_os_002", "id": "emp_os_002", "current": false, "organization_name": "SoundCloud", "title": "Senior Engineer", "start_date": "2017-01-01", "end_date": "2020-05-31", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_os_003", "id": "emp_os_003", "current": false, "organization_name": "KTH Royal Institute of Technology", "title": null, "start_date": "2014-09-01", "end_date": "2016-06-30", "kind": "education", "degree": null, "major": null, "grade_level": "graduate" }
+          ],
+          "organization": { "id": "f4a5b6c7d8e9f0a1b2c3d4e5", "name": "Spotify", "primary_domain": "spotify.com", "industry": "music streaming", "estimated_num_employees": 9000 }
+        },
+        {
+          "id": "f4a5b6c7d8e9f0a1b2c3d4e5",
+          "name": "Lucas Müller",
+          "email": "lucas.muller@sap.com",
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/lucas-muller-sap",
+          "title": "Senior Consultant",
+          "photo_url": null,
+          "twitter_url": null,
+          "github_url": null,
+          "facebook_url": null,
+          "organization_name": "SAP",
+          "state": null,
+          "city": "Berlin",
+          "country": "Germany",
+          "has_email": true,
+          "has_direct_phone": false,
+          "revealed_for_current_team": false,
+          "employment_history": [
+            { "_id": "emp_lm_001", "id": "emp_lm_001", "current": true, "organization_name": "SAP", "title": "Senior Consultant", "start_date": "2019-07-01", "end_date": null, "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_lm_002", "id": "emp_lm_002", "current": false, "organization_name": "Accenture", "title": "Consultant", "start_date": "2016-09-01", "end_date": "2019-06-30", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_lm_003", "id": "emp_lm_003", "current": false, "organization_name": "Technical University of Munich", "title": null, "start_date": "2012-10-01", "end_date": "2016-07-31", "kind": "education", "degree": "Bachelor of Science", "major": "Information Systems", "grade_level": "undergraduate" }
+          ],
+          "organization": { "id": "a5b6c7d8e9f0a1b2c3d4e5f6", "name": "SAP", "primary_domain": "sap.com", "industry": "enterprise software", "estimated_num_employees": 100000 }
+        }
+      ]
+    }
+  }
+}

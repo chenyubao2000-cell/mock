@@ -1,0 +1,117 @@
+{
+  "case01_双路有结果_linkedin完全匹配去重": {
+    "exa_response": {
+      "requestId": "exa-req-001",
+      "results": [
+        {
+          "id": "exa-a1b2c3d4",
+          "url": "https://www.linkedin.com/in/chen-xiaomei-pm2",
+          "title": "陈晓梅 - 蚂蚁集团高级产品经理 | LinkedIn",
+          "publishedDate": "2024-11-15",
+          "author": null,
+          "score": 0.9241,
+          "text": "陈晓梅\n高级产品经理 · 蚂蚁集团\n上海市\n\n工作经历\n蚂蚁集团 · 高级产品经理\n2022年1月 – 至今\n\n谷歌中国 · 产品经理\n2019年3月 – 2021年12月\n\n阿里巴巴 · 助理产品经理\n2017年7月 – 2019年2月\n\n教育经历\n清华大学\n理学硕士，计算机科学 · 2015 – 2017\n\n北京大学\n理学学士，电子信息工程 · 2011 – 2015\n\n技能\n产品战略 · 机器学习 · SQL · Python · A/B测试 · 路线图规划 · API接口 · 数据分析",
+          "highlights": ["蚂蚁集团高级产品经理，AI/ML平台"],
+          "highlightScores": [0.9134],
+          "summary": "陈晓梅是蚂蚁集团高级产品经理，在AI/ML产品领域拥有8年以上经验。",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "陈晓梅2",
+                "location": "上海市",
+                "workHistory": [
+                  { "title": "高级产品经理", "company": { "name": "蚂蚁集团", "domain": "antgroup.com" }, "startDate": "2022-01", "endDate": null, "isCurrent": true },
+                  { "title": "产品经理", "company": { "name": "谷歌中国", "domain": "google.com.cn" }, "startDate": "2019-03", "endDate": "2021-12", "isCurrent": false },
+                  { "title": "助理产品经理", "company": { "name": "阿里巴巴", "domain": "alibaba.com" }, "startDate": "2017-07", "endDate": "2019-02", "isCurrent": false }
+                ],
+                "educationHistory": [
+                  { "school": "清华大学", "degree": "理学硕士", "major": "计算机科学", "startDate": "2015-09", "endDate": "2017-06" },
+                  { "school": "北京大学", "degree": "理学学士", "major": "电子信息工程", "startDate": "2011-09", "endDate": "2015-05" }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": { "total": 0.005 }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [
+        {
+          "id": "64a8c3f2e1b4d900218ae112",
+          "first_name": "晓梅",
+          "last_name": "陈",
+          "name": "陈晓梅",
+          "email": null,
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/chen-xiaomei-pm",
+          "title": "高级产品经理",
+          "headline": "高级产品经理 @ 蚂蚁集团 | AI/ML平台 | 前谷歌、阿里巴巴",
+          "photo_url": "https://media.licdn.com/dms/image/chen_xiaomei/profile.jpg",
+          "organization_id": "5f9c2a1b3e8d4700123abc45",
+          "organization_name": "蚂蚁集团",
+          "state": "上海市",
+          "city": "上海",
+          "country": "中国",
+          "seniority": "senior",
+          "departments": ["product_management"],
+          "subdepartments": ["product_management"],
+          "functions": ["product_management"],
+          "is_likely_to_engage": true,
+          "has_email": true,
+          "has_direct_phone": false
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 1, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "64a8c3f2e1b4d900218ae112",
+          "first_name": "晓梅",
+          "last_name": "陈",
+          "name": "陈晓梅",
+          "email": "xiaomei.chen@antgroup.com",
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/chen-xiaomei-pm",
+          "title": "高级产品经理",
+          "headline": "高级产品经理 @ 蚂蚁集团 | AI/ML平台 | 前谷歌、阿里巴巴",
+          "photo_url": "https://media.licdn.com/dms/image/chen_xiaomei/profile.jpg",
+          "twitter_url": null,
+          "github_url": null,
+          "facebook_url": null,
+          "organization_id": "5f9c2a1b3e8d4700123abc45",
+          "organization_name": "蚂蚁集团",
+          "state": "上海市",
+          "city": "上海",
+          "country": "中国",
+          "seniority": "senior",
+          "has_email": true,
+          "has_direct_phone": false,
+          "revealed_for_current_team": false,
+          "employment_history": [
+            { "_id": "emp_sc_001", "id": "emp_sc_001", "current": true, "organization_id": "5f9c2a1b3e8d4700123abc45", "organization_name": "蚂蚁集团", "title": "高级产品经理", "start_date": "2022-01-01", "end_date": null, "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_sc_002", "id": "emp_sc_002", "current": false, "organization_id": "5d8b1c3a2f7e6900456def78", "organization_name": "谷歌中国", "title": "产品经理", "start_date": "2019-03-01", "end_date": "2021-12-31", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_sc_003", "id": "emp_sc_003", "current": false, "organization_id": "5a3d4e5f6a7b8c9d0e1f2a3b", "organization_name": "阿里巴巴", "title": "助理产品经理", "start_date": "2017-07-01", "end_date": "2019-02-28", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_sc_004", "id": "emp_sc_004", "current": false, "organization_id": null, "organization_name": "清华大学", "title": null, "start_date": "2015-09-01", "end_date": "2017-06-30", "kind": "education", "degree": null, "major": null, "grade_level": "graduate" },
+            { "_id": "emp_sc_005", "id": "emp_sc_005", "current": false, "organization_id": null, "organization_name": "北京大学", "title": null, "start_date": "2011-09-01", "end_date": "2015-05-31", "kind": "education", "degree": null, "major": null, "grade_level": "undergraduate" }
+          ],
+          "organization": {
+            "id": "5f9c2a1b3e8d4700123abc45",
+            "name": "蚂蚁集团",
+            "website_url": "https://antgroup.com",
+            "primary_domain": "antgroup.com",
+            "industry": "金融科技",
+            "estimated_num_employees": 16000,
+            "founded_year": 2014
+          }
+        }
+      ]
+    }
+  }
+}
