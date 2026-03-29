@@ -23,7 +23,8 @@
                 "workHistory": [
                   { "title": "高级产品经理", "company": { "name": "蚂蚁集团", "domain": "antgroup.com" }, "startDate": "2022-01", "endDate": null, "isCurrent": true },
                   { "title": "产品经理", "company": { "name": "谷歌中国", "domain": "google.com.cn" }, "startDate": "2019-03", "endDate": "2021-12", "isCurrent": false },
-                  { "title": "助理产品经理", "company": { "name": "阿里巴巴", "domain": "alibaba.com" }, "startDate": "2017-07", "endDate": "2019-02", "isCurrent": false }
+                  { "title": "助理产品经理", "company": { "name": "阿里巴巴", "domain": "alibaba.com" }, "startDate": "2017-07", "endDate": "2019-02", "isCurrent": false },
+                  { "title": "助理产品经理22", "company": { "name": "阿里巴巴22", "domain": "alibaba22.com" }, "startDate": "2000-07", "endDate": "2003-02", "isCurrent": false }
                 ],
                 "educationHistory": [
                   { "school": "清华大学", "degree": "理学硕士", "major": "计算机科学", "startDate": "2015-09", "endDate": "2017-06" },
@@ -48,7 +49,7 @@
           "email": null,
           "email_status": "verified",
           "phone_number": null,
-          "linkedin_url": "https://www.linkedin.com/in/chen-xiaomei-pm",
+          "linkedin_url": "https://www.linkedin.com/in/chen-xiaomei-pm2",
           "title": "高级产品经理",
           "headline": "高级产品经理 @ 蚂蚁集团 | AI/ML平台 | 前谷歌、阿里巴巴",
           "photo_url": "https://media.licdn.com/dms/image/chen_xiaomei/profile.jpg",
@@ -78,7 +79,7 @@
           "email": "xiaomei.chen@antgroup.com",
           "email_status": "verified",
           "phone_number": null,
-          "linkedin_url": "https://www.linkedin.com/in/chen-xiaomei-pm",
+          "linkedin_url": "https://www.linkedin.com/in/chen-xiaomei-pm2",
           "title": "高级产品经理",
           "headline": "高级产品经理 @ 蚂蚁集团 | AI/ML平台 | 前谷歌、阿里巴巴",
           "photo_url": "https://media.licdn.com/dms/image/chen_xiaomei/profile.jpg",
@@ -110,8 +111,1755 @@
             "estimated_num_employees": 16000,
             "founded_year": 2014
           }
+        },
+        {
+          "id": "64a8c3f2e1b4d900218ae113",
+          "first_name": "建国",
+          "last_name": "林",
+          "name": "林建国",
+          "email": "jg.lin@huawei.com",
+          "email_status": "verified",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/lin-jianguo-arch",
+          "title": "高级云架构师",
+          "headline": "高级云架构师 @ 华为 | 混合云 & 分布式系统 | 前微软、腾讯",
+          "photo_url": "https://media.licdn.com/dms/image/lin_jianguo/profile.jpg",
+          "twitter_url": null,
+          "github_url": null,
+          "facebook_url": null,
+          "organization_id": "7b2e4c8d1a9f3500678bcd90",
+          "organization_name": "华为",
+          "state": "广东省",
+          "city": "深圳",
+          "country": "中国",
+          "seniority": "manager",
+          "has_email": true,
+          "has_direct_phone": true,
+          "revealed_for_current_team": false,
+          "employment_history": [
+            { "_id": "emp_sc_001", "id": "emp_sc_001", "current": true, "organization_id": "7b2e4c8d1a9f3500678bcd90", "organization_name": "华为", "title": "高级云架构师", "start_date": "2020-06-01", "end_date": null, "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_sc_002", "id": "emp_sc_002", "current": false, "organization_id": "3c1a5d7e9b2f4800345efg12", "organization_name": "微软中国", "title": "云解决方案架构师", "start_date": "2016-09-01", "end_date": "2020-05-31", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_sc_003", "id": "emp_sc_003", "current": false, "organization_id": "2d0b4c6e8a1f3700234def01", "organization_name": "腾讯", "title": "软件工程师", "start_date": "2014-07-01", "end_date": "2016-08-31", "kind": "job", "degree": null, "major": null, "grade_level": null },
+            { "_id": "emp_sc_004", "id": "emp_sc_004", "current": false, "organization_id": null, "organization_name": "复旦大学", "title": null, "start_date": "2012-09-01", "end_date": "2014-06-30", "kind": "education", "degree": null, "major": null, "grade_level": "graduate" },
+            { "_id": "emp_sc_005", "id": "emp_sc_005", "current": false, "organization_id": null, "organization_name": "武汉大学", "title": null, "start_date": "2008-09-01", "end_date": "2012-06-30", "kind": "education", "degree": null, "major": null, "grade_level": "undergraduate" }
+          ],
+          "organization": {
+            "id": "7b2e4c8d1a9f3500678bcd90",
+            "name": "华为",
+            "website_url": "https://huawei.com",
+            "primary_domain": "huawei.com",
+            "industry": "信息技术与服务",
+            "estimated_num_employees": 195000,
+            "founded_year": 1987
+          }
         }
       ]
     }
+  },
+  "case02_exa有结果_people_search为空_bulk_enrich有结果": {
+    "exa_response": {
+      "requestId": "exa-req-002",
+      "results": [
+        {
+          "id": "exa-b5c6d7e8",
+          "url": "https://www.linkedin.com/in/wang-zhipeng-eng",
+          "title": "王志鹏 - 字节跳动高级软件工程师 | LinkedIn",
+          "publishedDate": "2025-06-23",
+          "author": null,
+          "score": 0.8876,
+          "text": "王志鹏\n高级软件工程师 · 字节跳动\n北京市\n\n工作经历\n字节跳动 · 高级软件工程师\n2021年3月 – 至今\n\n百度 · 软件工程师\n2018年6月 – 2021年2月\n\n教育经历\n浙江大学\n工学硕士，软件工程 · 2016 – 2018\n\n华中科技大学\n工学学士，计算机科学 · 2012 – 2016\n\n技能\nGo · Kubernetes · 分布式系统 · gRPC · MySQL · Redis · 微服务架构",
+          "highlights": ["字节跳动高级软件工程师，基础架构平台"],
+          "highlightScores": [0.8712],
+          "summary": "王志鹏是字节跳动高级软件工程师，专注于大规模分布式系统与基础架构。",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "王志鹏",
+                "location": "北京市",
+                "workHistory": [
+                  { "title": "高级软件工程师", "company": { "name": "字节跳动", "domain": "bytedance.com" }, "startDate": "2021-03", "endDate": null, "isCurrent": true },
+                  { "title": "软件工程师", "company": { "name": "百度", "domain": "baidu.com" }, "startDate": "2018-06", "endDate": "2021-02", "isCurrent": false },
+                  { "title": "后端工程师", "company": { "name": "滴滴出行", "domain": "didiglobal.com" }, "startDate": "2016-07", "endDate": "2018-05", "isCurrent": false },
+                  { "title": "实习软件工程师", "company": { "name": "腾讯", "domain": "tencent.com" }, "startDate": "2015-07", "endDate": "2015-12", "isCurrent": false },
+                  { "title": "实习开发工程师", "company": { "name": "中兴通讯", "domain": "zte.com.cn" }, "startDate": "2014-07", "endDate": "2014-09", "isCurrent": false }
+                ],
+                "educationHistory": [
+                  { "school": "浙江大学", "degree": "工学硕士", "major": "软件工程", "startDate": "2016-09", "endDate": "2018-06" },
+                  { "school": "华中科技大学", "degree": "工学学士", "major": "计算机科学", "startDate": "2012-09", "endDate": "2016-06" },
+                  { "school": "Coursera / Stanford Online", "degree": "专业证书", "major": "机器学习", "startDate": "2019-01", "endDate": "2019-06" },
+                  { "school": "Linux Foundation", "degree": "认证", "major": "Kubernetes 管理员 (CKA)", "startDate": "2020-03", "endDate": "2020-05" },
+                  { "school": "武汉市第一中学", "degree": "高中", "major": null, "startDate": "2009-09", "endDate": "2012-06" }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": { "total": 0.005 }
+    },
+    "apollo_people_search_response": {
+      "total_entries": 1,
+      "people": [
+        {
+          "id": "83c7e2b1a4d6f900418cd335",
+          "first_name": "雨桐",
+          "last_name_obfuscated": "李***",
+          "title": "高级数据科学家",
+          "last_refreshed_at": "2025-12-23T14:22:00.000+00:00",
+          "has_email": true,
+          "has_city": true,
+          "has_state": true,
+          "has_country": true,
+          "has_direct_phone": "No",
+          "organization": {
+            "name": "网易",
+            "has_industry": true,
+            "has_phone": true,
+            "has_city": true,
+            "has_state": true,
+            "has_country": true,
+            "has_zip_code": true,
+            "has_revenue": true,
+            "has_employee_count": true
+          }
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 1, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "status": "success",
+      "error_code": null,
+      "error_message": null,
+      "total_requested_enrichments": 2,
+      "unique_enriched_records": 2,
+      "missing_records": 0,
+      "credits_consumed": 2,
+      "waterfall": { "status": "accepted", "message": "Waterfall enrichment request accepted." },
+      "matches": [
+        {
+          "id": "83c7e2b1a4d6f900418cd335",
+          "first_name": "雨桐",
+          "last_name": "李",
+          "name": "李雨桐",
+          "email": "yutong.li@netease.com",
+          "email_status": "verified",
+          "linkedin_url": "https://www.linkedin.com/in/li-yutong-data",
+          "title": "高级数据科学家",
+          "headline": "高级数据科学家 @ 网易 | 用户增长 & 推荐算法 | 前京东、小米",
+          "photo_url": "https://media.licdn.com/dms/image/li_yutong/profile.jpg",
+          "twitter_url": "https://twitter.com/liyutong_ds",
+          "github_url": "https://github.com/liyutong-ds",
+          "facebook_url": "https://www.facebook.com/li.yutong.data",
+          "extrapolated_email_confidence": null,
+          "organization_id": "9c3e5a7b1d2f4800567efg23",
+          "state": "浙江省",
+          "city": "杭州",
+          "country": "中国",
+          "contact_id": null,
+          "contact": null,
+          "account_id": null,
+          "account": null,
+          "revealed_for_current_team": false,
+          "is_likely_to_engage": true,
+          "intent_strength": null,
+          "show_intent": false,
+          "departments": ["data_science"],
+          "subdepartments": ["data_science"],
+          "functions": ["data_science"],
+          "seniority": "senior",
+          "employment_history": [
+            { "_id": "emp_ly_001", "id": "emp_ly_001", "key": "emp_ly_001", "current": true,  "organization_id": "9c3e5a7b1d2f4800567efg23", "organization_name": "网易",     "title": "高级数据科学家", "start_date": "2022-04-01", "end_date": null,         "kind": "job",       "degree": null, "major": null, "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2022-05-10T08:30:00.000+00:00", "updated_at": "2026-03-23T14:22:00.000+00:00" },
+            { "_id": "emp_ly_002", "id": "emp_ly_002", "key": "emp_ly_002", "current": false, "organization_id": "8b4f6c2e0a1d3900456fgh12", "organization_name": "京东",     "title": "数据科学家",     "start_date": "2019-07-01", "end_date": "2022-03-31", "kind": "job",       "degree": null, "major": null, "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2022-05-10T08:30:00.000+00:00", "updated_at": "2022-05-10T08:30:00.000+00:00" },
+            { "_id": "emp_ly_003", "id": "emp_ly_003", "key": "emp_ly_003", "current": false, "organization_id": "7a3e5b1c9d0f2800345egh01", "organization_name": "小米",     "title": "数据分析师",     "start_date": "2017-08-01", "end_date": "2019-06-30", "kind": "job",       "degree": null, "major": null, "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2022-05-10T08:30:00.000+00:00", "updated_at": "2022-05-10T08:30:00.000+00:00" },
+            { "_id": "emp_ly_004", "id": "emp_ly_004", "key": "emp_ly_004", "current": false, "organization_id": "6b2d4a0c8e9f1700234dfg90", "organization_name": "唯品会",   "title": "实习数据分析师", "start_date": "2016-07-01", "end_date": "2016-12-31", "kind": "job",       "degree": null, "major": null, "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2022-05-10T08:30:00.000+00:00", "updated_at": "2022-05-10T08:30:00.000+00:00" },
+            { "_id": "emp_ly_005", "id": "emp_ly_005", "key": "emp_ly_005", "current": false, "organization_id": null,                       "organization_name": "同济大学", "title": null,             "start_date": "2015-09-01", "end_date": "2017-06-30", "kind": "education", "degree": null, "major": null, "grade_level": "graduate",    "description": null, "emails": null, "raw_address": null, "created_at": "2022-05-10T08:30:00.000+00:00", "updated_at": "2022-05-10T08:30:00.000+00:00" },
+            { "_id": "emp_ly_006", "id": "emp_ly_006", "key": "emp_ly_006", "current": false, "organization_id": null,                       "organization_name": "南京大学", "title": null,             "start_date": "2011-09-01", "end_date": "2015-06-30", "kind": "education", "degree": null, "major": null, "grade_level": "undergraduate", "description": null, "emails": null, "raw_address": null, "created_at": "2022-05-10T08:30:00.000+00:00", "updated_at": "2022-05-10T08:30:00.000+00:00" }
+          ],
+          "organization": {
+            "id": "9c3e5a7b1d2f4800567efg23",
+            "name": "网易",
+            "website_url": "https://netease.com",
+            "blog_url": null,
+            "angellist_url": null,
+            "linkedin_url": "https://www.linkedin.com/company/netease",
+            "twitter_url": "https://twitter.com/NetEase",
+            "facebook_url": "https://www.facebook.com/NetEase",
+            "primary_phone": { "number": "+86-571-89853163", "source": "Owler" },
+            "languages": ["中文", "English"],
+            "alexa_ranking": 52,
+            "phone": "+86-571-89853163",
+            "linkedin_uid": "163478",
+            "founded_year": 1997,
+            "publicly_traded_symbol": "NTES",
+            "publicly_traded_exchange": "NASDAQ",
+            "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/netease_logo.png",
+            "crunchbase_url": null,
+            "primary_domain": "netease.com",
+            "industry": "互联网娱乐",
+            "keywords": ["gaming", "online music", "e-commerce", "education", "cloud services", "email"],
+            "estimated_num_employees": 28000,
+            "industries": ["互联网娱乐", "游戏", "云计算"],
+            "secondary_industries": [],
+            "snippets_loaded": true,
+            "industry_tag_id": "5567ce8d7369643b78030000",
+            "industry_tag_hash": { "互联网娱乐": "5567ce8d7369643b78030000" },
+            "retail_location_count": 0,
+            "raw_address": "杭州市滨江区网商路599号, 浙江省 310052, 中国",
+            "street_address": "网商路599号",
+            "city": "杭州",
+            "state": "浙江省",
+            "postal_code": "310052",
+            "country": "中国",
+            "owned_by_organization_id": null,
+            "seo_description": "网易是中国领先的互联网科技公司，业务涵盖在线游戏、音乐流媒体、在线教育及电子商务。",
+            "short_description": "中国领先互联网科技公司，旗下包含网易游戏、网易云音乐、有道等品牌。",
+            "suborganizations": [],
+            "num_suborganizations": 0,
+            "annual_revenue_printed": "$13.5B",
+            "annual_revenue": 13500000000,
+            "total_funding": 0,
+            "total_funding_printed": "$0",
+            "latest_funding_round_date": null,
+            "latest_funding_stage": null,
+            "funding_events": [],
+            "technology_names": ["Python", "Java", "React", "MySQL", "Kafka", "Hadoop", "Flink"],
+            "current_technologies": [
+              { "uid": "python",  "name": "Python",        "category": "Programming Language" },
+              { "uid": "java",    "name": "Java",          "category": "Programming Language" },
+              { "uid": "react",   "name": "React",         "category": "Frontend Framework"   },
+              { "uid": "kafka",   "name": "Apache Kafka",  "category": "Message Queue"        },
+              { "uid": "hadoop",  "name": "Hadoop",        "category": "Big Data"             }
+            ],
+            "org_chart_root_people_ids": ["c1d2e3f4a5b6c700123def45"],
+            "org_chart_sector": "technology",
+            "org_chart_removed": false,
+            "org_chart_show_department_filter": true
+          }
+        },
+        {
+          "id": "74b9d4a3f2c5e800329bf224",
+          "first_name": "志鹏",
+          "last_name": "王",
+          "name": "王志鹏",
+          "email": "zhipeng.wang@bytedance.com",
+          "email_status": "verified",
+          "linkedin_url": "https://www.linkedin.com/in/wang-zhipeng-eng",
+          "title": "高级软件工程师",
+          "headline": "高级软件工程师 @ 字节跳动 | 分布式系统 & 基础架构 | 前百度",
+          "photo_url": "https://media.licdn.com/dms/image/wang_zhipeng/profile.jpg",
+          "twitter_url": "https://twitter.com/wangzhipeng_dev",
+          "github_url": "https://github.com/wang-zhipeng",
+          "facebook_url": "https://www.facebook.com/wang.zhipeng.eng",
+          "extrapolated_email_confidence": null,
+          "organization_id": "6a1b2c3d4e5f6700789abc01",
+          "state": "北京市",
+          "city": "北京",
+          "country": "中国",
+          "contact_id": null,
+          "contact": null,
+          "account_id": null,
+          "account": null,
+          "revealed_for_current_team": false,
+          "is_likely_to_engage": true,
+          "intent_strength": null,
+          "show_intent": false,
+          "departments": ["engineering"],
+          "subdepartments": ["software_engineering"],
+          "functions": ["engineering"],
+          "seniority": "senior",
+          "employment_history": [
+            { "_id": "emp_wz_001", "id": "emp_wz_001", "key": "emp_wz_001", "current": true,  "organization_id": "6a1b2c3d4e5f6700789abc01", "organization_name": "字节跳动",                  "title": "高级软件工程师", "start_date": "2021-03-01", "end_date": null,         "kind": "job",       "degree": null, "major": null, "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2021-04-05T10:00:00.000+00:00", "updated_at": "2026-03-23T16:45:00.000+00:00" },
+            { "_id": "emp_wz_002", "id": "emp_wz_002", "key": "emp_wz_002", "current": false, "organization_id": "5b2c3d4e5f6a7800678bcd90", "organization_name": "百度",                      "title": "软件工程师",     "start_date": "2018-06-01", "end_date": "2021-02-28", "kind": "job",       "degree": null, "major": null, "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2021-04-05T10:00:00.000+00:00", "updated_at": "2021-04-05T10:00:00.000+00:00" },
+            { "_id": "emp_wz_003", "id": "emp_wz_003", "key": "emp_wz_003", "current": false, "organization_id": "4c3d4e5f6a7b8900567cde89", "organization_name": "滴滴出行",                  "title": "后端工程师",     "start_date": "2016-07-01", "end_date": "2018-05-31", "kind": "job",       "degree": null, "major": null, "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2021-04-05T10:00:00.000+00:00", "updated_at": "2021-04-05T10:00:00.000+00:00" },
+            { "_id": "emp_wz_004", "id": "emp_wz_004", "key": "emp_wz_004", "current": false, "organization_id": "3d4e5f6a7b8c9000456bcd78", "organization_name": "腾讯",                      "title": "实习软件工程师", "start_date": "2015-07-01", "end_date": "2015-12-31", "kind": "job",       "degree": null, "major": null, "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2021-04-05T10:00:00.000+00:00", "updated_at": "2021-04-05T10:00:00.000+00:00" },
+            { "_id": "emp_wz_005", "id": "emp_wz_005", "key": "emp_wz_005", "current": false, "organization_id": "2e5f6a7b8c9d0100345abc67", "organization_name": "中兴通讯",                  "title": "实习开发工程师", "start_date": "2014-07-01", "end_date": "2014-09-30", "kind": "job",       "degree": null, "major": null, "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2021-04-05T10:00:00.000+00:00", "updated_at": "2021-04-05T10:00:00.000+00:00" },
+            { "_id": "emp_wz_006", "id": "emp_wz_006", "key": "emp_wz_006", "current": false, "organization_id": null,                       "organization_name": "浙江大学",                  "title": null,             "start_date": "2016-09-01", "end_date": "2018-06-30", "kind": "education", "degree": null, "major": null, "grade_level": "graduate",    "description": null, "emails": null, "raw_address": null, "created_at": "2021-04-05T10:00:00.000+00:00", "updated_at": "2021-04-05T10:00:00.000+00:00" },
+            { "_id": "emp_wz_007", "id": "emp_wz_007", "key": "emp_wz_007", "current": false, "organization_id": null,                       "organization_name": "华中科技大学",              "title": null,             "start_date": "2012-09-01", "end_date": "2016-06-30", "kind": "education", "degree": null, "major": null, "grade_level": "undergraduate", "description": null, "emails": null, "raw_address": null, "created_at": "2021-04-05T10:00:00.000+00:00", "updated_at": "2021-04-05T10:00:00.000+00:00" },
+            { "_id": "emp_wz_008", "id": "emp_wz_008", "key": "emp_wz_008", "current": false, "organization_id": null,                       "organization_name": "Coursera / Stanford Online", "title": null,             "start_date": "2019-01-01", "end_date": "2019-06-30", "kind": "education", "degree": null, "major": null, "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2021-04-05T10:00:00.000+00:00", "updated_at": "2021-04-05T10:00:00.000+00:00" },
+            { "_id": "emp_wz_009", "id": "emp_wz_009", "key": "emp_wz_009", "current": false, "organization_id": null,                       "organization_name": "Linux Foundation",           "title": null,             "start_date": "2020-03-01", "end_date": "2020-05-31", "kind": "education", "degree": null, "major": null, "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2021-04-05T10:00:00.000+00:00", "updated_at": "2021-04-05T10:00:00.000+00:00" },
+            { "_id": "emp_wz_010", "id": "emp_wz_010", "key": "emp_wz_010", "current": false, "organization_id": null,                       "organization_name": "武汉市第一中学",            "title": null,             "start_date": "2009-09-01", "end_date": "2012-06-30", "kind": "education", "degree": null, "major": null, "grade_level": "high_school",  "description": null, "emails": null, "raw_address": null, "created_at": "2021-04-05T10:00:00.000+00:00", "updated_at": "2021-04-05T10:00:00.000+00:00" }
+          ],
+          "organization": {
+            "id": "6a1b2c3d4e5f6700789abc01",
+            "name": "字节跳动",
+            "website_url": "https://bytedance.com",
+            "blog_url": "https://bytedance.com/news",
+            "angellist_url": null,
+            "linkedin_url": "https://www.linkedin.com/company/bytedance",
+            "twitter_url": "https://twitter.com/ByteDance_Inc",
+            "facebook_url": "https://www.facebook.com/bytedance",
+            "primary_phone": { "number": "+86-10-64527000", "source": "Owler" },
+            "languages": ["中文", "English"],
+            "alexa_ranking": 8,
+            "phone": "+86-10-64527000",
+            "linkedin_uid": "11480447",
+            "founded_year": 2012,
+            "publicly_traded_symbol": null,
+            "publicly_traded_exchange": null,
+            "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/bytedance_logo.png",
+            "crunchbase_url": "https://www.crunchbase.com/organization/bytedance",
+            "primary_domain": "bytedance.com",
+            "industry": "互联网",
+            "keywords": ["short video", "social media", "AI", "content platform", "TikTok", "Douyin"],
+            "estimated_num_employees": 110000,
+            "industries": ["互联网", "社交媒体", "人工智能", "广告技术"],
+            "secondary_industries": ["广告技术", "内容分发"],
+            "snippets_loaded": true,
+            "industry_tag_id": "5567cd4e7369643b78000000",
+            "industry_tag_hash": { "互联网": "5567cd4e7369643b78000000" },
+            "retail_location_count": 0,
+            "raw_address": "北京市海淀区知春路甲48号盈都大厦, 北京市 100086, 中国",
+            "street_address": "知春路甲48号盈都大厦",
+            "city": "北京",
+            "state": "北京市",
+            "postal_code": "100086",
+            "country": "中国",
+            "owned_by_organization_id": null,
+            "seo_description": "字节跳动是全球领先的科技公司，旗下拥有TikTok、抖音、今日头条等产品。",
+            "short_description": "全球领先内容科技平台，旗下包含TikTok、抖音、今日头条等。",
+            "suborganizations": [],
+            "num_suborganizations": 0,
+            "annual_revenue_printed": "$110B",
+            "annual_revenue": 110000000000,
+            "total_funding": 7400000000,
+            "total_funding_printed": "$7.4B",
+            "latest_funding_round_date": "2021-11-30T00:00:00.000+00:00",
+            "latest_funding_stage": "Series J",
+            "funding_events": [
+              { "id": "fe_byt_001", "date": "2021-11-30T00:00:00.000+00:00", "news_url": null, "type": "Series J", "investors": "Sequoia Capital, Tiger Global Management", "amount": "$5B",   "currency": "$" },
+              { "id": "fe_byt_002", "date": "2019-03-01T00:00:00.000+00:00", "news_url": null, "type": "Series F", "investors": "SoftBank Vision Fund",                    "amount": "$1.4B", "currency": "$" }
+            ],
+            "technology_names": ["Go", "Python", "React", "Kubernetes", "Kafka", "TensorFlow", "MySQL", "ClickHouse"],
+            "current_technologies": [
+              { "uid": "go",         "name": "Go",           "category": "Programming Language"     },
+              { "uid": "python",     "name": "Python",       "category": "Programming Language"     },
+              { "uid": "kubernetes", "name": "Kubernetes",   "category": "Container Orchestration"  },
+              { "uid": "kafka",      "name": "Apache Kafka", "category": "Message Queue"            },
+              { "uid": "tensorflow", "name": "TensorFlow",   "category": "Machine Learning"         }
+            ],
+            "org_chart_root_people_ids": ["d2e3f4a5b6c7d800234efg56"],
+            "org_chart_sector": "technology",
+            "org_chart_removed": false,
+            "org_chart_show_department_filter": true
+          }
+        }
+      ]
+    }
+  },
+  "case03_apollo_401_认证失败": {
+    "apollo_status": 401,
+    "exa_response": {
+      "requestId": "exa-req-003",
+      "results": [
+        {
+          "id": "exa-b5c6d7e8",
+          "url": "https://www.linkedin.com/in/wang-zhipeng-eng",
+          "title": "王志鹏 - 字节跳动高级软件工程师 | LinkedIn",
+          "publishedDate": "2025-06-23",
+          "author": null,
+          "score": 0.8876,
+          "text": "王志鹏\n高级软件工程师 · 字节跳动\n北京市\n\n工作经历\n字节跳动 · 高级软件工程师\n2021年3月 – 至今\n\n百度 · 软件工程师\n2018年6月 – 2021年2月\n\n教育经历\n浙江大学\n工学硕士，软件工程 · 2016 – 2018\n\n华中科技大学\n工学学士，计算机科学 · 2012 – 2016\n\n技能\nGo · Kubernetes · 分布式系统 · gRPC · MySQL · Redis · 微服务架构",
+          "highlights": ["字节跳动高级软件工程师，基础架构平台"],
+          "highlightScores": [0.8712],
+          "summary": "王志鹏是字节跳动高级软件工程师，专注于大规模分布式系统与基础架构。",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "王志鹏",
+                "location": "北京市",
+                "workHistory": [
+                  { "title": "高级软件工程师", "company": { "name": "字节跳动", "domain": "bytedance.com" }, "startDate": "2021-03", "endDate": null, "isCurrent": true },
+                  { "title": "软件工程师", "company": { "name": "百度", "domain": "baidu.com" }, "startDate": "2018-06", "endDate": "2021-02", "isCurrent": false },
+                  { "title": "后端工程师", "company": { "name": "滴滴出行", "domain": "didiglobal.com" }, "startDate": "2016-07", "endDate": "2018-05", "isCurrent": false },
+                  { "title": "实习软件工程师", "company": { "name": "腾讯", "domain": "tencent.com" }, "startDate": "2015-07", "endDate": "2015-12", "isCurrent": false },
+                  { "title": "实习开发工程师", "company": { "name": "中兴通讯", "domain": "zte.com.cn" }, "startDate": "2014-07", "endDate": "2014-09", "isCurrent": false }
+                ],
+                "educationHistory": [
+                  { "school": "浙江大学", "degree": "工学硕士", "major": "软件工程", "startDate": "2016-09", "endDate": "2018-06" },
+                  { "school": "华中科技大学", "degree": "工学学士", "major": "计算机科学", "startDate": "2012-09", "endDate": "2016-06" },
+                  { "school": "Coursera / Stanford Online", "degree": "专业证书", "major": "机器学习", "startDate": "2019-01", "endDate": "2019-06" },
+                  { "school": "Linux Foundation", "degree": "认证", "major": "Kubernetes 管理员 (CKA)", "startDate": "2020-03", "endDate": "2020-05" },
+                  { "school": "武汉市第一中学", "degree": "高中", "major": null, "startDate": "2009-09", "endDate": "2012-06" }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": { "total": 0.005 }
+    },
+    "apollo_people_search_response": {
+      "status": "failed",
+      "error": "Invalid access credentials.",
+      "error_code": "INVALID_CREDENTIALS"
+    },
+    "apollo_bulk_enrich_response": { "matches": [] }
+  },
+  "case04_apollo_403_权限不足": {
+    "apollo_status": 403,
+    "exa_response": {
+      "requestId": "exa-req-004",
+      "results": [
+        {
+          "id": "exa-b5c6d7e8",
+          "url": "https://www.linkedin.com/in/wang-zhipeng-eng",
+          "title": "王志鹏 - 字节跳动高级软件工程师 | LinkedIn",
+          "publishedDate": "2025-06-23",
+          "author": null,
+          "score": 0.8876,
+          "text": "王志鹏\n高级软件工程师 · 字节跳动\n北京市\n\n工作经历\n字节跳动 · 高级软件工程师\n2021年3月 – 至今\n\n百度 · 软件工程师\n2018年6月 – 2021年2月\n\n教育经历\n浙江大学\n工学硕士，软件工程 · 2016 – 2018\n\n华中科技大学\n工学学士，计算机科学 · 2012 – 2016\n\n技能\nGo · Kubernetes · 分布式系统 · gRPC · MySQL · Redis · 微服务架构",
+          "highlights": ["字节跳动高级软件工程师，基础架构平台"],
+          "highlightScores": [0.8712],
+          "summary": "王志鹏是字节跳动高级软件工程师，专注于大规模分布式系统与基础架构。",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "王志鹏",
+                "location": "北京市",
+                "workHistory": [
+                  { "title": "高级软件工程师", "company": { "name": "字节跳动", "domain": "bytedance.com" }, "startDate": "2021-03", "endDate": null, "isCurrent": true },
+                  { "title": "软件工程师", "company": { "name": "百度", "domain": "baidu.com" }, "startDate": "2018-06", "endDate": "2021-02", "isCurrent": false },
+                  { "title": "后端工程师", "company": { "name": "滴滴出行", "domain": "didiglobal.com" }, "startDate": "2016-07", "endDate": "2018-05", "isCurrent": false },
+                  { "title": "实习软件工程师", "company": { "name": "腾讯", "domain": "tencent.com" }, "startDate": "2015-07", "endDate": "2015-12", "isCurrent": false },
+                  { "title": "实习开发工程师", "company": { "name": "中兴通讯", "domain": "zte.com.cn" }, "startDate": "2014-07", "endDate": "2014-09", "isCurrent": false }
+                ],
+                "educationHistory": [
+                  { "school": "浙江大学", "degree": "工学硕士", "major": "软件工程", "startDate": "2016-09", "endDate": "2018-06" },
+                  { "school": "华中科技大学", "degree": "工学学士", "major": "计算机科学", "startDate": "2012-09", "endDate": "2016-06" },
+                  { "school": "Coursera / Stanford Online", "degree": "专业证书", "major": "机器学习", "startDate": "2019-01", "endDate": "2019-06" },
+                  { "school": "Linux Foundation", "degree": "认证", "major": "Kubernetes 管理员 (CKA)", "startDate": "2020-03", "endDate": "2020-05" },
+                  { "school": "武汉市第一中学", "degree": "高中", "major": null, "startDate": "2009-09", "endDate": "2012-06" }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": { "total": 0.005 }
+    },
+    "apollo_people_search_response": {
+      "status": "failed",
+      "error": "Forbidden. You do not have permission to access this resource.",
+      "error_code": "FORBIDDEN"
+    },
+    "apollo_bulk_enrich_response": { "matches": [] }
+  },
+  "case05_apollo_422_请求无效": {
+    "apollo_status": 422,
+    "exa_response": {
+      "requestId": "exa-req-005",
+      "results": [
+        {
+          "id": "exa-b5c6d7e8",
+          "url": "https://www.linkedin.com/in/wang-zhipeng-eng",
+          "title": "王志鹏 - 字节跳动高级软件工程师 | LinkedIn",
+          "publishedDate": "2025-06-23",
+          "author": null,
+          "score": 0.8876,
+          "text": "王志鹏\n高级软件工程师 · 字节跳动\n北京市\n\n工作经历\n字节跳动 · 高级软件工程师\n2021年3月 – 至今\n\n百度 · 软件工程师\n2018年6月 – 2021年2月\n\n教育经历\n浙江大学\n工学硕士，软件工程 · 2016 – 2018\n\n华中科技大学\n工学学士，计算机科学 · 2012 – 2016\n\n技能\nGo · Kubernetes · 分布式系统 · gRPC · MySQL · Redis · 微服务架构",
+          "highlights": ["字节跳动高级软件工程师，基础架构平台"],
+          "highlightScores": [0.8712],
+          "summary": "王志鹏是字节跳动高级软件工程师，专注于大规模分布式系统与基础架构。",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "王志鹏",
+                "location": "北京市",
+                "workHistory": [
+                  { "title": "高级软件工程师", "company": { "name": "字节跳动", "domain": "bytedance.com" }, "startDate": "2021-03", "endDate": null, "isCurrent": true },
+                  { "title": "软件工程师", "company": { "name": "百度", "domain": "baidu.com" }, "startDate": "2018-06", "endDate": "2021-02", "isCurrent": false },
+                  { "title": "后端工程师", "company": { "name": "滴滴出行", "domain": "didiglobal.com" }, "startDate": "2016-07", "endDate": "2018-05", "isCurrent": false },
+                  { "title": "实习软件工程师", "company": { "name": "腾讯", "domain": "tencent.com" }, "startDate": "2015-07", "endDate": "2015-12", "isCurrent": false },
+                  { "title": "实习开发工程师", "company": { "name": "中兴通讯", "domain": "zte.com.cn" }, "startDate": "2014-07", "endDate": "2014-09", "isCurrent": false }
+                ],
+                "educationHistory": [
+                  { "school": "浙江大学", "degree": "工学硕士", "major": "软件工程", "startDate": "2016-09", "endDate": "2018-06" },
+                  { "school": "华中科技大学", "degree": "工学学士", "major": "计算机科学", "startDate": "2012-09", "endDate": "2016-06" },
+                  { "school": "Coursera / Stanford Online", "degree": "专业证书", "major": "机器学习", "startDate": "2019-01", "endDate": "2019-06" },
+                  { "school": "Linux Foundation", "degree": "认证", "major": "Kubernetes 管理员 (CKA)", "startDate": "2020-03", "endDate": "2020-05" },
+                  { "school": "武汉市第一中学", "degree": "高中", "major": null, "startDate": "2009-09", "endDate": "2012-06" }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": { "total": 0.005 }
+    },
+    "apollo_people_search_response": {
+      "status": "failed",
+      "error_code": "UNKNOWN_ERROR",
+      "error_message": "no implicit conversion of Symbol into Integer",
+      "stack_trace": null
+    },
+    "apollo_bulk_enrich_response": { "matches": [] }
+  },
+  "case06_apollo_429_超出速率限制": {
+    "apollo_status": 429,
+    "exa_response": {
+      "requestId": "exa-req-006",
+      "results": [
+        {
+          "id": "exa-b5c6d7e8",
+          "url": "https://www.linkedin.com/in/wang-zhipeng-eng",
+          "title": "王志鹏 - 字节跳动高级软件工程师 | LinkedIn",
+          "publishedDate": "2025-06-23",
+          "author": null,
+          "score": 0.8876,
+          "text": "王志鹏\n高级软件工程师 · 字节跳动\n北京市\n\n工作经历\n字节跳动 · 高级软件工程师\n2021年3月 – 至今\n\n百度 · 软件工程师\n2018年6月 – 2021年2月\n\n教育经历\n浙江大学\n工学硕士，软件工程 · 2016 – 2018\n\n华中科技大学\n工学学士，计算机科学 · 2012 – 2016\n\n技能\nGo · Kubernetes · 分布式系统 · gRPC · MySQL · Redis · 微服务架构",
+          "highlights": ["字节跳动高级软件工程师，基础架构平台"],
+          "highlightScores": [0.8712],
+          "summary": "王志鹏是字节跳动高级软件工程师，专注于大规模分布式系统与基础架构。",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "王志鹏",
+                "location": "北京市",
+                "workHistory": [
+                  { "title": "高级软件工程师", "company": { "name": "字节跳动", "domain": "bytedance.com" }, "startDate": "2021-03", "endDate": null, "isCurrent": true },
+                  { "title": "软件工程师", "company": { "name": "百度", "domain": "baidu.com" }, "startDate": "2018-06", "endDate": "2021-02", "isCurrent": false },
+                  { "title": "后端工程师", "company": { "name": "滴滴出行", "domain": "didiglobal.com" }, "startDate": "2016-07", "endDate": "2018-05", "isCurrent": false },
+                  { "title": "实习软件工程师", "company": { "name": "腾讯", "domain": "tencent.com" }, "startDate": "2015-07", "endDate": "2015-12", "isCurrent": false },
+                  { "title": "实习开发工程师", "company": { "name": "中兴通讯", "domain": "zte.com.cn" }, "startDate": "2014-07", "endDate": "2014-09", "isCurrent": false }
+                ],
+                "educationHistory": [
+                  { "school": "浙江大学", "degree": "工学硕士", "major": "软件工程", "startDate": "2016-09", "endDate": "2018-06" },
+                  { "school": "华中科技大学", "degree": "工学学士", "major": "计算机科学", "startDate": "2012-09", "endDate": "2016-06" },
+                  { "school": "Coursera / Stanford Online", "degree": "专业证书", "major": "机器学习", "startDate": "2019-01", "endDate": "2019-06" },
+                  { "school": "Linux Foundation", "degree": "认证", "major": "Kubernetes 管理员 (CKA)", "startDate": "2020-03", "endDate": "2020-05" },
+                  { "school": "武汉市第一中学", "degree": "高中", "major": null, "startDate": "2009-09", "endDate": "2012-06" }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": { "total": 0.005 }
+    },
+    "apollo_people_search_response": {
+      "message": "The maximum number of api calls allowed for api/v1/mixed_people/api_search is 600 times per hour. Please upgrade your plan from https://app.apollo.io/#/settings/plans/upgrade."
+    },
+    "apollo_bulk_enrich_response": { "matches": [] }
+  },
+  "case07_bulk_400_请求无效": {
+    "bulk_status": 400,
+    "exa_response": {
+      "requestId": "exa-req-007",
+      "results": [
+        {
+          "id": "exa-b5c6d7e8",
+          "url": "https://www.linkedin.com/in/wang-zhipeng-eng",
+          "title": "王志鹏 - 字节跳动高级软件工程师 | LinkedIn",
+          "publishedDate": "2025-06-23",
+          "author": null,
+          "score": 0.8876,
+          "text": "王志鹏\n高级软件工程师 · 字节跳动\n北京市\n\n工作经历\n字节跳动 · 高级软件工程师\n2021年3月 – 至今\n\n百度 · 软件工程师\n2018年6月 – 2021年2月\n\n教育经历\n浙江大学\n工学硕士，软件工程 · 2016 – 2018\n\n华中科技大学\n工学学士，计算机科学 · 2012 – 2016\n\n技能\nGo · Kubernetes · 分布式系统 · gRPC · MySQL · Redis · 微服务架构",
+          "highlights": ["字节跳动高级软件工程师，基础架构平台"],
+          "highlightScores": [0.8712],
+          "summary": "王志鹏是字节跳动高级软件工程师，专注于大规模分布式系统与基础架构。",
+          "entities": [{ "type": "person", "properties": { "name": "王志鹏", "location": "北京市", "workHistory": [{ "title": "高级软件工程师", "company": { "name": "字节跳动", "domain": "bytedance.com" }, "startDate": "2021-03", "endDate": null, "isCurrent": true }, { "title": "软件工程师", "company": { "name": "百度", "domain": "baidu.com" }, "startDate": "2018-06", "endDate": "2021-02", "isCurrent": false }], "educationHistory": [{ "school": "浙江大学", "degree": "工学硕士", "major": "软件工程", "startDate": "2016-09", "endDate": "2018-06" }, { "school": "华中科技大学", "degree": "工学学士", "major": "计算机科学", "startDate": "2012-09", "endDate": "2016-06" }] } }]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": { "total": 0.005 }
+    },
+    "apollo_people_search_response": {
+      "total_entries": 1,
+      "people": [
+        {
+          "id": "83c7e2b1a4d6f900418cd335",
+          "first_name": "雨桐",
+          "last_name_obfuscated": "李***",
+          "title": "高级数据科学家",
+          "last_refreshed_at": "2026-03-23T14:22:00.000+00:00",
+          "has_email": true,
+          "has_city": true,
+          "has_state": true,
+          "has_country": true,
+          "has_direct_phone": "No",
+          "organization": {
+            "name": "网易",
+            "has_industry": true,
+            "has_phone": true,
+            "has_city": true,
+            "has_state": true,
+            "has_country": true,
+            "has_zip_code": true,
+            "has_revenue": true,
+            "has_employee_count": true
+          }
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 1, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "status": "failed",
+      "error_code": "INVALID_REQUEST",
+      "error_message": "invalid request, missing details"
+    }
+  },
+  "case08_bulk_401_认证失败": {
+    "bulk_status": 401,
+    "exa_response": {
+      "requestId": "exa-req-008",
+      "results": [
+        {
+          "id": "exa-b5c6d7e8",
+          "url": "https://www.linkedin.com/in/wang-zhipeng-eng",
+          "title": "王志鹏 - 字节跳动高级软件工程师 | LinkedIn",
+          "publishedDate": "2025-06-23",
+          "author": null,
+          "score": 0.8876,
+          "text": "王志鹏\n高级软件工程师 · 字节跳动\n北京市\n\n工作经历\n字节跳动 · 高级软件工程师\n2021年3月 – 至今\n\n百度 · 软件工程师\n2018年6月 – 2021年2月\n\n教育经历\n浙江大学\n工学硕士，软件工程 · 2016 – 2018\n\n华中科技大学\n工学学士，计算机科学 · 2012 – 2016\n\n技能\nGo · Kubernetes · 分布式系统 · gRPC · MySQL · Redis · 微服务架构",
+          "highlights": ["字节跳动高级软件工程师，基础架构平台"],
+          "highlightScores": [0.8712],
+          "summary": "王志鹏是字节跳动高级软件工程师，专注于大规模分布式系统与基础架构。",
+          "entities": [{ "type": "person", "properties": { "name": "王志鹏", "location": "北京市", "workHistory": [{ "title": "高级软件工程师", "company": { "name": "字节跳动", "domain": "bytedance.com" }, "startDate": "2021-03", "endDate": null, "isCurrent": true }, { "title": "软件工程师", "company": { "name": "百度", "domain": "baidu.com" }, "startDate": "2018-06", "endDate": "2021-02", "isCurrent": false }], "educationHistory": [{ "school": "浙江大学", "degree": "工学硕士", "major": "软件工程", "startDate": "2016-09", "endDate": "2018-06" }, { "school": "华中科技大学", "degree": "工学学士", "major": "计算机科学", "startDate": "2012-09", "endDate": "2016-06" }] } }]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": { "total": 0.005 }
+    },
+    "apollo_people_search_response": {
+      "status": "failed",
+      "error": "Invalid access credentials.",
+      "error_code": "INVALID_CREDENTIALS"
+    },
+    "apollo_bulk_enrich_response": {
+      "status": "failed",
+      "error": "Invalid access credentials.",
+      "error_code": "INVALID_CREDENTIALS"
+    }
+  },
+  "case09_bulk_422_请求无法处理": {
+    "bulk_status": 422,
+    "exa_response": {
+      "requestId": "exa-req-009",
+      "results": [
+        {
+          "id": "exa-b5c6d7e8",
+          "url": "https://www.linkedin.com/in/wang-zhipeng-eng",
+          "title": "王志鹏 - 字节跳动高级软件工程师 | LinkedIn",
+          "publishedDate": "2025-06-23",
+          "author": null,
+          "score": 0.8876,
+          "text": "王志鹏\n高级软件工程师 · 字节跳动\n北京市\n\n工作经历\n字节跳动 · 高级软件工程师\n2021年3月 – 至今\n\n百度 · 软件工程师\n2018年6月 – 2021年2月\n\n教育经历\n浙江大学\n工学硕士，软件工程 · 2016 – 2018\n\n华中科技大学\n工学学士，计算机科学 · 2012 – 2016\n\n技能\nGo · Kubernetes · 分布式系统 · gRPC · MySQL · Redis · 微服务架构",
+          "highlights": ["字节跳动高级软件工程师，基础架构平台"],
+          "highlightScores": [0.8712],
+          "summary": "王志鹏是字节跳动高级软件工程师，专注于大规模分布式系统与基础架构。",
+          "entities": [{ "type": "person", "properties": { "name": "王志鹏", "location": "北京市", "workHistory": [{ "title": "高级软件工程师", "company": { "name": "字节跳动", "domain": "bytedance.com" }, "startDate": "2021-03", "endDate": null, "isCurrent": true }, { "title": "软件工程师", "company": { "name": "百度", "domain": "baidu.com" }, "startDate": "2018-06", "endDate": "2021-02", "isCurrent": false }], "educationHistory": [{ "school": "浙江大学", "degree": "工学硕士", "major": "软件工程", "startDate": "2016-09", "endDate": "2018-06" }, { "school": "华中科技大学", "degree": "工学学士", "major": "计算机科学", "startDate": "2012-09", "endDate": "2016-06" }] } }]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": { "total": 0.005 }
+    },
+    "apollo_people_search_response": {
+      "total_entries": 1,
+      "people": [
+        {
+          "id": "83c7e2b1a4d6f900418cd335",
+          "first_name": "雨桐",
+          "last_name_obfuscated": "李***",
+          "title": "高级数据科学家",
+          "last_refreshed_at": "2026-03-23T14:22:00.000+00:00",
+          "has_email": true,
+          "has_city": true,
+          "has_state": true,
+          "has_country": true,
+          "has_direct_phone": "No",
+          "organization": {
+            "name": "网易",
+            "has_industry": true,
+            "has_phone": true,
+            "has_city": true,
+            "has_state": true,
+            "has_country": true,
+            "has_zip_code": true,
+            "has_revenue": true,
+            "has_employee_count": true
+          }
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 1, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "status": "failed",
+      "error_code": "UNKNOWN_ERROR",
+      "error_message": "no implicit conversion of Symbol into Integer",
+      "stack_trace": null
+    }
+  },
+  "case10_bulk_429_超出速率限制": {
+    "bulk_status": 429,
+    "exa_response": { "requestId": "exa-req-010", "results": [], "searchType": "neural", "costDollars": { "total": 0.005 } },
+    "apollo_people_search_response": {
+      "total_entries": 1,
+      "people": [
+        {
+          "id": "83c7e2b1a4d6f900418cd335",
+          "first_name": "雨桐",
+          "last_name_obfuscated": "李***",
+          "title": "高级数据科学家",
+          "last_refreshed_at": "2026-03-23T14:22:00.000+00:00",
+          "has_email": true,
+          "has_city": true,
+          "has_state": true,
+          "has_country": true,
+          "has_direct_phone": "No",
+          "organization": {
+            "name": "网易",
+            "has_industry": true,
+            "has_phone": true,
+            "has_city": true,
+            "has_state": true,
+            "has_country": true,
+            "has_zip_code": true,
+            "has_revenue": true,
+            "has_employee_count": true
+          }
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 1, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "message": "The maximum number of api calls allowed for api/v1/people/bulk_match is 600 times per hour. Please upgrade your plan from https://app.apollo.io/#/settings/plans/upgrade."
+    }
+  },
+  "case11_exa_400_不支持的过滤参数": {
+    "exa_response": {
+      "statusCode": 400,
+      "error": "Bad Request",
+      "message": "The 'people' category does not support the following filters: startPublishedDate, endPublishedDate, excludeDomains. Please remove these filters and try again."
+    },
+    "apollo_people_search_response": {
+      "total_entries": 1,
+      "people": [
+        {
+          "id": "83c7e2b1a4d6f900418cd335",
+          "first_name": "雨桐",
+          "last_name_obfuscated": "李***",
+          "title": "高级数据科学家",
+          "last_refreshed_at": "2025-12-23T14:22:00.000+00:00",
+          "has_email": true,
+          "has_city": true,
+          "has_state": true,
+          "has_country": true,
+          "has_direct_phone": "No",
+          "organization": {
+            "name": "网易",
+            "has_industry": true,
+            "has_phone": true,
+            "has_city": true,
+            "has_state": true,
+            "has_country": true,
+            "has_zip_code": true,
+            "has_revenue": true,
+            "has_employee_count": true
+          }
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 1, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "status": "success",
+      "error_code": null,
+      "error_message": null,
+      "total_requested_enrichments": 2,
+      "unique_enriched_records": 2,
+      "missing_records": 0,
+      "credits_consumed": 2,
+      "waterfall": { "status": "accepted", "message": "Waterfall enrichment request accepted." },
+      "matches": [
+        {
+          "id": "83c7e2b1a4d6f900418cd335",
+          "first_name": "雨桐",
+          "last_name": "李",
+          "name": "李雨桐",
+          "email": "yutong.li@netease.com",
+          "email_status": "verified",
+          "linkedin_url": "https://www.linkedin.com/in/li-yutong-data",
+          "title": "高级数据科学家",
+          "headline": "高级数据科学家 @ 网易 | 用户增长 & 推荐算法 | 前京东、小米",
+          "photo_url": "https://media.licdn.com/dms/image/li_yutong/profile.jpg",
+          "twitter_url": "https://twitter.com/liyutong_ds",
+          "github_url": "https://github.com/liyutong-ds",
+          "facebook_url": "https://www.facebook.com/li.yutong.data",
+          "extrapolated_email_confidence": null,
+          "organization_id": "9c3e5a7b1d2f4800567efg23",
+          "state": "浙江省",
+          "city": "杭州",
+          "country": "中国",
+          "contact_id": null,
+          "contact": null,
+          "account_id": null,
+          "account": null,
+          "revealed_for_current_team": false,
+          "is_likely_to_engage": true,
+          "intent_strength": null,
+          "show_intent": false,
+          "departments": ["data_science"],
+          "subdepartments": ["data_science"],
+          "functions": ["data_science"],
+          "seniority": "senior",
+          "employment_history": [
+            { "_id": "emp_ly_001", "id": "emp_ly_001", "key": "emp_ly_001", "current": true,  "organization_id": "9c3e5a7b1d2f4800567efg23", "organization_name": "网易",     "title": "高级数据科学家", "start_date": "2022-04-01", "end_date": null,         "kind": "job",       "degree": null, "major": null, "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2022-05-10T08:30:00.000+00:00", "updated_at": "2026-03-23T14:22:00.000+00:00" },
+            { "_id": "emp_ly_002", "id": "emp_ly_002", "key": "emp_ly_002", "current": false, "organization_id": "8b4f6c2e0a1d3900456fgh12", "organization_name": "京东",     "title": "数据科学家",     "start_date": "2019-07-01", "end_date": "2022-03-31", "kind": "job",       "degree": null, "major": null, "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2022-05-10T08:30:00.000+00:00", "updated_at": "2022-05-10T08:30:00.000+00:00" },
+            { "_id": "emp_ly_003", "id": "emp_ly_003", "key": "emp_ly_003", "current": false, "organization_id": "7a3e5b1c9d0f2800345egh01", "organization_name": "小米",     "title": "数据分析师",     "start_date": "2017-08-01", "end_date": "2019-06-30", "kind": "job",       "degree": null, "major": null, "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2022-05-10T08:30:00.000+00:00", "updated_at": "2022-05-10T08:30:00.000+00:00" },
+            { "_id": "emp_ly_004", "id": "emp_ly_004", "key": "emp_ly_004", "current": false, "organization_id": "6b2d4a0c8e9f1700234dfg90", "organization_name": "唯品会",   "title": "实习数据分析师", "start_date": "2016-07-01", "end_date": "2016-12-31", "kind": "job",       "degree": null, "major": null, "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2022-05-10T08:30:00.000+00:00", "updated_at": "2022-05-10T08:30:00.000+00:00" },
+            { "_id": "emp_ly_005", "id": "emp_ly_005", "key": "emp_ly_005", "current": false, "organization_id": null,                       "organization_name": "同济大学", "title": null,             "start_date": "2015-09-01", "end_date": "2017-06-30", "kind": "education", "degree": null, "major": null, "grade_level": "graduate",    "description": null, "emails": null, "raw_address": null, "created_at": "2022-05-10T08:30:00.000+00:00", "updated_at": "2022-05-10T08:30:00.000+00:00" },
+            { "_id": "emp_ly_006", "id": "emp_ly_006", "key": "emp_ly_006", "current": false, "organization_id": null,                       "organization_name": "南京大学", "title": null,             "start_date": "2011-09-01", "end_date": "2015-06-30", "kind": "education", "degree": null, "major": null, "grade_level": "undergraduate", "description": null, "emails": null, "raw_address": null, "created_at": "2022-05-10T08:30:00.000+00:00", "updated_at": "2022-05-10T08:30:00.000+00:00" }
+          ],
+          "organization": {
+            "id": "9c3e5a7b1d2f4800567efg23",
+            "name": "网易",
+            "website_url": "https://netease.com",
+            "blog_url": null,
+            "angellist_url": null,
+            "linkedin_url": "https://www.linkedin.com/company/netease",
+            "twitter_url": "https://twitter.com/NetEase",
+            "facebook_url": "https://www.facebook.com/NetEase",
+            "primary_phone": { "number": "+86-571-89853163", "source": "Owler" },
+            "languages": ["中文", "English"],
+            "alexa_ranking": 52,
+            "phone": "+86-571-89853163",
+            "linkedin_uid": "163478",
+            "founded_year": 1997,
+            "publicly_traded_symbol": "NTES",
+            "publicly_traded_exchange": "NASDAQ",
+            "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/netease_logo.png",
+            "crunchbase_url": null,
+            "primary_domain": "netease.com",
+            "industry": "互联网娱乐",
+            "keywords": ["gaming", "online music", "e-commerce", "education", "cloud services", "email"],
+            "estimated_num_employees": 28000,
+            "industries": ["互联网娱乐", "游戏", "云计算"],
+            "secondary_industries": [],
+            "snippets_loaded": true,
+            "industry_tag_id": "5567ce8d7369643b78030000",
+            "industry_tag_hash": { "互联网娱乐": "5567ce8d7369643b78030000" },
+            "retail_location_count": 0,
+            "raw_address": "杭州市滨江区网商路599号, 浙江省 310052, 中国",
+            "street_address": "网商路599号",
+            "city": "杭州",
+            "state": "浙江省",
+            "postal_code": "310052",
+            "country": "中国",
+            "owned_by_organization_id": null,
+            "seo_description": "网易是中国领先的互联网科技公司，业务涵盖在线游戏、音乐流媒体、在线教育及电子商务。",
+            "short_description": "中国领先互联网科技公司，旗下包含网易游戏、网易云音乐、有道等品牌。",
+            "suborganizations": [],
+            "num_suborganizations": 0,
+            "annual_revenue_printed": "$13.5B",
+            "annual_revenue": 13500000000,
+            "total_funding": 0,
+            "total_funding_printed": "$0",
+            "latest_funding_round_date": null,
+            "latest_funding_stage": null,
+            "funding_events": [],
+            "technology_names": ["Python", "Java", "React", "MySQL", "Kafka", "Hadoop", "Flink"],
+            "current_technologies": [
+              { "uid": "python",  "name": "Python",        "category": "Programming Language" },
+              { "uid": "java",    "name": "Java",          "category": "Programming Language" },
+              { "uid": "react",   "name": "React",         "category": "Frontend Framework"   },
+              { "uid": "kafka",   "name": "Apache Kafka",  "category": "Message Queue"        },
+              { "uid": "hadoop",  "name": "Hadoop",        "category": "Big Data"             }
+            ],
+            "org_chart_root_people_ids": ["c1d2e3f4a5b6c700123def45"],
+            "org_chart_sector": "technology",
+            "org_chart_removed": false,
+            "org_chart_show_department_filter": true
+          }
+        },
+        {
+          "id": "74b9d4a3f2c5e800329bf224",
+          "first_name": "志鹏",
+          "last_name": "王",
+          "name": "王志鹏",
+          "email": "zhipeng.wang@bytedance.com",
+          "email_status": "verified",
+          "linkedin_url": "https://www.linkedin.com/in/wang-zhipeng-eng",
+          "title": "高级软件工程师",
+          "headline": "高级软件工程师 @ 字节跳动 | 分布式系统 & 基础架构 | 前百度",
+          "photo_url": "https://media.licdn.com/dms/image/wang_zhipeng/profile.jpg",
+          "twitter_url": "https://twitter.com/wangzhipeng_dev",
+          "github_url": "https://github.com/wang-zhipeng",
+          "facebook_url": "https://www.facebook.com/wang.zhipeng.eng",
+          "extrapolated_email_confidence": null,
+          "organization_id": "6a1b2c3d4e5f6700789abc01",
+          "state": "北京市",
+          "city": "北京",
+          "country": "中国",
+          "contact_id": null,
+          "contact": null,
+          "account_id": null,
+          "account": null,
+          "revealed_for_current_team": false,
+          "is_likely_to_engage": true,
+          "intent_strength": null,
+          "show_intent": false,
+          "departments": ["engineering"],
+          "subdepartments": ["software_engineering"],
+          "functions": ["engineering"],
+          "seniority": "senior",
+          "employment_history": [
+            { "_id": "emp_wz_001", "id": "emp_wz_001", "key": "emp_wz_001", "current": true,  "organization_id": "6a1b2c3d4e5f6700789abc01", "organization_name": "字节跳动",                  "title": "高级软件工程师", "start_date": "2021-03-01", "end_date": null,         "kind": "job",       "degree": null, "major": null, "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2021-04-05T10:00:00.000+00:00", "updated_at": "2026-03-23T16:45:00.000+00:00" },
+            { "_id": "emp_wz_002", "id": "emp_wz_002", "key": "emp_wz_002", "current": false, "organization_id": "5b2c3d4e5f6a7800678bcd90", "organization_name": "百度",                      "title": "软件工程师",     "start_date": "2018-06-01", "end_date": "2021-02-28", "kind": "job",       "degree": null, "major": null, "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2021-04-05T10:00:00.000+00:00", "updated_at": "2021-04-05T10:00:00.000+00:00" },
+            { "_id": "emp_wz_003", "id": "emp_wz_003", "key": "emp_wz_003", "current": false, "organization_id": "4c3d4e5f6a7b8900567cde89", "organization_name": "滴滴出行",                  "title": "后端工程师",     "start_date": "2016-07-01", "end_date": "2018-05-31", "kind": "job",       "degree": null, "major": null, "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2021-04-05T10:00:00.000+00:00", "updated_at": "2021-04-05T10:00:00.000+00:00" },
+            { "_id": "emp_wz_004", "id": "emp_wz_004", "key": "emp_wz_004", "current": false, "organization_id": "3d4e5f6a7b8c9000456bcd78", "organization_name": "腾讯",                      "title": "实习软件工程师", "start_date": "2015-07-01", "end_date": "2015-12-31", "kind": "job",       "degree": null, "major": null, "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2021-04-05T10:00:00.000+00:00", "updated_at": "2021-04-05T10:00:00.000+00:00" },
+            { "_id": "emp_wz_005", "id": "emp_wz_005", "key": "emp_wz_005", "current": false, "organization_id": "2e5f6a7b8c9d0100345abc67", "organization_name": "中兴通讯",                  "title": "实习开发工程师", "start_date": "2014-07-01", "end_date": "2014-09-30", "kind": "job",       "degree": null, "major": null, "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2021-04-05T10:00:00.000+00:00", "updated_at": "2021-04-05T10:00:00.000+00:00" },
+            { "_id": "emp_wz_006", "id": "emp_wz_006", "key": "emp_wz_006", "current": false, "organization_id": null,                       "organization_name": "浙江大学",                  "title": null,             "start_date": "2016-09-01", "end_date": "2018-06-30", "kind": "education", "degree": null, "major": null, "grade_level": "graduate",    "description": null, "emails": null, "raw_address": null, "created_at": "2021-04-05T10:00:00.000+00:00", "updated_at": "2021-04-05T10:00:00.000+00:00" },
+            { "_id": "emp_wz_007", "id": "emp_wz_007", "key": "emp_wz_007", "current": false, "organization_id": null,                       "organization_name": "华中科技大学",              "title": null,             "start_date": "2012-09-01", "end_date": "2016-06-30", "kind": "education", "degree": null, "major": null, "grade_level": "undergraduate", "description": null, "emails": null, "raw_address": null, "created_at": "2021-04-05T10:00:00.000+00:00", "updated_at": "2021-04-05T10:00:00.000+00:00" },
+            { "_id": "emp_wz_008", "id": "emp_wz_008", "key": "emp_wz_008", "current": false, "organization_id": null,                       "organization_name": "Coursera / Stanford Online", "title": null,             "start_date": "2019-01-01", "end_date": "2019-06-30", "kind": "education", "degree": null, "major": null, "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2021-04-05T10:00:00.000+00:00", "updated_at": "2021-04-05T10:00:00.000+00:00" },
+            { "_id": "emp_wz_009", "id": "emp_wz_009", "key": "emp_wz_009", "current": false, "organization_id": null,                       "organization_name": "Linux Foundation",           "title": null,             "start_date": "2020-03-01", "end_date": "2020-05-31", "kind": "education", "degree": null, "major": null, "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2021-04-05T10:00:00.000+00:00", "updated_at": "2021-04-05T10:00:00.000+00:00" },
+            { "_id": "emp_wz_010", "id": "emp_wz_010", "key": "emp_wz_010", "current": false, "organization_id": null,                       "organization_name": "武汉市第一中学",            "title": null,             "start_date": "2009-09-01", "end_date": "2012-06-30", "kind": "education", "degree": null, "major": null, "grade_level": "high_school",  "description": null, "emails": null, "raw_address": null, "created_at": "2021-04-05T10:00:00.000+00:00", "updated_at": "2021-04-05T10:00:00.000+00:00" }
+          ],
+          "organization": {
+            "id": "6a1b2c3d4e5f6700789abc01",
+            "name": "字节跳动",
+            "website_url": "https://bytedance.com",
+            "blog_url": "https://bytedance.com/news",
+            "angellist_url": null,
+            "linkedin_url": "https://www.linkedin.com/company/bytedance",
+            "twitter_url": "https://twitter.com/ByteDance_Inc",
+            "facebook_url": "https://www.facebook.com/bytedance",
+            "primary_phone": { "number": "+86-10-64527000", "source": "Owler" },
+            "languages": ["中文", "English"],
+            "alexa_ranking": 8,
+            "phone": "+86-10-64527000",
+            "linkedin_uid": "11480447",
+            "founded_year": 2012,
+            "publicly_traded_symbol": null,
+            "publicly_traded_exchange": null,
+            "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/bytedance_logo.png",
+            "crunchbase_url": "https://www.crunchbase.com/organization/bytedance",
+            "primary_domain": "bytedance.com",
+            "industry": "互联网",
+            "keywords": ["short video", "social media", "AI", "content platform", "TikTok", "Douyin"],
+            "estimated_num_employees": 110000,
+            "industries": ["互联网", "社交媒体", "人工智能", "广告技术"],
+            "secondary_industries": ["广告技术", "内容分发"],
+            "snippets_loaded": true,
+            "industry_tag_id": "5567cd4e7369643b78000000",
+            "industry_tag_hash": { "互联网": "5567cd4e7369643b78000000" },
+            "retail_location_count": 0,
+            "raw_address": "北京市海淀区知春路甲48号盈都大厦, 北京市 100086, 中国",
+            "street_address": "知春路甲48号盈都大厦",
+            "city": "北京",
+            "state": "北京市",
+            "postal_code": "100086",
+            "country": "中国",
+            "owned_by_organization_id": null,
+            "seo_description": "字节跳动是全球领先的科技公司，旗下拥有TikTok、抖音、今日头条等产品。",
+            "short_description": "全球领先内容科技平台，旗下包含TikTok、抖音、今日头条等。",
+            "suborganizations": [],
+            "num_suborganizations": 0,
+            "annual_revenue_printed": "$110B",
+            "annual_revenue": 110000000000,
+            "total_funding": 7400000000,
+            "total_funding_printed": "$7.4B",
+            "latest_funding_round_date": "2021-11-30T00:00:00.000+00:00",
+            "latest_funding_stage": "Series J",
+            "funding_events": [
+              { "id": "fe_byt_001", "date": "2021-11-30T00:00:00.000+00:00", "news_url": null, "type": "Series J", "investors": "Sequoia Capital, Tiger Global Management", "amount": "$5B",   "currency": "$" },
+              { "id": "fe_byt_002", "date": "2019-03-01T00:00:00.000+00:00", "news_url": null, "type": "Series F", "investors": "SoftBank Vision Fund",                    "amount": "$1.4B", "currency": "$" }
+            ],
+            "technology_names": ["Go", "Python", "React", "Kubernetes", "Kafka", "TensorFlow", "MySQL", "ClickHouse"],
+            "current_technologies": [
+              { "uid": "go",         "name": "Go",           "category": "Programming Language"     },
+              { "uid": "python",     "name": "Python",       "category": "Programming Language"     },
+              { "uid": "kubernetes", "name": "Kubernetes",   "category": "Container Orchestration"  },
+              { "uid": "kafka",      "name": "Apache Kafka", "category": "Message Queue"            },
+              { "uid": "tensorflow", "name": "TensorFlow",   "category": "Machine Learning"         }
+            ],
+            "org_chart_root_people_ids": ["d2e3f4a5b6c7d800234efg56"],
+            "org_chart_sector": "technology",
+            "org_chart_removed": false,
+            "org_chart_show_department_filter": true
+          }
+        }
+      ]
+    }
+  },
+  "case12_three_way_match_exa_linkedin_linked_bulk_people_search_id_linked_bulk_same_person_merge_test": {
+    "exa_response": {
+      "requestId": "exa-req-012",
+      "results": [
+        {
+          "id": "exa-c1d2e3f4",
+          "url": "https://www.linkedin.com/in/zhang-wei-tencent-dev",
+          "title": "Zhang Wei - Tencent Senior Software Engineer | LinkedIn",
+          "publishedDate": "2025-04-12",
+          "author": null,
+          "score": 0.9102,
+          "text": "Zhang Wei\nSenior Software Engineer · Tencent\nShenzhen\n\nWork Experience\nTencent · Senior Software Engineer\nMarch 2020 – Present\n\nHuawei · Software Engineer\nJuly 2017 – February 2020\n\nEducation\nBeijing Institute of Technology\nMaster of Engineering, Computer Science · 2015 – 2017\n\nXi'an Jiaotong University\nBachelor of Engineering, Software Engineering · 2011 – 2015\n\nSkills\nC++ · Go · Microservices · Kubernetes · MySQL · Redis",
+          "highlights": ["Tencent Senior Software Engineer, Gaming Backend Platform"],
+          "highlightScores": [0.9021],
+          "summary": "Zhang Wei is a Senior Software Engineer at Tencent, focused on gaming backend infrastructure.",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "Zhang Wei",
+                "location": "Shenzhen",
+                "workHistory": [
+                  { "title": "Senior Software Engineer", "company": { "name": "Tencent", "domain": "tencent.com" }, "startDate": "2020-03", "endDate": null, "isCurrent": true },
+                  { "title": "Software Engineer", "company": { "name": "Huawei", "domain": "huawei.com" }, "startDate": "2017-07", "endDate": "2020-02", "isCurrent": false }
+                ],
+                "educationHistory": [
+                  { "school": "Beijing Institute of Technology", "degree": "Master of Engineering", "major": "Computer Science", "startDate": "2015-09", "endDate": "2017-06" },
+                  { "school": "Xi'an Jiaotong University", "degree": "Bachelor of Engineering", "major": "Software Engineering", "startDate": "2011-09", "endDate": "2015-06" }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "exa-d2e3f4g5",
+          "url": "https://www.linkedin.com/in/zhao-lei-baidu-intl",
+          "title": "Zhao Lei - Baidu Senior Data Engineer | LinkedIn",
+          "publishedDate": "2026-03-20",
+          "author": null,
+          "score": 0.8834,
+          "text": "Zhao Lei\nSenior Data Engineer · Baidu\nBeijing\n\nWork Experience\nBaidu · Senior Data Engineer\nJune 2021 – Present\n\nDiDi · Data Engineer\nSeptember 2018 – May 2021\n\nEducation\nRenmin University of China\nMaster of Science, Statistics · 2016 – 2018\n\nShandong University\nBachelor of Science, Mathematics · 2012 – 2016\n\nSkills\nSpark · Flink · Hive · Python · Airflow · ClickHouse",
+          "highlights": ["Baidu Senior Data Engineer, Big Data Platform"],
+          "highlightScores": [0.8712],
+          "summary": "Zhao Lei is a Senior Data Engineer at Baidu, focused on big data platforms and real-time computing.",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "Zhao Leiexa",
+                "location": "Beijingexa",
+                "workHistory": [
+                  { "title": "Senior Data Engineerexa", "company": { "name": "Baiduexa", "domain": "baidu.com" }, "startDate": "2021-06", "endDate": null, "isCurrent": true },
+                  { "title": "Data Engineer", "company": { "name": "DiDi", "domain": "didiglobal.com" }, "startDate": "2018-09", "endDate": "2021-05", "isCurrent": false }
+                ],
+                "educationHistory": [
+                  { "school": "Renmin University of China", "degree": "Master of Science", "major": "Statistics", "startDate": "2016-09", "endDate": "2018-06" },
+                  { "school": "Shandong University", "degree": "Bachelor of Science", "major": "Mathematics", "startDate": "2012-09", "endDate": "2016-06" }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": { "total": 0.010 }
+    },
+    "apollo_people_search_response": {
+      "total_entries": 2,
+      "people": [
+        {
+          "id": "be-liu-fang-002",
+          "first_name": "Fang",
+          "last_name_obfuscated": "Liu***",
+          "title": "Senior Product Manager",
+          "last_refreshed_at": "2025-11-10T09:00:00.000+00:00",
+          "has_email": true,
+          "has_city": true,
+          "has_state": true,
+          "has_country": true,
+          "has_direct_phone": "No",
+          "organization": {
+            "name": "Alibaba",
+            "has_industry": true,
+            "has_phone": true,
+            "has_city": true,
+            "has_state": true,
+            "has_country": true,
+            "has_zip_code": true,
+            "has_revenue": true,
+            "has_employee_count": true
+          }
+        },
+        {
+          "id": "ps-zhao-lei-001",
+          "first_name": "Lei",
+          "last_name_obfuscated": "Zhao***",
+          "title": "Senior Data Engineer",
+          "last_refreshed_at": "2025-10-05T11:30:00.000+00:00",
+          "has_email": true,
+          "has_city": true,
+          "has_state": true,
+          "has_country": true,
+          "has_direct_phone": "No",
+          "organization": {
+            "name": "Baidu",
+            "has_industry": true,
+            "has_phone": true,
+            "has_city": true,
+            "has_state": true,
+            "has_country": true,
+            "has_zip_code": true,
+            "has_revenue": true,
+            "has_employee_count": true
+          }
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 2, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "status": "success",
+      "error_code": null,
+      "error_message": null,
+      "total_requested_enrichments": 4,
+      "unique_enriched_records": 4,
+      "missing_records": 0,
+      "credits_consumed": 4,
+      "waterfall": { "status": "accepted", "message": "Waterfall enrichment request accepted." },
+      "matches": [
+        {
+          "id": "be-zhang-wei-001",
+          "first_name": "Wei",
+          "last_name": "Zhang",
+          "name": "Zhang Wei",
+          "email": "zhang.wei@tencent.com",
+          "email_status": "verified",
+          "linkedin_url": "https://www.linkedin.com/in/zhang-wei-tencent-dev",
+          "title": "Senior Software Engineer",
+          "headline": "Senior Software Engineer @ Tencent | Gaming Backend Infrastructure | Ex-Huawei",
+          "photo_url": "https://media.licdn.com/dms/image/zhang_wei/profile.jpg",
+          "twitter_url": "https://twitter.com/zhangwei_dev",
+          "github_url": "https://github.com/zhang-wei-tencent",
+          "facebook_url": null,
+          "extrapolated_email_confidence": null,
+          "organization_id": "org-tencent-001",
+          "state": "Guangdong",
+          "city": "Shenzhen",
+          "country": "China",
+          "contact_id": null,
+          "contact": null,
+          "account_id": null,
+          "account": null,
+          "revealed_for_current_team": false,
+          "is_likely_to_engage": true,
+          "intent_strength": null,
+          "show_intent": false,
+          "departments": ["engineering"],
+          "subdepartments": ["software_engineering"],
+          "functions": ["engineering"],
+          "seniority": "senior",
+          "employment_history": [
+            { "_id": "emp_zw_001", "id": "emp_zw_001", "key": "emp_zw_001", "current": true,  "organization_id": "org-tencent-001", "organization_name": "Tencent",                        "title": "Senior Software Engineer", "start_date": "2020-03-01", "end_date": null,         "kind": "job",       "degree_name": null,                    "major": null,               "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2020-04-01T08:00:00.000+00:00", "updated_at": "2026-03-20T10:00:00.000+00:00" },
+            { "_id": "emp_zw_002", "id": "emp_zw_002", "key": "emp_zw_002", "current": false, "organization_id": "org-huawei-001",  "organization_name": "Huawei",                         "title": "Software Engineer",        "start_date": "2017-07-01", "end_date": "2020-02-28", "kind": "job",       "degree_name": null,                    "major": null,               "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2020-04-01T08:00:00.000+00:00", "updated_at": "2020-04-01T08:00:00.000+00:00" },
+            { "_id": "emp_zw_003", "id": "emp_zw_003", "key": "emp_zw_003", "current": false, "organization_id": null,              "organization_name": "Beijing Institute of Technology", "title": null,                       "start_date": "2015-09-01", "end_date": "2017-06-30", "kind": "education", "degree_name": "Master of Engineering", "major": "Computer Science", "grade_level": "graduate",    "description": null, "emails": null, "raw_address": null, "created_at": "2020-04-01T08:00:00.000+00:00", "updated_at": "2020-04-01T08:00:00.000+00:00" },
+            { "_id": "emp_zw_004", "id": "emp_zw_004", "key": "emp_zw_004", "current": false, "organization_id": null,              "organization_name": "Xi'an Jiaotong University",       "title": null,                       "start_date": "2011-09-01", "end_date": "2015-06-30", "kind": "education", "degree_name": "Bachelor of Engineering", "major": "Software Engineering", "grade_level": "undergraduate", "description": null, "emails": null, "raw_address": null, "created_at": "2020-04-01T08:00:00.000+00:00", "updated_at": "2020-04-01T08:00:00.000+00:00" }
+          ],
+          "organization": {
+            "id": "org-tencent-001",
+            "name": "Tencent",
+            "website_url": "https://tencent.com",
+            "linkedin_url": "https://www.linkedin.com/company/tencent",
+            "primary_domain": "tencent.com",
+            "industry": "Internet",
+            "estimated_num_employees": 108000,
+            "city": "Shenzhen",
+            "state": "Guangdong",
+            "country": "China"
+          }
+        },
+        {
+          "id": "be-liu-fang-002",
+          "first_name": "Fang",
+          "last_name": "Liu",
+          "name": "Liu Fang",
+          "email": "fang.liu@alibaba.com",
+          "email_status": "verified",
+          "linkedin_url": "https://www.linkedin.com/in/liu-fang-alibaba-pm",
+          "title": "Senior Product Manager",
+          "headline": "Senior Product Manager @ Alibaba | E-commerce Platform & User Experience | Ex-Meituan",
+          "photo_url": "https://media.licdn.com/dms/image/liu_fang/profile.jpg",
+          "twitter_url": "https://twitter.com/liufang_pm",
+          "github_url": null,
+          "facebook_url": null,
+          "extrapolated_email_confidence": null,
+          "organization_id": "org-alibaba-001",
+          "state": "Zhejiang",
+          "city": "Hangzhou",
+          "country": "China",
+          "contact_id": null,
+          "contact": null,
+          "account_id": null,
+          "account": null,
+          "revealed_for_current_team": false,
+          "is_likely_to_engage": true,
+          "intent_strength": null,
+          "show_intent": false,
+          "departments": ["product"],
+          "subdepartments": ["product_management"],
+          "functions": ["product"],
+          "seniority": "senior",
+          "employment_history": [
+            { "_id": "emp_lf_001", "id": "emp_lf_001", "key": "emp_lf_001", "current": true,  "organization_id": "org-alibaba-001", "organization_name": "Alibaba",  "title": "Senior Product Manager", "start_date": "2021-01-01", "end_date": null,         "kind": "job",       "degree_name": null,                    "major": null,      "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2021-02-01T08:00:00.000+00:00", "updated_at": "2026-03-20T10:00:00.000+00:00" },
+            { "_id": "emp_lf_002", "id": "emp_lf_002", "key": "emp_lf_002", "current": false, "organization_id": "org-meituan-001", "organization_name": "Meituan", "title": "Product Manager",        "start_date": "2018-06-01", "end_date": "2020-12-31", "kind": "job",       "degree_name": null,                    "major": null,      "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2021-02-01T08:00:00.000+00:00", "updated_at": "2021-02-01T08:00:00.000+00:00" },
+            { "_id": "emp_lf_003", "id": "emp_lf_003", "key": "emp_lf_003", "current": false, "organization_id": null,              "organization_name": "Fudan University", "title": null,             "start_date": "2014-09-01", "end_date": "2018-06-30", "kind": "education", "degree_name": "Bachelor of Economics", "major": "Economics", "grade_level": "undergraduate", "description": null, "emails": null, "raw_address": null, "created_at": "2021-02-01T08:00:00.000+00:00", "updated_at": "2021-02-01T08:00:00.000+00:00" }
+          ],
+          "organization": {
+            "id": "org-alibaba-001",
+            "name": "Alibaba",
+            "website_url": "https://alibaba.com",
+            "linkedin_url": "https://www.linkedin.com/company/alibaba",
+            "primary_domain": "alibaba.com",
+            "industry": "E-commerce",
+            "estimated_num_employees": 220000,
+            "city": "Hangzhou",
+            "state": "Zhejiang",
+            "country": "China"
+          }
+        },
+        {
+          "id": "ps-zhao-lei-001",
+          "first_name": "Lei",
+          "last_name": "Zhao1",
+          "name": null,
+          "email": "zhaolei@baidu.com",
+          "email_status": "verified",
+          "linkedin_url": "https://www.linkedin.com/in/zhao-lei-baidu-intl",
+          "title": "Senior Data Engineer",
+          "headline": "Senior Data Engineer @ Baidu | Flink & Spark Real-time Computing",
+          "photo_url": "https://media.licdn.com/dms/image/zhao_lei_cn/profile.jpg",
+          "twitter_url": null,
+          "github_url": "https://github.com/zhaolei-data",
+          "facebook_url": null,
+          "extrapolated_email_confidence": null,
+          "organization_id": "org-baidu-001",
+          "state": "Beijing",
+          "city": "Beijing",
+          "country": "China",
+          "contact_id": null,
+          "contact": null,
+          "account_id": null,
+          "account": null,
+          "revealed_for_current_team": false,
+          "is_likely_to_engage": false,
+          "intent_strength": null,
+          "show_intent": false,
+          "departments": ["data_science"],
+          "subdepartments": ["data_engineering"],
+          "functions": ["data_science"],
+          "seniority": "senior",
+          "employment_history": [
+            { "_id": "emp_zlb_001", "id": "emp_zlb_001", "key": "emp_zlb_001", "current": true,  "organization_id": "org-baidu-001",  "organization_name": "Baidu",     "title": "Senior Data Engineer", "start_date": "2021-06-01", "end_date": null,         "kind": "job",       "degree_name": null,                    "major": null,           "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2022-01-15T08:00:00.000+00:00", "updated_at": "2026-01-10T10:00:00.000+00:00" },
+            { "_id": "emp_zlb_002", "id": "emp_zlb_002", "key": "emp_zlb_002", "current": false, "organization_id": "org-didi-001",   "organization_name": "DiDi",      "title": "Data Engineer",        "start_date": "2018-09-01", "end_date": "2021-05-31", "kind": "job",       "degree_name": null,                    "major": null,           "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2022-01-15T08:00:00.000+00:00", "updated_at": "2022-01-15T08:00:00.000+00:00" },
+            { "_id": "emp_zlb_003", "id": "emp_zlb_003", "key": "emp_zlb_003", "current": false, "organization_id": "org-jd-001",     "organization_name": "JD.com",    "title": "Data Analyst",         "start_date": "2016-07-01", "end_date": "2018-08-31", "kind": "job",       "degree_name": null,                    "major": null,           "grade_level": null,          "description": null, "emails": null, "raw_address": null, "created_at": "2022-01-15T08:00:00.000+00:00", "updated_at": "2022-01-15T08:00:00.000+00:00" },
+            { "_id": "emp_zlb_004", "id": "emp_zlb_004", "key": "emp_zlb_004", "current": false, "organization_id": null,             "organization_name": "Shandong University", "title": null,           "start_date": "2012-08-01", "end_date": "2016-07-30", "kind": "education", "degree_name": "Bachelor of Science1", "major": "Mathematics1", "grade_level": "undergraduate", "description": null, "emails": null, "raw_address": null, "created_at": "2022-01-15T08:00:00.000+00:00", "updated_at": "2022-01-15T08:00:00.000+00:00" }
+          ],
+          "organization": {
+            "id": "org-baidu-001",
+            "name": "Baidu",
+            "website_url": "https://baidu.com",
+            "linkedin_url": "https://www.linkedin.com/company/baidu",
+            "primary_domain": "baidu.com",
+            "industry": "Internet",
+            "estimated_num_employees": 40000,
+            "city": "Beijing",
+            "state": "Beijing",
+            "country": "China"
+          }
+        }
+      ]
+    },
+    "expected_output": [
+      {
+        "_comment": "Zhang Wei: exa linkedin matched bulk, not in people_search",
+        "person_id": "be-zhang-wei-001",
+        "linkedin_url": "https://www.linkedin.com/in/zhang-wei-tencent-dev",
+        "name": "Zhang Wei",
+        "title": "Senior Software Engineer",
+        "company": "Tencent",
+        "current_tenure_start": "2020-03",
+        "location": "Shenzhen, Guangdong, China",
+        "photo_url": "https://media.licdn.com/dms/image/zhang_wei/profile.jpg",
+        "skill_tags": ["C++", "Go", "Microservices", "Kubernetes", "MySQL", "Redis"],
+        "has_email": null,
+        "has_direct_phone": null,
+        "education_history": [
+          { "school": "Beijing Institute of Technology", "degree": "Master of Engineering",   "major": "Computer Science",    "startDate": "2015-09", "endDate": "2017-06" },
+          { "school": "Xi'an Jiaotong University",       "degree": "Bachelor of Engineering", "major": "Software Engineering", "startDate": "2011-09", "endDate": "2015-06" }
+        ],
+        "work_history": [
+          { "title": "Senior Software Engineer", "company": "Tencent", "startDate": "2020-03", "endDate": null,      "isCurrent": true  },
+          { "title": "Software Engineer",        "company": "Huawei",  "startDate": "2017-07", "endDate": "2020-02", "isCurrent": false }
+        ],
+        "twitter_url": "https://twitter.com/zhangwei_dev",
+        "github_url": "https://github.com/zhang-wei-tencent",
+        "data_updated_at": "2025-04",
+        "source": "merged"
+      },
+      {
+        "_comment": "Liu Fang: people_search id matched bulk, not in exa",
+        "person_id": "be-liu-fang-002",
+        "linkedin_url": "https://www.linkedin.com/in/liu-fang-alibaba-pm",
+        "name": "Liu Fang",
+        "title": "Senior Product Manager",
+        "company": "Alibaba",
+        "current_tenure_start": "2021-01",
+        "location": "Hangzhou, Zhejiang, China",
+        "photo_url": "https://media.licdn.com/dms/image/liu_fang/profile.jpg",
+        "skill_tags": null,
+        "has_email": true,
+        "has_direct_phone": false,
+        "education_history": [
+          { "school": "Fudan University", "degree": "Bachelor of Economics", "major": "Economics", "startDate": "2014-09", "endDate": "2018-06" }
+        ],
+        "work_history": [
+          { "title": "Senior Product Manager", "company": "Alibaba", "startDate": "2021-01", "endDate": null,      "isCurrent": true  },
+          { "title": "Product Manager",        "company": "Meituan", "startDate": "2018-06", "endDate": "2020-12", "isCurrent": false }
+        ],
+        "twitter_url": "https://twitter.com/liufang_pm",
+        "github_url": null,
+        "data_updated_at": "2025-11",
+        "source": "apollo"
+      },
+      {
+        "_comment": "Zhao Lei: exa linkedin matched bulk_A + people_search id matched bulk_B, same person merge; work_history takes union of A+B deduplicated, most recent 3",
+        "person_id": "be-zhao-lei-A",
+        "linkedin_url": "https://www.linkedin.com/in/zhao-lei-baidu-intl",
+        "name": "Zhao Lei",
+        "title": "Senior Data Engineer",
+        "company": "Baidu",
+        "current_tenure_start": "2021-06",
+        "location": "Beijing, Beijing, China",
+        "photo_url": "https://media.licdn.com/dms/image/zhao_lei_intl/profile.jpg",
+        "skill_tags": ["Spark", "Flink", "Hive", "Python", "Airflow", "ClickHouse"],
+        "has_email": true,
+        "has_direct_phone": false,
+        "education_history": [
+          { "school": "Renmin University of China", "degree": "Master of Science",   "major": "Statistics", "startDate": "2016-09", "endDate": "2018-06" },
+          { "school": "Shandong University",        "degree": "Bachelor of Science", "major": "Mathematics", "startDate": "2012-09", "endDate": "2016-06" }
+        ],
+        "work_history": [
+          { "title": "Senior Data Engineer", "company": "Baidu",  "startDate": "2021-06", "endDate": null,      "isCurrent": true  },
+          { "title": "Data Engineer",        "company": "DiDi",   "startDate": "2018-09", "endDate": "2021-05", "isCurrent": false },
+          { "title": "Data Analyst",         "company": "JD.com", "startDate": "2016-07", "endDate": "2018-08", "isCurrent": false }
+        ],
+        "twitter_url": "https://twitter.com/zhao_lei_data",
+        "github_url": "https://github.com/zhao-lei-baidu",
+        "data_updated_at": "2025-10",
+        "source": "merged"
+      }
+    ]
+  },
+  "case13_超长字段压力测试_exa_linkedin关联bulk_people_search_id关联bulk_同人合并测试": {
+    "exa_response": {
+      "requestId": "exa-req-013-超长请求标识符用于压力测试验证系统对超长requestId字段的处理能力",
+      "results": [
+        {
+          "id": "exa-超长id字段测试-f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3",
+          "url": "https://www.linkedin.com/in/ouyang-murong-william-alexander-james-johnson-christopher-senior-principal-architect-ai-ml-platform",
+          "title": "欧阳慕容·威廉·亚历山大·詹姆斯·约翰逊·克里斯托弗 - 字节跳动国际科技有限责任公司人工智能与机器学习平台事业群高级首席资深全栈架构师兼技术负责人 | LinkedIn",
+          "publishedDate": "2026-02-28",
+          "author": null,
+          "score": 0.9876,
+          "text": "欧阳慕容·威廉·亚历山大·詹姆斯·约翰逊·克里斯托弗\n高级首席资深全栈架构师兼人工智能平台技术负责人及大数据基础设施工程专家 · 字节跳动国际科技有限责任公司旗下人工智能与机器学习平台事业群技术中心\n中华人民共和国北京市朝阳区望京街道\n\n工作经历\n字节跳动国际科技有限责任公司旗下人工智能与机器学习平台事业群技术中心 · 高级首席资深全栈架构师兼人工智能平台技术负责人及大数据基础设施工程专家\n2019年3月 – 至今\n\n阿里巴巴集团控股有限公司旗下蚂蚁金服科技集团股份有限公司基础设施技术部 · 资深高级架构师及平台工程技术专家\n2015年6月 – 2019年2月\n\n教育经历\n中华人民共和国北京市海淀区中关村科学城清华大学信息科学与技术学院计算机科学与技术系\n工学博士，人工智能与机器学习方向及大数据处理技术专业 · 2010 – 2015\n\n中华人民共和国上海市杨浦区复旦大学计算机科学与技术学院软件工程系\n工学硕士，分布式系统架构与云计算平台方向 · 2007 – 2010\n\n技能\nPython · Java · Go · C++ · Rust · Kubernetes · Docker · Apache Spark · Apache Flink · Apache Kafka · TensorFlow · PyTorch · CUDA · gRPC · ProtoBuf · MySQL · PostgreSQL · ClickHouse · Redis · Elasticsearch · Hadoop · Hive · Airflow · MLflow · Kubeflow · Terraform · Ansible · Prometheus · Grafana · Apache Arrow · Ray · Triton Inference Server · ONNX · 大规模分布式机器学习系统设计 · 超大规模推荐系统架构 · 实时流式计算平台建设",
+          "highlights": ["字节跳动国际科技有限责任公司旗下人工智能与机器学习平台事业群高级首席资深全栈架构师，负责超大规模推荐系统与实时计算平台的整体技术架构设计与落地实施工作"],
+          "highlightScores": [0.9812],
+          "summary": "欧阳慕容·威廉是字节跳动国际科技有限责任公司旗下人工智能与机器学习平台事业群高级首席资深全栈架构师，在超大规模分布式系统、实时机器学习平台、推荐算法工程化及大数据基础设施领域拥有超过15年的深厚技术积累与丰富实战经验，曾主导多个亿级用户规模系统的从零到一建设工作。",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "欧阳慕容·威廉·亚历山大·詹姆斯·约翰逊·克里斯托弗exa",
+                "location": "中华人民共和国北京市朝阳区望京街道望京中环南路1号院字节跳动总部大厦A座2301室exa",
+                "workHistory": [
+                  { "title": "高级首席资深全栈架构师兼人工智能平台技术负责人及大数据基础设施工程专家exa", "company": { "name": "字节跳动国际科技有限责任公司旗下人工智能与机器学习平台事业群技术中心exa", "domain": "bytedance.com" }, "startDate": "2019-03", "endDate": null, "isCurrent": true },
+                  { "title": "资深高级架构师及平台工程技术专家", "company": { "name": "阿里巴巴集团控股有限公司旗下蚂蚁金服科技集团股份有限公司基础设施技术部", "domain": "antgroup.com" }, "startDate": "2015-06", "endDate": "2019-02", "isCurrent": false }
+                ],
+                "educationHistory": [
+                  { "school": "中华人民共和国北京市海淀区中关村科学城清华大学信息科学与技术学院计算机科学与技术系", "degree": "工学博士", "major": "人工智能与机器学习方向及大数据处理技术专业", "startDate": "2010-09", "endDate": "2015-06" },
+                  { "school": "中华人民共和国上海市杨浦区复旦大学计算机科学与技术学院软件工程系", "degree": "工学硕士", "major": "分布式系统架构与云计算平台方向", "startDate": "2007-09", "endDate": "2010-06" }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "exa-超长id字段测试-g2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4",
+          "url": "https://www.linkedin.com/in/zhuge-liangliang-senior-director-product-management-ai-platform-baidu-inc-international",
+          "title": "诸葛亮亮·罗伯特·麦克唐纳 - 百度在线网络技术（北京）有限公司人工智能事业群产品管理与战略规划高级总监兼首席产品官助理 | LinkedIn",
+          "publishedDate": "2026-01-15",
+          "author": null,
+          "score": 0.9543,
+          "text": "诸葛亮亮·罗伯特·麦克唐纳\n人工智能事业群产品管理与战略规划高级总监兼首席产品官助理 · 百度在线网络技术（北京）有限公司\n中华人民共和国北京市海淀区上地信息产业基地\n\n工作经历\n百度在线网络技术（北京）有限公司 · 人工智能事业群产品管理与战略规划高级总监兼首席产品官助理\n2020年9月 – 至今\n\n腾讯科技（深圳）有限公司微信事业群 · 高级产品经理及用户增长与商业化变现策略负责人\n2016年4月 – 2020年8月\n\n教育经历\n美利坚合众国加利福尼亚州斯坦福大学商学院\n工商管理硕士，科技创业与产品战略方向 · 2013 – 2016\n\n中华人民共和国北京市北京大学光华管理学院\n管理学学士，工商管理与市场营销方向 · 2009 – 2013\n\n技能\n产品战略规划 · 商业模式设计 · 用户增长与留存 · A/B实验设计与分析 · 数据驱动决策 · 人工智能产品设计 · 自然语言处理产品化 · 计算机视觉产品化 · 推荐系统产品设计 · 广告变现系统 · 跨职能团队领导 · 国际化本地化运营 · OKR目标管理 · 敏捷开发流程 · 竞品分析与市场调研 · 用户研究与可用性测试 · SQL · Python · Tableau",
+          "highlights": ["百度在线网络技术（北京）有限公司人工智能事业群产品管理与战略规划高级总监，负责百度AI开放平台及文心大模型系列产品的商业化战略与产品路线图规划"],
+          "highlightScores": [0.9421],
+          "summary": "诸葛亮亮·罗伯特是百度在线网络技术（北京）有限公司人工智能事业群产品管理与战略规划高级总监，在人工智能产品商业化、大模型产品落地及平台生态建设方面拥有深厚积累，曾主导多款亿级用户规模AI产品从0到1的策划与上线工作。",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "诸葛亮亮·罗伯特·麦克唐纳exa",
+                "location": "中华人民共和国北京市海淀区上地信息产业基地百度科技园一期D座1701室exa",
+                "workHistory": [
+                  { "title": "人工智能事业群产品管理与战略规划高级总监兼首席产品官助理exa", "company": { "name": "百度在线网络技术（北京）有限公司exa", "domain": "baidu.com" }, "startDate": "2020-09", "endDate": null, "isCurrent": true },
+                  { "title": "高级产品经理及用户增长与商业化变现策略负责人", "company": { "name": "腾讯科技（深圳）有限公司微信事业群", "domain": "tencent.com" }, "startDate": "2016-04", "endDate": "2020-08", "isCurrent": false }
+                ],
+                "educationHistory": [
+                  { "school": "美利坚合众国加利福尼亚州斯坦福大学商学院", "degree": "工商管理硕士", "major": "科技创业与产品战略方向", "startDate": "2013-09", "endDate": "2016-06" },
+                  { "school": "中华人民共和国北京市北京大学光华管理学院", "degree": "管理学学士", "major": "工商管理与市场营销方向", "startDate": "2009-09", "endDate": "2013-06" }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": { "total": 0.010 }
+    },
+    "apollo_people_search_response": {
+      "total_entries": 2,
+      "people": [
+        {
+          "id": "be-sima-003",
+          "first_name": "司马光明·约翰·威廉·罗伯特·亚历山大",
+          "last_name_obfuscated": "欧***",
+          "title": "高级首席数据科学家兼机器学习平台工程负责人及算法研究院院长助理",
+          "last_refreshed_at": "2025-12-01T08:00:00.000+00:00",
+          "has_email": true,
+          "has_city": true,
+          "has_state": true,
+          "has_country": true,
+          "has_direct_phone": "Yes",
+          "organization": {
+            "name": "华为技术有限公司旗下云计算与人工智能事业部机器学习平台产品线",
+            "has_industry": true,
+            "has_phone": true,
+            "has_city": true,
+            "has_state": true,
+            "has_country": true,
+            "has_zip_code": true,
+            "has_revenue": true,
+            "has_employee_count": true
+          }
+        },
+        {
+          "id": "ps-zhuge-001",
+          "first_name": "诸葛亮亮·罗伯特·麦克唐纳",
+          "last_name_obfuscated": "诸***",
+          "title": "人工智能事业群产品管理与战略规划高级总监兼首席产品官助理",
+          "last_refreshed_at": "2025-11-20T14:00:00.000+00:00",
+          "has_email": true,
+          "has_city": true,
+          "has_state": true,
+          "has_country": true,
+          "has_direct_phone": "No",
+          "organization": {
+            "name": "百度在线网络技术（北京）有限公司",
+            "has_industry": true,
+            "has_phone": true,
+            "has_city": true,
+            "has_state": true,
+            "has_country": true,
+            "has_zip_code": true,
+            "has_revenue": true,
+            "has_employee_count": true
+          }
+        }
+      ],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 2, "total_pages": 1 }
+    },
+    "apollo_bulk_enrich_response": {
+      "status": "success",
+      "error_code": null,
+      "error_message": null,
+      "total_requested_enrichments": 4,
+      "unique_enriched_records": 4,
+      "missing_records": 0,
+      "credits_consumed": 4,
+      "waterfall": { "status": "accepted", "message": "Waterfall enrichment request accepted for all submitted records including long-field entries in the current batch processing queue." },
+      "matches": [
+        {
+          "id": "be-ouyang-murong-william-超长bulk-enrich-id字段压力测试-001",
+          "first_name": "欧阳慕容·威廉·亚历山大·詹姆斯·约翰逊·克里斯托弗",
+          "last_name": "欧阳慕容",
+          "name": "欧阳慕容·威廉·亚历山大·詹姆斯·约翰逊·克里斯托弗",
+          "email": "ouyang.murong.william.alexander.james.johnson.christopher@bytedance-international-ai-ml-platform.com",
+          "email_status": "verified",
+          "linkedin_url": "https://www.linkedin.com/in/ouyang-murong-william-alexander-james-johnson-christopher-senior-principal-architect-ai-ml-platform",
+          "title": "高级首席资深全栈架构师兼人工智能平台技术负责人及大数据基础设施工程专家",
+          "headline": "高级首席资深全栈架构师兼人工智能平台技术负责人 @ 字节跳动国际科技有限责任公司旗下人工智能与机器学习平台事业群技术中心 | 超大规模分布式机器学习系统 & 实时推荐算法工程化 & 大数据基础设施建设 | 前阿里巴巴蚂蚁金服 | 清华大学工学博士 | 15年+深度技术积累",
+          "photo_url": "https://media.licdn.com/dms/image/C4D03AQF_ouyang_murong_william_alexander_james_johnson_christopher_bytedance_ai_ml_platform/profile-displayphoto-shrink_800_800/0/1648000000000",
+          "twitter_url": "https://twitter.com/ouyang_murong_william_alexander_ai_ml_platform_bytedance_international",
+          "github_url": "https://github.com/ouyang-murong-william-alexander-james-bytedance-ai-ml-platform-infrastructure",
+          "facebook_url": null,
+          "extrapolated_email_confidence": null,
+          "organization_id": "org-bytedance-ai-ml-platform-超长组织id压力测试-001",
+          "state": "北京市朝阳区",
+          "city": "北京市朝阳区望京街道望京中环南路1号院",
+          "country": "中华人民共和国",
+          "contact_id": null,
+          "contact": null,
+          "account_id": null,
+          "account": null,
+          "revealed_for_current_team": false,
+          "is_likely_to_engage": true,
+          "intent_strength": null,
+          "show_intent": false,
+          "departments": ["engineering", "data_science", "machine_learning", "infrastructure"],
+          "subdepartments": ["software_engineering", "data_engineering", "ml_platform", "distributed_systems"],
+          "functions": ["engineering", "data_science"],
+          "seniority": "director",
+          "employment_history": [
+            { "_id": "emp_oy_001", "id": "emp_oy_001", "key": "emp_oy_001", "current": true,  "organization_id": "org-bytedance-ai-ml-platform-超长组织id压力测试-001", "organization_name": "字节跳动国际科技有限责任公司旗下人工智能与机器学习平台事业群技术中心", "title": "高级首席资深全栈架构师兼人工智能平台技术负责人及大数据基础设施工程专家", "start_date": "2019-03-01", "end_date": null,         "kind": "job",       "degree_name": null, "major": null, "grade_level": null,       "description": null, "emails": null, "raw_address": "中华人民共和国北京市朝阳区望京街道望京中环南路1号院字节跳动总部大厦A座2301室", "created_at": "2019-04-01T08:00:00.000+00:00", "updated_at": "2026-02-28T10:00:00.000+00:00" },
+            { "_id": "emp_oy_002", "id": "emp_oy_002", "key": "emp_oy_002", "current": false, "organization_id": "org-antgroup-infra-超长组织id压力测试-002",              "organization_name": "阿里巴巴集团控股有限公司旗下蚂蚁金服科技集团股份有限公司基础设施技术部", "title": "资深高级架构师及平台工程技术专家", "start_date": "2015-06-01", "end_date": "2019-02-28", "kind": "job",       "degree_name": null, "major": null, "grade_level": null,       "description": null, "emails": null, "raw_address": "中华人民共和国浙江省杭州市余杭区五常街道天目山路969号阿里巴巴西溪园区蚂蚁S空间B栋", "created_at": "2019-04-01T08:00:00.000+00:00", "updated_at": "2019-04-01T08:00:00.000+00:00" },
+            { "_id": "emp_oy_003", "id": "emp_oy_003", "key": "emp_oy_003", "current": false, "organization_id": null,                                                       "organization_name": "中华人民共和国北京市海淀区中关村科学城清华大学信息科学与技术学院计算机科学与技术系", "title": null, "start_date": "2010-09-01", "end_date": "2015-06-30", "kind": "education", "degree_name": "工学博士", "major": "人工智能与机器学习方向及大数据处理技术专业", "grade_level": "doctorate", "description": null, "emails": null, "raw_address": "中华人民共和国北京市海淀区清华大学园1号清华大学信息科学与技术学院", "created_at": "2019-04-01T08:00:00.000+00:00", "updated_at": "2019-04-01T08:00:00.000+00:00" },
+            { "_id": "emp_oy_004", "id": "emp_oy_004", "key": "emp_oy_004", "current": false, "organization_id": null,                                                       "organization_name": "中华人民共和国上海市杨浦区复旦大学计算机科学与技术学院软件工程系", "title": null, "start_date": "2007-09-01", "end_date": "2010-06-30", "kind": "education", "degree_name": "工学硕士", "major": "分布式系统架构与云计算平台方向", "grade_level": "graduate",  "description": null, "emails": null, "raw_address": "中华人民共和国上海市杨浦区邯郸路220号复旦大学计算机科学与技术学院", "created_at": "2019-04-01T08:00:00.000+00:00", "updated_at": "2019-04-01T08:00:00.000+00:00" }
+          ],
+          "organization": {
+            "id": "org-bytedance-ai-ml-platform-超长组织id压力测试-001",
+            "name": "字节跳动国际科技有限责任公司旗下人工智能与机器学习平台事业群技术中心",
+            "website_url": "https://www.bytedance.com/en/products/international-ai-ml-platform-technology-center",
+            "linkedin_url": "https://www.linkedin.com/company/bytedance-international-ai-ml-platform-technology-center",
+            "primary_domain": "bytedance.com",
+            "industry": "互联网科技 · 人工智能 · 机器学习平台",
+            "estimated_num_employees": 110000,
+            "city": "北京市朝阳区望京街道望京中环南路1号院",
+            "state": "北京市朝阳区",
+            "country": "中华人民共和国"
+          }
+        },
+        {
+          "id": "be-sima-guangming-超长bulk-enrich-id字段压力测试-003",
+          "first_name": "司马光明·约翰·威廉·罗伯特·亚历山大",
+          "last_name": "司马光明",
+          "name": "司马光明·约翰·威廉·罗伯特·亚历山大",
+          "email": "sima.guangming.john.william.robert.alexander@huawei-cloud-ai-ml-platform-product-line.com",
+          "email_status": "verified",
+          "linkedin_url": "https://www.linkedin.com/in/sima-guangming-john-william-robert-alexander-chief-data-scientist-ml-platform-huawei-cloud",
+          "title": "高级首席数据科学家兼机器学习平台工程负责人及算法研究院院长助理",
+          "headline": "高级首席数据科学家兼机器学习平台工程负责人及算法研究院院长助理 @ 华为技术有限公司旗下云计算与人工智能事业部机器学习平台产品线 | 联邦学习 & 隐私计算 & 大规模图神经网络 & 知识图谱工程化 | 前京东AI研究院 | 武汉大学理学博士 | 12年+算法工程积累",
+          "photo_url": "https://media.licdn.com/dms/image/C4D03AQF_sima_guangming_john_william_robert_alexander_huawei_cloud_ai_ml_platform/profile-displayphoto-shrink_800_800/0/1638000000000",
+          "twitter_url": "https://twitter.com/sima_guangming_john_william_robert_alexander_huawei_cloud_ai_ml",
+          "github_url": "https://github.com/sima-guangming-john-william-robert-alexander-huawei-cloud-federated-learning",
+          "facebook_url": null,
+          "extrapolated_email_confidence": null,
+          "organization_id": "org-huawei-cloud-ai-ml-超长组织id压力测试-003",
+          "state": "广东省深圳市龙岗区",
+          "city": "广东省深圳市龙岗区坂田街道华为基地",
+          "country": "中华人民共和国",
+          "contact_id": null,
+          "contact": null,
+          "account_id": null,
+          "account": null,
+          "revealed_for_current_team": false,
+          "is_likely_to_engage": true,
+          "intent_strength": null,
+          "show_intent": false,
+          "departments": ["data_science", "research", "machine_learning"],
+          "subdepartments": ["data_science", "ml_engineering", "federated_learning", "graph_neural_network"],
+          "functions": ["data_science", "research"],
+          "seniority": "director",
+          "employment_history": [
+            { "_id": "emp_sg_001", "id": "emp_sg_001", "key": "emp_sg_001", "current": true,  "organization_id": "org-huawei-cloud-ai-ml-超长组织id压力测试-003", "organization_name": "华为技术有限公司旗下云计算与人工智能事业部机器学习平台产品线", "title": "高级首席数据科学家兼机器学习平台工程负责人及算法研究院院长助理", "start_date": "2018-07-01", "end_date": null,         "kind": "job",       "degree_name": null, "major": null, "grade_level": null,       "description": null, "emails": null, "raw_address": "中华人民共和国广东省深圳市龙岗区坂田街道华为基地华为云计算与人工智能事业部大厦", "created_at": "2018-08-01T08:00:00.000+00:00", "updated_at": "2025-12-01T08:00:00.000+00:00" },
+            { "_id": "emp_sg_002", "id": "emp_sg_002", "key": "emp_sg_002", "current": false, "organization_id": "org-jd-ai-research-超长组织id压力测试-004",           "organization_name": "京东集团旗下京东科技京东AI研究院基础算法研究部",              "title": "资深算法工程师及联邦学习方向负责人",             "start_date": "2015-03-01", "end_date": "2018-06-30", "kind": "job",       "degree_name": null, "major": null, "grade_level": null,       "description": null, "emails": null, "raw_address": "中华人民共和国北京市亦庄经济技术开发区科创十一街18号院京东集团总部大厦", "created_at": "2018-08-01T08:00:00.000+00:00", "updated_at": "2018-08-01T08:00:00.000+00:00" },
+            { "_id": "emp_sg_003", "id": "emp_sg_003", "key": "emp_sg_003", "current": false, "organization_id": null,                                                   "organization_name": "中华人民共和国湖北省武汉市武昌区珞珈山武汉大学计算机学院人工智能系", "title": null,                                           "start_date": "2010-09-01", "end_date": "2015-06-30", "kind": "education", "degree_name": "理学博士", "major": "机器学习与模式识别方向及联邦学习隐私计算研究", "grade_level": "doctorate", "description": null, "emails": null, "raw_address": "中华人民共和国湖北省武汉市武昌区珞珈山武汉大学计算机学院", "created_at": "2018-08-01T08:00:00.000+00:00", "updated_at": "2018-08-01T08:00:00.000+00:00" },
+            { "_id": "emp_sg_004", "id": "emp_sg_004", "key": "emp_sg_004", "current": false, "organization_id": null,                                                   "organization_name": "中华人民共和国湖北省武汉市武昌区珞珈山武汉大学数学与统计学院",     "title": null,                                           "start_date": "2006-09-01", "end_date": "2010-06-30", "kind": "education", "degree_name": "理学学士", "major": "统计学与应用数学方向",                         "grade_level": "undergraduate", "description": null, "emails": null, "raw_address": "中华人民共和国湖北省武汉市武昌区珞珈山武汉大学数学与统计学院", "created_at": "2018-08-01T08:00:00.000+00:00", "updated_at": "2018-08-01T08:00:00.000+00:00" }
+          ],
+          "organization": {
+            "id": "org-huawei-cloud-ai-ml-超长组织id压力测试-003",
+            "name": "华为技术有限公司旗下云计算与人工智能事业部机器学习平台产品线",
+            "website_url": "https://www.huaweicloud.com/product/modelarts-enterprise-ml-platform-product-line",
+            "linkedin_url": "https://www.linkedin.com/company/huawei-cloud-computing-ai-machine-learning-platform-product-line",
+            "primary_domain": "huawei.com",
+            "industry": "信息技术与通信设备制造 · 云计算 · 人工智能",
+            "estimated_num_employees": 207000,
+            "city": "广东省深圳市龙岗区坂田街道华为基地",
+            "state": "广东省深圳市龙岗区",
+            "country": "中华人民共和国"
+          }
+        },
+        {
+          "id": "ps-zhuge-001",
+          "first_name": "诸葛亮亮·罗伯特·麦克唐纳",
+          "last_name": "诸葛亮亮",
+          "name": "诸葛亮亮·罗伯特·麦克唐纳",
+          "email": "zhuge.liangliang.robert.mcdonald.senior.director.product@baidu-ai-platform-international.com",
+          "email_status": "verified",
+          "linkedin_url": "https://www.linkedin.com/in/zhuge-liangliang-senior-director-product-management-ai-platform-baidu-inc-international",
+          "title": "人工智能事业群产品管理与战略规划高级总监兼首席产品官助理",
+          "headline": "人工智能事业群产品管理与战略规划高级总监兼首席产品官助理 @ 百度在线网络技术（北京）有限公司 | 大语言模型产品化 & 文心一言商业化落地 & AI开放平台生态建设 & B端C端双轮驱动增长 | 前腾讯微信事业群 | 斯坦福大学MBA | 10年+AI产品经验",
+          "photo_url": "https://media.licdn.com/dms/image/C4D03AQF_zhuge_liangliang_robert_mcdonald_baidu_ai_platform_senior_director_product/profile-displayphoto-shrink_800_800/0/1628000000000",
+          "twitter_url": "https://twitter.com/zhuge_liangliang_robert_mcdonald_baidu_ai_platform_product_director",
+          "github_url": null,
+          "facebook_url": null,
+          "extrapolated_email_confidence": null,
+          "organization_id": "org-baidu-ai-platform-超长组织id压力测试-A",
+          "state": "北京市海淀区",
+          "city": "北京市海淀区上地信息产业基地百度科技园",
+          "country": "中华人民共和国",
+          "contact_id": null,
+          "contact": null,
+          "account_id": null,
+          "account": null,
+          "revealed_for_current_team": false,
+          "is_likely_to_engage": true,
+          "intent_strength": null,
+          "show_intent": false,
+          "departments": ["product", "strategy"],
+          "subdepartments": ["product_management", "ai_product", "business_development"],
+          "functions": ["product", "strategy"],
+          "seniority": "director",
+          "employment_history": [
+            { "_id": "emp_zll_A_001", "id": "emp_zll_A_001", "key": "emp_zll_A_001", "current": true,  "organization_id": "org-baidu-ai-platform-超长组织id压力测试-A", "organization_name": "百度在线网络技术（北京）有限公司",                    "title": "人工智能事业群产品管理与战略规划高级总监兼首席产品官助理", "start_date": "2020-09-01", "end_date": null,         "kind": "job",       "degree_name": null, "major": null, "grade_level": null,       "description": null, "emails": null, "raw_address": "中华人民共和国北京市海淀区上地信息产业基地百度科技园一期D座1701室", "created_at": "2020-10-01T08:00:00.000+00:00", "updated_at": "2026-01-15T10:00:00.000+00:00" },
+            { "_id": "emp_zll_A_002", "id": "emp_zll_A_002", "key": "emp_zll_A_002", "current": false, "organization_id": "org-tencent-weixin-超长组织id压力测试-A2",   "organization_name": "腾讯科技（深圳）有限公司微信事业群",                  "title": "高级产品经理及用户增长与商业化变现策略负责人",     "start_date": "2016-04-01", "end_date": "2020-08-31", "kind": "job",       "degree_name": null, "major": null, "grade_level": null,       "description": null, "emails": null, "raw_address": "中华人民共和国广东省深圳市南山区科技园中区腾讯滨海大厦北塔", "created_at": "2020-10-01T08:00:00.000+00:00", "updated_at": "2020-10-01T08:00:00.000+00:00" },
+            { "_id": "emp_zll_A_003", "id": "emp_zll_A_003", "key": "emp_zll_A_003", "current": false, "organization_id": null,                                            "organization_name": "美利坚合众国加利福尼亚州帕洛阿尔托市斯坦福大学商学院", "title": null,                                           "start_date": "2013-09-01", "end_date": "2016-06-30", "kind": "education", "degree_name": "工商管理硕士", "major": "科技创业与产品战略方向",   "grade_level": "graduate",    "description": null, "emails": null, "raw_address": "655 Knight Way, Stanford, CA 94305, USA", "created_at": "2020-10-01T08:00:00.000+00:00", "updated_at": "2020-10-01T08:00:00.000+00:00" },
+            { "_id": "emp_zll_A_004", "id": "emp_zll_A_004", "key": "emp_zll_A_004", "current": false, "organization_id": null,                                            "organization_name": "中华人民共和国北京市北京大学光华管理学院",             "title": null,                                           "start_date": "2009-09-01", "end_date": "2013-06-30", "kind": "education", "degree_name": "管理学学士", "major": "工商管理与市场营销方向", "grade_level": "undergraduate", "description": null, "emails": null, "raw_address": "中华人民共和国北京市海淀区颐和园路5号北京大学光华管理学院", "created_at": "2020-10-01T08:00:00.000+00:00", "updated_at": "2020-10-01T08:00:00.000+00:00" }
+          ],
+          "organization": {
+            "id": "org-baidu-ai-platform-超长组织id压力测试-A",
+            "name": "百度在线网络技术（北京）有限公司",
+            "website_url": "https://www.baidu.com/enterprise/ai-platform-product-management-strategy-planning-department",
+            "linkedin_url": "https://www.linkedin.com/company/baidu-online-network-technology-beijing-ai-platform-product-management",
+            "primary_domain": "baidu.com",
+            "industry": "互联网科技 · 人工智能 · 大语言模型",
+            "estimated_num_employees": 40000,
+            "city": "北京市海淀区上地信息产业基地百度科技园",
+            "state": "北京市海淀区",
+            "country": "中华人民共和国"
+          }
+        },
+        {
+          "id": "ps-zhuge-liangliang-超长bulk-enrich-id字段压力测试-B",
+          "first_name": "诸葛亮亮·罗伯特·麦克唐纳",
+          "last_name": "诸葛亮亮1",
+          "name": null,
+          "email": "zhugeliangliang.robert@baidu-ai.com",
+          "email_status": "verified",
+          "linkedin_url": "https://www.linkedin.com/in/zhuge-liangliang-senior-director-product-management-ai-platform-baidu-inc-international",
+          "title": "人工智能事业群产品管理与战略规划高级总监兼首席产品官助理",
+          "headline": "人工智能事业群产品管理与战略规划高级总监 @ 百度 | 文心大模型 & AI开放平台 | 斯坦福MBA",
+          "photo_url": "https://media.licdn.com/dms/image/zhuge_liangliang_baidu_ai_product_director_cn/profile.jpg",
+          "twitter_url": null,
+          "github_url": null,
+          "facebook_url": null,
+          "extrapolated_email_confidence": null,
+          "organization_id": "org-baidu-ai-platform-超长组织id压力测试-A",
+          "state": "北京市海淀区",
+          "city": "北京市海淀区上地信息产业基地百度科技园",
+          "country": "中华人民共和国",
+          "contact_id": null,
+          "contact": null,
+          "account_id": null,
+          "account": null,
+          "revealed_for_current_team": false,
+          "is_likely_to_engage": false,
+          "intent_strength": null,
+          "show_intent": false,
+          "departments": ["product"],
+          "subdepartments": ["product_management", "ai_product"],
+          "functions": ["product"],
+          "seniority": "director",
+          "employment_history": [
+            { "_id": "emp_zll_B_001", "id": "emp_zll_B_001", "key": "emp_zll_B_001", "current": true,  "organization_id": "org-baidu-ai-platform-超长组织id压力测试-A", "organization_name": "百度在线网络技术（北京）有限公司",                    "title": "人工智能事业群产品管理与战略规划高级总监兼首席产品官助理", "start_date": "2020-09-01", "end_date": null,         "kind": "job",       "degree_name": null, "major": null, "grade_level": null,       "description": null, "emails": null, "raw_address": "中华人民共和国北京市海淀区上地信息产业基地百度科技园一期D座", "created_at": "2021-03-01T08:00:00.000+00:00", "updated_at": "2025-11-20T14:00:00.000+00:00" },
+            { "_id": "emp_zll_B_002", "id": "emp_zll_B_002", "key": "emp_zll_B_002", "current": false, "organization_id": "org-tencent-weixin-超长组织id压力测试-A2",   "organization_name": "腾讯科技（深圳）有限公司微信事业群",                  "title": "高级产品经理及用户增长与商业化变现策略负责人",     "start_date": "2016-04-01", "end_date": "2020-08-31", "kind": "job",       "degree_name": null, "major": null, "grade_level": null,       "description": null, "emails": null, "raw_address": "中华人民共和国广东省深圳市南山区科技园中区腾讯滨海大厦", "created_at": "2021-03-01T08:00:00.000+00:00", "updated_at": "2021-03-01T08:00:00.000+00:00" },
+            { "_id": "emp_zll_B_003", "id": "emp_zll_B_003", "key": "emp_zll_B_003", "current": false, "organization_id": "org-meituan-product-超长组织id压力测试-B3", "organization_name": "美团点评集团旗下到店事业群产品与运营中心",            "title": "产品经理及本地生活服务数字化转型项目负责人",       "start_date": "2013-07-01", "end_date": "2016-03-31", "kind": "job",       "degree_name": null, "major": null, "grade_level": null,       "description": null, "emails": null, "raw_address": "中华人民共和国北京市朝阳区望京街道望京东路4号望京国际研发园", "created_at": "2021-03-01T08:00:00.000+00:00", "updated_at": "2021-03-01T08:00:00.000+00:00" },
+            { "_id": "emp_zll_B_004", "id": "emp_zll_B_004", "key": "emp_zll_B_004", "current": false, "organization_id": null,                                            "organization_name": "中华人民共和国北京市北京大学光华管理学院",             "title": null,                                           "start_date": "2009-09-01", "end_date": "2013-06-30", "kind": "education", "degree_name": "管理学学士1", "major": "工商管理与市场营销方向1", "grade_level": "undergraduate", "description": null, "emails": null, "raw_address": "中华人民共和国北京市海淀区颐和园路5号北京大学", "created_at": "2021-03-01T08:00:00.000+00:00", "updated_at": "2021-03-01T08:00:00.000+00:00" }
+          ],
+          "organization": {
+            "id": "org-baidu-ai-platform-超长组织id压力测试-A",
+            "name": "百度在线网络技术（北京）有限公司",
+            "website_url": "https://www.baidu.com",
+            "linkedin_url": "https://www.linkedin.com/company/baidu",
+            "primary_domain": "baidu.com",
+            "industry": "互联网科技 · 人工智能",
+            "estimated_num_employees": 40000,
+            "city": "北京市海淀区上地信息产业基地百度科技园",
+            "state": "北京市海淀区",
+            "country": "中华人民共和国"
+          }
+        }
+      ]
+    },
+    "expected_output": [
+      {
+        "_comment": "欧阳慕容：exa linkedin匹配bulk，不在people_search，所有字段超长",
+        "person_id": "be-ouyang-murong-william-超长bulk-enrich-id字段压力测试-001",
+        "linkedin_url": "https://www.linkedin.com/in/ouyang-murong-william-alexander-james-johnson-christopher-senior-principal-architect-ai-ml-platform",
+        "name": "欧阳慕容·威廉·亚历山大·詹姆斯·约翰逊·克里斯托弗",
+        "title": "高级首席资深全栈架构师兼人工智能平台技术负责人及大数据基础设施工程专家",
+        "company": "字节跳动国际科技有限责任公司旗下人工智能与机器学习平台事业群技术中心",
+        "current_tenure_start": "2019-03",
+        "location": "北京市朝阳区望京街道望京中环南路1号院字节跳动总部大厦A座2301室, 北京市朝阳区, 中华人民共和国",
+        "photo_url": "https://media.licdn.com/dms/image/C4D03AQF_ouyang_murong_william_alexander_james_johnson_christopher_bytedance_ai_ml_platform/profile-displayphoto-shrink_800_800/0/1648000000000",
+        "skill_tags": ["Python", "Java", "Go", "C++", "Rust", "Kubernetes", "Docker", "Apache Spark", "Apache Flink", "Apache Kafka", "TensorFlow", "PyTorch", "CUDA", "gRPC", "ProtoBuf", "MySQL", "PostgreSQL", "ClickHouse", "Redis", "Elasticsearch", "Hadoop", "Hive", "Airflow", "MLflow", "Kubeflow", "Terraform", "Ansible", "Prometheus", "Grafana", "Apache Arrow", "Ray", "Triton Inference Server", "ONNX", "大规模分布式机器学习系统设计", "超大规模推荐系统架构", "实时流式计算平台建设"],
+        "has_email": null,
+        "has_direct_phone": null,
+        "education_history": [
+          { "school": "中华人民共和国北京市海淀区中关村科学城清华大学信息科学与技术学院计算机科学与技术系", "degree": "工学博士", "major": "人工智能与机器学习方向及大数据处理技术专业", "startDate": "2010-09", "endDate": "2015-06" },
+          { "school": "中华人民共和国上海市杨浦区复旦大学计算机科学与技术学院软件工程系", "degree": "工学硕士", "major": "分布式系统架构与云计算平台方向", "startDate": "2007-09", "endDate": "2010-06" }
+        ],
+        "work_history": [
+          { "title": "高级首席资深全栈架构师兼人工智能平台技术负责人及大数据基础设施工程专家", "company": "字节跳动国际科技有限责任公司旗下人工智能与机器学习平台事业群技术中心", "startDate": "2019-03", "endDate": null,      "isCurrent": true  },
+          { "title": "资深高级架构师及平台工程技术专家", "company": "阿里巴巴集团控股有限公司旗下蚂蚁金服科技集团股份有限公司基础设施技术部", "startDate": "2015-06", "endDate": "2019-02", "isCurrent": false }
+        ],
+        "twitter_url": "https://twitter.com/ouyang_murong_william_alexander_ai_ml_platform_bytedance_international",
+        "github_url": "https://github.com/ouyang-murong-william-alexander-james-bytedance-ai-ml-platform-infrastructure",
+        "data_updated_at": "2026-02",
+        "source": "merged"
+      },
+      {
+        "_comment": "司马光明：people_search id匹配bulk，不在exa，所有字段超长",
+        "person_id": "be-sima-guangming-超长bulk-enrich-id字段压力测试-003",
+        "linkedin_url": "https://www.linkedin.com/in/sima-guangming-john-william-robert-alexander-chief-data-scientist-ml-platform-huawei-cloud",
+        "name": "司马光明·约翰·威廉·罗伯特·亚历山大",
+        "title": "高级首席数据科学家兼机器学习平台工程负责人及算法研究院院长助理",
+        "company": "华为技术有限公司旗下云计算与人工智能事业部机器学习平台产品线",
+        "current_tenure_start": "2018-07",
+        "location": "广东省深圳市龙岗区坂田街道华为基地华为云计算与人工智能事业部大厦, 广东省深圳市龙岗区, 中华人民共和国",
+        "photo_url": "https://media.licdn.com/dms/image/C4D03AQF_sima_guangming_john_william_robert_alexander_huawei_cloud_ai_ml_platform/profile-displayphoto-shrink_800_800/0/1638000000000",
+        "skill_tags": null,
+        "has_email": true,
+        "has_direct_phone": true,
+        "education_history": [
+          { "school": "中华人民共和国湖北省武汉市武昌区珞珈山武汉大学计算机学院人工智能系", "degree": "理学博士", "major": "机器学习与模式识别方向及联邦学习隐私计算研究", "startDate": "2010-09", "endDate": "2015-06" },
+          { "school": "中华人民共和国湖北省武汉市武昌区珞珈山武汉大学数学与统计学院", "degree": "理学学士", "major": "统计学与应用数学方向", "startDate": "2006-09", "endDate": "2010-06" }
+        ],
+        "work_history": [
+          { "title": "高级首席数据科学家兼机器学习平台工程负责人及算法研究院院长助理", "company": "华为技术有限公司旗下云计算与人工智能事业部机器学习平台产品线", "startDate": "2018-07", "endDate": null,      "isCurrent": true  },
+          { "title": "资深算法工程师及联邦学习方向负责人", "company": "京东集团旗下京东科技京东AI研究院基础算法研究部", "startDate": "2015-03", "endDate": "2018-06", "isCurrent": false }
+        ],
+        "twitter_url": "https://twitter.com/sima_guangming_john_william_robert_alexander_huawei_cloud_ai_ml",
+        "github_url": "https://github.com/sima-guangming-john-william-robert-alexander-huawei-cloud-federated-learning",
+        "data_updated_at": "2025-12",
+        "source": "apollo"
+      },
+      {
+        "_comment": "诸葛亮亮：exa linkedin匹配bulk_A + people_search id匹配bulk_B，同人合并，所有字段超长；work_history取A+B并集去重后最近3条",
+        "person_id": "be-zhuge-liangliang-超长bulk-enrich-id字段压力测试-A",
+        "linkedin_url": "https://www.linkedin.com/in/zhuge-liangliang-senior-director-product-management-ai-platform-baidu-inc-international",
+        "name": "诸葛亮亮·罗伯特·麦克唐纳",
+        "title": "人工智能事业群产品管理与战略规划高级总监兼首席产品官助理",
+        "company": "百度在线网络技术（北京）有限公司",
+        "current_tenure_start": "2020-09",
+        "location": "北京市海淀区上地信息产业基地百度科技园一期D座1701室, 北京市海淀区, 中华人民共和国",
+        "photo_url": "https://media.licdn.com/dms/image/C4D03AQF_zhuge_liangliang_robert_mcdonald_baidu_ai_platform_senior_director_product/profile-displayphoto-shrink_800_800/0/1628000000000",
+        "skill_tags": ["产品战略规划", "商业模式设计", "用户增长与留存", "A/B实验设计与分析", "数据驱动决策", "人工智能产品设计", "自然语言处理产品化", "计算机视觉产品化", "推荐系统产品设计", "广告变现系统", "跨职能团队领导", "国际化本地化运营", "OKR目标管理", "敏捷开发流程", "竞品分析与市场调研", "用户研究与可用性测试", "SQL", "Python", "Tableau"],
+        "has_email": true,
+        "has_direct_phone": false,
+        "education_history": [
+          { "school": "美利坚合众国加利福尼亚州帕洛阿尔托市斯坦福大学商学院", "degree": "工商管理硕士", "major": "科技创业与产品战略方向", "startDate": "2013-09", "endDate": "2016-06" },
+          { "school": "中华人民共和国北京市北京大学光华管理学院", "degree": "管理学学士", "major": "工商管理与市场营销方向", "startDate": "2009-09", "endDate": "2013-06" }
+        ],
+        "work_history": [
+          { "title": "人工智能事业群产品管理与战略规划高级总监兼首席产品官助理", "company": "百度在线网络技术（北京）有限公司", "startDate": "2020-09", "endDate": null,      "isCurrent": true  },
+          { "title": "高级产品经理及用户增长与商业化变现策略负责人", "company": "腾讯科技（深圳）有限公司微信事业群", "startDate": "2016-04", "endDate": "2020-08", "isCurrent": false },
+          { "title": "产品经理及本地生活服务数字化转型项目负责人", "company": "美团点评集团旗下到店事业群产品与运营中心", "startDate": "2013-07", "endDate": "2016-03", "isCurrent": false }
+        ],
+        "twitter_url": "https://twitter.com/zhuge_liangliang_robert_mcdonald_baidu_ai_platform_product_director",
+        "github_url": null,
+        "data_updated_at": "2025-11",
+        "source": "merged"
+      }
+    ]
   }
 }

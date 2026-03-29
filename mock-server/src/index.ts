@@ -6,7 +6,9 @@ import mockCases from "../people_data_mock.json";
 type MockCase = {
   exa_response?: unknown;
   apollo_people_search_response?: unknown;
-  apollo_bulk_match_response?: unknown;
+  apollo_bulk_enrich_response?: unknown;
+  apollo_status?: number;
+  bulk_status?: number;
 };
 
 const CASE_KEYS = Object.keys(mockCases) as (keyof typeof mockCases)[];
@@ -31,9 +33,11 @@ interface MockStore {
   bulkEnrich: unknown | null;
   exaForceEmpty: boolean;
   apolloForceEmpty: boolean;
+  apolloStatus: number;
+  bulkStatus: number;
 }
 
-const store: MockStore = { exa: null, apollo: null, bulkEnrich: null, exaForceEmpty: false, apolloForceEmpty: false };
+const store: MockStore = { exa: null, apollo: null, bulkEnrich: null, exaForceEmpty: false, apolloForceEmpty: false, apolloStatus: 200, bulkStatus: 200 };
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Default responses
@@ -103,6 +107,8 @@ app.get("/admin/mock", (c) => {
     bulkEnrich: store.bulkEnrich,
     exaForceEmpty: store.exaForceEmpty,
     apolloForceEmpty: store.apolloForceEmpty,
+    apolloStatus: store.apolloStatus,
+    bulkStatus: store.bulkStatus,
   };
   console.log(`[${ts()}] GET /admin/mock → store snapshot`);
   return c.json(resp);
@@ -115,6 +121,7 @@ app.post("/admin/mock", async (c) => {
     bulkEnrich?: unknown;
     exaForceEmpty?: boolean;
     apolloForceEmpty?: boolean;
+    apolloStatus?: number;
   }>();
   logReq("POST", "/admin/mock", body);
   if (body.exa !== undefined) store.exa = body.exa;
@@ -122,6 +129,8 @@ app.post("/admin/mock", async (c) => {
   if (body.bulkEnrich !== undefined) store.bulkEnrich = body.bulkEnrich;
   if (body.exaForceEmpty !== undefined) store.exaForceEmpty = body.exaForceEmpty;
   if (body.apolloForceEmpty !== undefined) store.apolloForceEmpty = body.apolloForceEmpty;
+  if (body.apolloStatus !== undefined) store.apolloStatus = body.apolloStatus;
+  if ((body as any).bulkStatus !== undefined) store.bulkStatus = (body as any).bulkStatus;
   logRes("ok", { ok: true });
   return c.json({ ok: true });
 });
@@ -133,6 +142,8 @@ app.delete("/admin/mock", (c) => {
   store.bulkEnrich = null;
   store.exaForceEmpty = false;
   store.apolloForceEmpty = false;
+  store.apolloStatus = 200;
+  store.bulkStatus = 200;
   return c.json({ ok: true });
 });
 
@@ -154,6 +165,8 @@ app.post("/admin/preset/:name", (c) => {
   if (preset.apollo_bulk_enrich_response !== undefined) store.bulkEnrich = preset.apollo_bulk_enrich_response;
   store.exaForceEmpty = false;
   store.apolloForceEmpty = false;
+  store.apolloStatus = preset.apollo_status ?? 200;
+  store.bulkStatus = preset.bulk_status ?? 200;
   console.log(`  ✓ loaded preset "${name}"`);
   return c.json({ ok: true });
 });
@@ -196,8 +209,11 @@ app.post("/api/v1/mixed_people/api_search", async (c) => {
     if (preset?.apollo_people_search_response !== undefined) {
       // 同时预装 bulk_enrich，下一次 /people/bulk_match 就能返回对应数据
       if (preset.apollo_bulk_enrich_response !== undefined) store.bulkEnrich = preset.apollo_bulk_enrich_response;
-      logRes(`preset "${sentinel}"`, preset.apollo_people_search_response);
-      return c.json(preset.apollo_people_search_response);
+      store.apolloStatus = preset.apollo_status ?? 200;
+      store.bulkStatus = preset.bulk_status ?? 200;
+      const status = preset.apollo_status ?? 200;
+      logRes(`preset "${sentinel}" [${status}]`, preset.apollo_people_search_response);
+      return c.json(preset.apollo_people_search_response, status as any);
     }
   }
   if (store.apolloForceEmpty) {
@@ -205,8 +221,9 @@ app.post("/api/v1/mixed_people/api_search", async (c) => {
     return c.json(DEFAULT_APOLLO_PEOPLE);
   }
   if (store.apollo) {
-    logRes("custom mock", store.apollo);
-    return c.json(store.apollo);
+    const status = store.apolloStatus ?? 200;
+    logRes(`custom mock [${status}]`, store.apollo);
+    return c.json(store.apollo, status as any);
   }
   // 没有精确匹配时，返回第一个 case 的数据作为 fallback
   const firstCase = mockCases[CASE_KEYS[0]];
@@ -223,8 +240,9 @@ app.post("/api/v1/people/bulk_match", async (c) => {
   const body = await c.req.json().catch(() => ({}));
   logReq("POST", "/api/v1/people/bulk_match (Apollo bulk match)", body);
   const resp = store.bulkEnrich ?? DEFAULT_APOLLO_BULK;
-  logRes(store.bulkEnrich ? "preset" : "default (empty)", resp);
-  return c.json(resp);
+  const status = store.bulkEnrich ? (store.bulkStatus ?? 200) : 200;
+  logRes(store.bulkEnrich ? `preset [${status}]` : "default (empty)", resp);
+  return c.json(resp, status as any);
 });
 
 app.post("/api/v1/mixed_companies/search", async (c) => {
