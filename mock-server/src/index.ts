@@ -9,6 +9,14 @@ type MockCase = {
   apollo_bulk_enrich_response?: unknown;
   apollo_status?: number;
   bulk_status?: number;
+
+  // V2 pipeline 新增 provider（GitHub / PDL / RocketReach）
+  pdl_search_response?: unknown;
+  pdl_enrich_response?: unknown;
+  rocketreach_search_response?: unknown;
+  rocketreach_lookup_response?: unknown;
+  github_user_response?: unknown;
+  github_repos_response?: unknown;
 };
 
 const CASE_KEYS = Object.keys(mockCases) as (keyof typeof mockCases)[];
@@ -35,9 +43,30 @@ interface MockStore {
   apolloForceEmpty: boolean;
   apolloStatus: number;
   bulkStatus: number;
+  // V2 providers
+  pdlSearch: unknown | null;
+  pdlEnrich: unknown | null;
+  rrSearch: unknown | null;
+  rrLookup: unknown | null;
+  githubUser: unknown | null;
+  githubRepos: unknown | null;
 }
 
-const store: MockStore = { exa: null, apollo: null, bulkEnrich: null, exaForceEmpty: false, apolloForceEmpty: false, apolloStatus: 200, bulkStatus: 200 };
+const store: MockStore = {
+  exa: null,
+  apollo: null,
+  bulkEnrich: null,
+  exaForceEmpty: false,
+  apolloForceEmpty: false,
+  apolloStatus: 200,
+  bulkStatus: 200,
+  pdlSearch: null,
+  pdlEnrich: null,
+  rrSearch: null,
+  rrLookup: null,
+  githubUser: null,
+  githubRepos: null,
+};
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Default responses
@@ -60,6 +89,54 @@ const DEFAULT_APOLLO_ORGS = {
   organizations: [],
   pagination: { page: 1, per_page: 1, total_entries: 0, total_pages: 0 },
 };
+
+// PDL：search 返空列表；enrich 返 404 不命中（上游 people-data-tool 会静默跳过）
+const DEFAULT_PDL_SEARCH = { status: 200, data: [], total: 0, credits_used: 0 };
+const DEFAULT_PDL_ENRICH = {
+  status: 404,
+  likelihood: 0,
+  error: { type: "not_found", message: "No matching records (mock default)" },
+};
+
+// RocketReach：search 返空；lookup 返 "complete" 但无 email（waterfall 继续向后）
+const DEFAULT_RR_SEARCH = { profiles: [] };
+const DEFAULT_RR_LOOKUP_NOT_FOUND = {
+  id: 0,
+  status: "complete" as const,
+  emails: [],
+  phones: [],
+  recommended_email: null,
+};
+
+// GitHub：默认 user 返 404 行为由路由层决定（mock 默认返 generic user；不走 404）
+function defaultGitHubUser(login: string) {
+  return {
+    login,
+    id: Math.abs(hashCode(login)),
+    avatar_url: null,
+    html_url: `https://github.com/${login}`,
+    name: login,
+    company: null,
+    blog: null,
+    location: null,
+    email: null,
+    bio: null,
+    twitter_username: null,
+    public_repos: 0,
+    public_gists: 0,
+    followers: 0,
+    following: 0,
+    created_at: "2020-01-01T00:00:00Z",
+    updated_at: "2024-01-01T00:00:00Z",
+  };
+}
+const DEFAULT_GITHUB_REPOS: unknown[] = [];
+
+function hashCode(s: string): number {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = ((h << 5) - h + s.charCodeAt(i)) | 0;
+  return h;
+}
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Server
@@ -109,6 +186,12 @@ app.get("/admin/mock", (c) => {
     apolloForceEmpty: store.apolloForceEmpty,
     apolloStatus: store.apolloStatus,
     bulkStatus: store.bulkStatus,
+    pdlSearch: store.pdlSearch,
+    pdlEnrich: store.pdlEnrich,
+    rrSearch: store.rrSearch,
+    rrLookup: store.rrLookup,
+    githubUser: store.githubUser,
+    githubRepos: store.githubRepos,
   };
   console.log(`[${ts()}] GET /admin/mock → store snapshot`);
   return c.json(resp);
@@ -122,6 +205,13 @@ app.post("/admin/mock", async (c) => {
     exaForceEmpty?: boolean;
     apolloForceEmpty?: boolean;
     apolloStatus?: number;
+    bulkStatus?: number;
+    pdlSearch?: unknown;
+    pdlEnrich?: unknown;
+    rrSearch?: unknown;
+    rrLookup?: unknown;
+    githubUser?: unknown;
+    githubRepos?: unknown;
   }>();
   logReq("POST", "/admin/mock", body);
   if (body.exa !== undefined) store.exa = body.exa;
@@ -130,7 +220,13 @@ app.post("/admin/mock", async (c) => {
   if (body.exaForceEmpty !== undefined) store.exaForceEmpty = body.exaForceEmpty;
   if (body.apolloForceEmpty !== undefined) store.apolloForceEmpty = body.apolloForceEmpty;
   if (body.apolloStatus !== undefined) store.apolloStatus = body.apolloStatus;
-  if ((body as any).bulkStatus !== undefined) store.bulkStatus = (body as any).bulkStatus;
+  if (body.bulkStatus !== undefined) store.bulkStatus = body.bulkStatus;
+  if (body.pdlSearch !== undefined) store.pdlSearch = body.pdlSearch;
+  if (body.pdlEnrich !== undefined) store.pdlEnrich = body.pdlEnrich;
+  if (body.rrSearch !== undefined) store.rrSearch = body.rrSearch;
+  if (body.rrLookup !== undefined) store.rrLookup = body.rrLookup;
+  if (body.githubUser !== undefined) store.githubUser = body.githubUser;
+  if (body.githubRepos !== undefined) store.githubRepos = body.githubRepos;
   logRes("ok", { ok: true });
   return c.json({ ok: true });
 });
@@ -144,6 +240,12 @@ app.delete("/admin/mock", (c) => {
   store.apolloForceEmpty = false;
   store.apolloStatus = 200;
   store.bulkStatus = 200;
+  store.pdlSearch = null;
+  store.pdlEnrich = null;
+  store.rrSearch = null;
+  store.rrLookup = null;
+  store.githubUser = null;
+  store.githubRepos = null;
   return c.json({ ok: true });
 });
 
@@ -163,6 +265,12 @@ app.post("/admin/preset/:name", (c) => {
   if (preset.exa_response !== undefined) store.exa = preset.exa_response;
   if (preset.apollo_people_search_response !== undefined) store.apollo = preset.apollo_people_search_response;
   if (preset.apollo_bulk_enrich_response !== undefined) store.bulkEnrich = preset.apollo_bulk_enrich_response;
+  if (preset.pdl_search_response !== undefined) store.pdlSearch = preset.pdl_search_response;
+  if (preset.pdl_enrich_response !== undefined) store.pdlEnrich = preset.pdl_enrich_response;
+  if (preset.rocketreach_search_response !== undefined) store.rrSearch = preset.rocketreach_search_response;
+  if (preset.rocketreach_lookup_response !== undefined) store.rrLookup = preset.rocketreach_lookup_response;
+  if (preset.github_user_response !== undefined) store.githubUser = preset.github_user_response;
+  if (preset.github_repos_response !== undefined) store.githubRepos = preset.github_repos_response;
   store.exaForceEmpty = false;
   store.apolloForceEmpty = false;
   store.apolloStatus = preset.apollo_status ?? 200;
@@ -250,6 +358,63 @@ app.post("/api/v1/mixed_companies/search", async (c) => {
   logReq("POST", "/api/v1/mixed_companies/search (Apollo org search)", body);
   logRes("default (empty)", DEFAULT_APOLLO_ORGS);
   return c.json(DEFAULT_APOLLO_ORGS);
+});
+
+// ── PDL mock ──────────────────────────────────────────────────────────────────
+
+app.post("/person/search", async (c) => {
+  const body = await c.req.json().catch(() => ({}));
+  logReq("POST", "/person/search (PDL search)", body);
+  const resp = store.pdlSearch ?? DEFAULT_PDL_SEARCH;
+  logRes(store.pdlSearch ? "custom mock" : "default (empty)", resp);
+  return c.json(resp);
+});
+
+app.post("/person/enrich", async (c) => {
+  const body = await c.req.json().catch(() => ({}));
+  logReq("POST", "/person/enrich (PDL enrich)", body);
+  const resp = store.pdlEnrich ?? DEFAULT_PDL_ENRICH;
+  const status = (resp as { status?: number }).status ?? 200;
+  logRes(store.pdlEnrich ? `custom mock [${status}]` : `default (404 not found)`, resp);
+  return c.json(resp);
+});
+
+// ── RocketReach mock ──────────────────────────────────────────────────────────
+
+app.post("/api/v2/person/search", async (c) => {
+  const body = await c.req.json().catch(() => ({}));
+  logReq("POST", "/api/v2/person/search (RocketReach search)", body);
+  const resp = store.rrSearch ?? DEFAULT_RR_SEARCH;
+  logRes(store.rrSearch ? "custom mock" : "default (empty)", resp);
+  return c.json(resp);
+});
+
+// Lookup 是 GET 带 query params；mock 必须返回 status:"complete" 跳过轮询
+app.get("/api/v2/person/lookup", (c) => {
+  const query = c.req.query();
+  logReq("GET", "/api/v2/person/lookup (RocketReach lookup)", query);
+  const resp = store.rrLookup ?? DEFAULT_RR_LOOKUP_NOT_FOUND;
+  logRes(store.rrLookup ? "custom mock" : "default (complete, no email)", resp);
+  return c.json(resp);
+});
+
+// ── GitHub mock ───────────────────────────────────────────────────────────────
+// /users/:login/repos 必须放前面，否则会被 /users/:login 吃掉
+
+app.get("/users/:login/repos", (c) => {
+  const login = c.req.param("login");
+  logReq("GET", `/users/${login}/repos (GitHub repos)`, {});
+  const resp = store.githubRepos ?? DEFAULT_GITHUB_REPOS;
+  logRes(store.githubRepos ? "custom mock" : "default (empty)", resp);
+  return c.json(resp);
+});
+
+app.get("/users/:login", (c) => {
+  const login = c.req.param("login");
+  logReq("GET", `/users/${login} (GitHub user)`, {});
+  const resp = store.githubUser ?? defaultGitHubUser(login);
+  logRes(store.githubUser ? "custom mock" : "default (generic user)", resp);
+  return c.json(resp);
 });
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -623,9 +788,12 @@ const UI_HTML = `<!DOCTYPE html>
 
 const PORT = parseInt(process.env.PORT ?? "3001", 10);
 console.log(`\n🟢 People Mock Server running at http://localhost:${PORT}`);
-console.log(`   UI:     http://localhost:${PORT}/`);
-console.log(`   Exa:    POST http://localhost:${PORT}/search`);
-console.log(`   Apollo: POST http://localhost:${PORT}/api/v1/mixed_people/api_search\n`);
+console.log(`   UI:          http://localhost:${PORT}/`);
+console.log(`   Exa:         POST /search`);
+console.log(`   Apollo:      POST /api/v1/{mixed_people/api_search, people/bulk_match, mixed_companies/search}`);
+console.log(`   PDL:         POST /person/{search, enrich}`);
+console.log(`   RocketReach: POST /api/v2/person/search  |  GET /api/v2/person/lookup`);
+console.log(`   GitHub:      GET /users/:login  |  GET /users/:login/repos\n`);
 
 export default {
   port: PORT,
