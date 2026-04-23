@@ -1,11 +1,11 @@
 {
-  "case05_Apollo命中邮箱_原case20数据": {
+  "case20_仅Exa搜索_Apollo补全基本信息_GitHub补邮箱": {
     "exa_response": {
       "requestId": "exa-req-case20",
       "results": [
         {
           "id": "exa-case20-han-09",
-          "url": "https://www.linkedin.com/in/exa-case20-han-nine223344",
+          "url": "https://www.linkedin.com/in/exa-case20-han-nine1",
           "title": "Exa_case20_韩九 - LinkedIn",
           "publishedDate": "2024-11-10",
           "author": null,
@@ -21,7 +21,9 @@
                 "workHistory": [
                   {
                     "title": null,
-                    "company": { "name": "Exa_case20_某互联网公司" },
+                    "company": {
+                      "name": "Exa_case20_某互联网公司"
+                    },
                     "startDate": null,
                     "endDate": null,
                     "isCurrent": true
@@ -39,22 +41,32 @@
     "apollo_people_search_response": {
       "breadcrumbs": [],
       "people": [],
-      "pagination": { "page": 1, "per_page": 10, "total_entries": 0, "total_pages": 0 }
+      "pagination": {
+        "page": 1,
+        "per_page": 10,
+        "total_entries": 0,
+        "total_pages": 0
+      }
     },
     "apollo_bulk_enrich_response": {
       "matches": [
         {
           "id": "apollo-case20-han-09",
-          "linkedin_url": "https://www.linkedin.com/in/exa-case20-han-nine223344",
+          "linkedin_url": "https://www.linkedin.com/in/exa-case20-han-nine1",
           "github_url": "https://github.com/github-case20-han-nine",
           "name": "Apollo_case20_韩九",
           "first_name": "韩",
           "last_name": "九",
           "title": null,
-          "email": "apollo_case20_han_nine@apollo.example",
-          "email_status": "verified",
-          "phone_number": null,
-          "phone_numbers": [],
+          "email": null,
+          "email_status": null,
+          "phone_number": "+8613900000020",
+          "phone_numbers": [
+            {
+              "sanitized_number": "+8613900000020",
+              "raw_number": "139-0000-0020"
+            }
+          ],
           "city": "Apollo_case20_深圳",
           "state": "Apollo_case20_广东",
           "country": "Apollo_case20_中国",
@@ -64,7 +76,50 @@
           "photo_url": null,
           "twitter_url": null,
           "facebook_url": null,
-          "employment_history": [],
+          "employment_history": [
+            {
+              "_id": "emp_case20_001",
+              "id": "emp_case20_001",
+              "current": true,
+              "organization_id": "org_apollo_case20_tencent",
+              "organization_name": "Apollo_case20_腾讯",
+              "title": "Apollo_case20_高级后端工程师",
+              "start_date": "2022-04-01",
+              "end_date": null,
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            },
+            {
+              "_id": "emp_case20_002",
+              "id": "emp_case20_002",
+              "current": false,
+              "organization_id": "org_apollo_case20_vivo",
+              "organization_name": "Apollo_case20_vivo",
+              "title": "Apollo_case20_后端工程师",
+              "start_date": "2019-08-01",
+              "end_date": "2022-03-31",
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            },
+            {
+              "_id": "emp_case20_003",
+              "id": "emp_case20_003",
+              "current": false,
+              "organization_id": "org_apollo_case20_kuaishou",
+              "organization_name": "Apollo_case20_快手",
+              "title": "Apollo_case20_软件工程实习生",
+              "start_date": "2018-06-01",
+              "end_date": "2019-07-31",
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            }
+          ],
           "education_history": [
             {
               "_id": "edu_case20_001",
@@ -87,13 +142,13 @@
               "grade_level": "undergraduate"
             }
           ],
-          "revealed_for_current_team": true,
-          "has_email": true,
+          "revealed_for_current_team": false,
+          "has_email": false,
           "has_direct_phone": false,
           "seniority": null
         }
       ],
-      "credits_consumed": 1
+      "credits_consumed": 0
     },
     "pdl_search_response": {
       "status": 200,
@@ -104,7 +159,10 @@
     "pdl_enrich_response": {
       "status": 404,
       "likelihood": 0,
-      "error": { "type": "not_found", "message": "pdl_case20: no matching record" }
+      "error": {
+        "type": "not_found",
+        "message": "pdl_case20: no matching record"
+      }
     },
     "rocketreach_search_response": {
       "profiles": []
@@ -139,9 +197,9 @@
       "company": "GitHub_case20_@tencent",
       "blog": "https://github-case20-han.dev",
       "location": "GitHub_case20_Shenzhen, China",
-      "email": null,
+      "email": "github_case20_han_nine@public.dev",
       "hireable": true,
-      "bio": "GitHub_case20 公开邮箱关闭 · 邮箱由 Apollo 兜底",
+      "bio": "GitHub_case20 enrich 唯一命中源 · 公开邮箱存在",
       "twitter_username": null,
       "public_repos": 15,
       "public_gists": 2,
@@ -150,43 +208,59 @@
       "created_at": "2019-06-10T03:00:00Z",
       "updated_at": "2026-04-15T12:00:00Z"
     },
-    "github_repos_response": []
+    "github_repos_response": [
+      {
+        "id": 20000010,
+        "node_id": "MDEwOlJlcG9zaXRvcnkyMDAwMDAxMA==",
+        "name": "github-case20-backend-toolkit",
+        "full_name": "github-case20-han-nine/github-case20-backend-toolkit",
+        "owner": {
+          "login": "github-case20-han-nine"
+        },
+        "private": false,
+        "html_url": "https://github.com/github-case20-han-nine/github-case20-backend-toolkit",
+        "description": "GitHub_case20_后端工具箱示例",
+        "fork": false,
+        "language": "GitHub_case20_Go",
+        "stargazers_count": 68,
+        "watchers_count": 68,
+        "forks_count": 12,
+        "size": 640,
+        "default_branch": "main",
+        "topics": ["GitHub_case20_go", "GitHub_case20_backend"],
+        "pushed_at": "2026-03-20T00:00:00Z",
+        "created_at": "2022-07-01T00:00:00Z",
+        "updated_at": "2026-03-20T00:00:00Z"
+      },
+      {
+        "id": 20000011,
+        "node_id": "MDEwOlJlcG9zaXRvcnkyMDAwMDAxMQ==",
+        "name": "github-case20-distributed-queue",
+        "full_name": "github-case20-han-nine/github-case20-distributed-queue",
+        "owner": {
+          "login": "github-case20-han-nine"
+        },
+        "private": false,
+        "html_url": "https://github.com/github-case20-han-nine/github-case20-distributed-queue",
+        "description": "GitHub_case20_分布式消息队列原型",
+        "fork": false,
+        "language": "GitHub_case20_Rust",
+        "stargazers_count": 30,
+        "watchers_count": 30,
+        "forks_count": 4,
+        "size": 280,
+        "default_branch": "main",
+        "topics": ["GitHub_case20_rust", "GitHub_case20_mq"],
+        "pushed_at": "2025-12-01T00:00:00Z",
+        "created_at": "2023-04-15T00:00:00Z",
+        "updated_at": "2025-12-01T00:00:00Z"
+      }
+    ]
   },
-
-  "case01_GitHub命中邮箱": {
+  "case21_仅RocketReach搜索_Apollo补全基本信息与联系方式": {
     "exa_response": {
-      "requestId": "exa-req-case01",
-      "results": [
-        {
-          "id": "exa-case01",
-          "url": "https://www.linkedin.com/in/case01-github",
-          "title": "Case01_GitHub命中 - LinkedIn",
-          "publishedDate": "2024-11-10",
-          "author": null,
-          "score": 0.92,
-          "text": "Case01_GitHub命中\n后端工程师（GitHub priority=0 公开邮箱命中）",
-          "summary": "Case01 · 邮箱由 GitHub priority=0 命中，其余 provider 均返回空",
-          "entities": [
-            {
-              "type": "person",
-              "properties": {
-                "name": "Case01_GitHub命中",
-                "location": "Case01_深圳",
-                "workHistory": [
-                  {
-                    "title": null,
-                    "company": { "name": "Case01_公司" },
-                    "startDate": null,
-                    "endDate": null,
-                    "isCurrent": true
-                  }
-                ],
-                "educationHistory": []
-              }
-            }
-          ]
-        }
-      ],
+      "requestId": "exa-req-case21",
+      "results": [],
       "searchType": "neural",
       "costDollars": { "total": 0.005 }
     },
@@ -198,270 +272,109 @@
     "apollo_bulk_enrich_response": {
       "matches": [
         {
-          "id": "apollo-case01",
-          "linkedin_url": "https://www.linkedin.com/in/case01-github",
-          "github_url": "https://github.com/case01-user-github",
-          "name": "Apollo_case01",
-          "first_name": "Case01",
-          "last_name": "User",
-          "title": "Apollo_case01_后端工程师",
+          "id": "apollo-case21-xie-01",
+          "linkedin_url": "https://www.linkedin.com/in/rr-case21-xie-one1",
+          "github_url": null,
+          "name": "Apollo_case21_谢一",
+          "first_name": "Apollo_case21",
+          "last_name": "谢",
+          "title": "Apollo_case21_资深产品经理",
           "email": null,
           "email_status": null,
-          "phone_number": null,
-          "phone_numbers": [],
-          "city": "Apollo_case01_深圳",
-          "state": "Apollo_case01_广东",
-          "country": "Apollo_case01_中国",
-          "organization_name": "Apollo_case01_公司",
-          "organization_id": null,
-          "organization": null,
-          "photo_url": null,
+          "phone_number": "+8613900000021",
+          "phone_numbers": [
+            {
+              "sanitized_number": "+8613900000021",
+              "raw_number": "139-0000-0021"
+            }
+          ],
+          "city": "Apollo_case21_北京",
+          "state": "Apollo_case21_北京市",
+          "country": "Apollo_case21_中国",
+          "organization_name": "Apollo_case21_字节跳动",
+          "organization_id": "org_apollo_case21_bd",
+          "organization": {
+            "id": "org_apollo_case21_bd",
+            "name": "Apollo_case21_字节跳动",
+            "website_url": "https://bytedance.com",
+            "primary_domain": "bytedance.com",
+            "industry": "Apollo_case21_互联网",
+            "estimated_num_employees": 150000,
+            "founded_year": 2012
+          },
+          "photo_url": "https://media.licdn.com/dms/image/apollo_case21_xie/profile.jpg",
           "twitter_url": null,
           "facebook_url": null,
-          "employment_history": [],
-          "education_history": [],
           "revealed_for_current_team": false,
           "has_email": false,
           "has_direct_phone": false,
-          "seniority": null
-        }
-      ],
-      "credits_consumed": 0
-    },
-    "pdl_search_response": {
-      "status": 200,
-      "total": 0,
-      "credits_used": 0,
-      "data": []
-    },
-    "pdl_enrich_response": {
-      "status": 404,
-      "likelihood": 0,
-      "error": { "type": "not_found", "message": "pdl_case01: no matching record" }
-    },
-    "rocketreach_search_response": {
-      "profiles": []
-    },
-    "rocketreach_lookup_response": {
-      "id": 0,
-      "status": "complete",
-      "emails": [],
-      "phones": [],
-      "recommended_email": null
-    },
-    "github_user_response": {
-      "login": "case01-user-github",
-      "id": 10000001,
-      "avatar_url": "https://avatars.githubusercontent.com/u/10000001?v=4",
-      "html_url": "https://github.com/case01-user-github",
-      "name": "GitHub_case01",
-      "company": "GitHub_case01_@公司",
-      "blog": "https://case01.dev",
-      "location": "GitHub_case01_Shenzhen",
-      "email": "github_case01@github.example",
-      "hireable": true,
-      "bio": "Case01 · GitHub priority=0 命中邮箱",
-      "twitter_username": null,
-      "public_repos": 15,
-      "public_gists": 2,
-      "followers": 92,
-      "following": 45,
-      "created_at": "2019-06-10T03:00:00Z",
-      "updated_at": "2026-04-15T12:00:00Z"
-    },
-    "github_repos_response": []
-  },
-
-  "case02_Apollo命中邮箱": {
-    "exa_response": {
-      "requestId": "exa-req-case02",
-      "results": [
-        {
-          "id": "exa-case02",
-          "url": "https://www.linkedin.com/in/case02-apollo",
-          "title": "Case02_Apollo命中 - LinkedIn",
-          "publishedDate": "2024-11-10",
-          "author": null,
-          "score": 0.9,
-          "text": "Case02_Apollo命中\n后端工程师（Apollo priority=1 命中邮箱）",
-          "summary": "Case02 · GitHub 无公开邮箱，由 Apollo priority=1 命中",
-          "entities": [
+          "seniority": "senior",
+          "employment_history": [
             {
-              "type": "person",
-              "properties": {
-                "name": "Case02_Apollo命中",
-                "location": "Case02_上海",
-                "workHistory": [
-                  {
-                    "title": null,
-                    "company": { "name": "Case02_公司" },
-                    "startDate": null,
-                    "endDate": null,
-                    "isCurrent": true
-                  }
-                ],
-                "educationHistory": []
-              }
+              "_id": "emp_case21_001",
+              "id": "emp_case21_001",
+              "current": true,
+              "organization_id": "org_apollo_case21_bd",
+              "organization_name": "Apollo_case21_字节跳动",
+              "title": "Apollo_case21_资深产品经理",
+              "start_date": "2023-01-01",
+              "end_date": null,
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            },
+            {
+              "_id": "emp_case21_002",
+              "id": "emp_case21_002",
+              "current": false,
+              "organization_id": "org_apollo_case21_ks",
+              "organization_name": "Apollo_case21_快手",
+              "title": "Apollo_case21_产品经理",
+              "start_date": "2020-05-01",
+              "end_date": "2022-12-31",
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            },
+            {
+              "_id": "emp_case21_003",
+              "id": "emp_case21_003",
+              "current": false,
+              "organization_id": "org_apollo_case21_pdd",
+              "organization_name": "Apollo_case21_拼多多",
+              "title": "Apollo_case21_产品经理实习生",
+              "start_date": "2019-07-01",
+              "end_date": "2020-04-30",
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            }
+          ],
+          "education_history": [
+            {
+              "_id": "edu_case21_001",
+              "id": "edu_case21_001",
+              "degree": "Apollo_case21_学士",
+              "major": "Apollo_case21_信息管理",
+              "school_name": "Apollo_case21_复旦大学",
+              "start_date": "2016-09-01",
+              "end_date": "2020-06-30",
+              "grade_level": "undergraduate"
+            },
+            {
+              "_id": "edu_case21_002",
+              "id": "edu_case21_002",
+              "degree": null,
+              "major": null,
+              "school_name": "Apollo_case21_上海中学",
+              "start_date": "2013-09-01",
+              "end_date": "2016-06-30",
+              "grade_level": "high_school"
             }
           ]
-        }
-      ],
-      "searchType": "neural",
-      "costDollars": { "total": 0.005 }
-    },
-    "apollo_people_search_response": {
-      "breadcrumbs": [],
-      "people": [],
-      "pagination": { "page": 1, "per_page": 10, "total_entries": 0, "total_pages": 0 }
-    },
-    "apollo_bulk_enrich_response": {
-      "matches": [
-        {
-          "id": "apollo-case02",
-          "linkedin_url": "https://www.linkedin.com/in/case02-apollo",
-          "github_url": "https://github.com/case02-user-apollo",
-          "name": "Apollo_case02",
-          "first_name": "Case02",
-          "last_name": "User",
-          "title": "Apollo_case02_后端工程师",
-          "email": "apollo_case02@apollo.example",
-          "email_status": "verified",
-          "phone_number": null,
-          "phone_numbers": [],
-          "city": "Apollo_case02_上海",
-          "state": "Apollo_case02_上海",
-          "country": "Apollo_case02_中国",
-          "organization_name": "Apollo_case02_公司",
-          "organization_id": null,
-          "organization": null,
-          "photo_url": null,
-          "twitter_url": null,
-          "facebook_url": null,
-          "employment_history": [],
-          "education_history": [],
-          "revealed_for_current_team": true,
-          "has_email": true,
-          "has_direct_phone": false,
-          "seniority": null
-        }
-      ],
-      "credits_consumed": 1
-    },
-    "pdl_search_response": {
-      "status": 200,
-      "total": 0,
-      "credits_used": 0,
-      "data": []
-    },
-    "pdl_enrich_response": {
-      "status": 404,
-      "likelihood": 0,
-      "error": { "type": "not_found", "message": "pdl_case02: no matching record" }
-    },
-    "rocketreach_search_response": {
-      "profiles": []
-    },
-    "rocketreach_lookup_response": {
-      "id": 0,
-      "status": "complete",
-      "emails": [],
-      "phones": [],
-      "recommended_email": null
-    },
-    "github_user_response": {
-      "login": "case02-user-apollo",
-      "id": 10000002,
-      "avatar_url": null,
-      "html_url": "https://github.com/case02-user-apollo",
-      "name": "GitHub_case02",
-      "company": null,
-      "blog": null,
-      "location": "GitHub_case02_Shanghai",
-      "email": null,
-      "hireable": false,
-      "bio": "Case02 · GitHub 无公开邮箱，由 Apollo 兜底",
-      "twitter_username": null,
-      "public_repos": 3,
-      "public_gists": 0,
-      "followers": 5,
-      "following": 10,
-      "created_at": "2020-02-01T00:00:00Z",
-      "updated_at": "2026-01-01T00:00:00Z"
-    },
-    "github_repos_response": []
-  },
-
-  "case03_PDL命中邮箱": {
-    "exa_response": {
-      "requestId": "exa-req-case03",
-      "results": [
-        {
-          "id": "exa-case03",
-          "url": "https://www.linkedin.com/in/case03-pdl",
-          "title": "Case03_PDL命中 - LinkedIn",
-          "publishedDate": "2024-11-10",
-          "author": null,
-          "score": 0.88,
-          "text": "Case03_PDL命中\n后端工程师（PDL priority=1.5 命中邮箱）",
-          "summary": "Case03 · GitHub + Apollo 均无邮箱，由 PDL priority=1.5 命中",
-          "entities": [
-            {
-              "type": "person",
-              "properties": {
-                "name": "Case03_PDL命中",
-                "location": "Case03_北京",
-                "workHistory": [
-                  {
-                    "title": null,
-                    "company": { "name": "Case03_公司" },
-                    "startDate": null,
-                    "endDate": null,
-                    "isCurrent": true
-                  }
-                ],
-                "educationHistory": []
-              }
-            }
-          ]
-        }
-      ],
-      "searchType": "neural",
-      "costDollars": { "total": 0.005 }
-    },
-    "apollo_people_search_response": {
-      "breadcrumbs": [],
-      "people": [],
-      "pagination": { "page": 1, "per_page": 10, "total_entries": 0, "total_pages": 0 }
-    },
-    "apollo_bulk_enrich_response": {
-      "matches": [
-        {
-          "id": "apollo-case03",
-          "linkedin_url": "https://www.linkedin.com/in/case03-pdl",
-          "github_url": "https://github.com/case03-user-pdl",
-          "name": "Apollo_case03",
-          "first_name": "Case03",
-          "last_name": "User",
-          "title": "Apollo_case03_后端工程师",
-          "email": null,
-          "email_status": null,
-          "phone_number": null,
-          "phone_numbers": [],
-          "city": "Apollo_case03_北京",
-          "state": "Apollo_case03_北京",
-          "country": "Apollo_case03_中国",
-          "organization_name": "Apollo_case03_公司",
-          "organization_id": null,
-          "organization": null,
-          "photo_url": null,
-          "twitter_url": null,
-          "facebook_url": null,
-          "employment_history": [],
-          "education_history": [],
-          "revealed_for_current_team": false,
-          "has_email": false,
-          "has_direct_phone": false,
-          "seniority": null
         }
       ],
       "credits_consumed": 0
@@ -476,14 +389,219 @@
       "status": 200,
       "likelihood": 10,
       "data": {
-        "id": "pdl-case03",
+        "id": "pdl-case21-xie-01",
+        "full_name": "pdl_case21 xie one",
+        "first_name": "pdl_case21",
+        "last_name": "xie_one",
+        "linkedin_url": "https://www.linkedin.com/in/rr-case21-xie-one1",
+        "linkedin_username": "rr-case21-xie-one",
+        "linkedin_id": "pdl_case21_xie",
+        "twitter_url": null,
+        "twitter_username": null,
+        "github_url": "github.com/pdl-case21-xie",
+        "github_username": "pdl-case21-xie",
+        "facebook_url": null,
+        "work_email": "pdl_case21_xie@bytedance.com",
+        "personal_emails": ["pdl_case21_xie.dev@gmail.com"],
+        "recommended_personal_email": "pdl_case21_xie.dev@gmail.com",
+        "mobile_phone": "+8613900000121",
+        "industry": "pdl_case21_internet",
+        "job_title": "pdl_case21 senior product manager",
+        "job_title_role": "product",
+        "job_title_sub_role": "senior",
+        "job_title_levels": ["senior", "individual contributor"],
+        "job_company_name": "pdl_case21 bytedance",
+        "job_company_website": "bytedance.com",
+        "job_company_size": "10001+",
+        "job_company_founded": 2012,
+        "job_company_industry": "pdl_case21_internet",
+        "job_company_linkedin_url": "linkedin.com/company/bytedance",
+        "job_start_date": "2023-01-01",
+        "location_locality": "pdl_case21 beijing",
+        "location_region": "pdl_case21 beijing",
+        "location_country": "china",
+        "location_continent": "asia",
+        "summary": "pdl_case21 PDL 是唯一 enrich 命中源，带邮箱+手机+履历",
+        "phone_numbers": ["+8613900000121"],
+        "phones": [
+          {
+            "number": "+8613900000121",
+            "first_seen": "2023-01-01",
+            "last_seen": "2026-04-15",
+            "num_sources": 3
+          }
+        ],
         "emails": [
-          { "address": "pdl_case03@pdl.example", "type": "professional" }
-        ]
+          {
+            "address": "pdl_case21_xie@bytedance.com",
+            "type": "current_professional",
+            "first_seen": "2023-01-01T00:00:00",
+            "last_seen": "2026-04-15T10:00:00",
+            "num_sources": 7,
+            "sha_256_hash": "case21aaa567890abcdef1234567890abcdef1234567890abcdef1234567890",
+            "md5_hash": "case21_md5_aaaabcdef0123456789"
+          },
+          {
+            "address": "pdl_case21_xie.dev@gmail.com",
+            "type": "personal",
+            "first_seen": "2018-09-01T00:00:00",
+            "last_seen": "2026-04-10T16:00:00",
+            "num_sources": 4,
+            "sha_256_hash": "case21bbb567890abcdef1234567890abcdef1234567890abcdef1234567890",
+            "md5_hash": "case21_md5_bbbbcdef0123456789"
+          }
+        ],
+        "skills": [
+          "pdl_case21_product_strategy",
+          "pdl_case21_user_research",
+          "pdl_case21_sql"
+        ],
+        "interests": ["pdl_case21_growth", "pdl_case21_短视频"],
+        "location_names": ["beijing, china"],
+        "regions": ["beijing"],
+        "countries": ["china"],
+        "street_addresses": [],
+        "experience": [
+          {
+            "is_primary": true,
+            "start_date": "2023-01",
+            "end_date": null,
+            "company": {
+              "name": "pdl_case21 bytedance",
+              "website": "bytedance.com"
+            },
+            "title": {
+              "name": "pdl_case21 senior product manager"
+            },
+            "location_names": ["beijing, china"],
+            "summary": "pdl_case21 抖音直播 PM"
+          },
+          {
+            "is_primary": false,
+            "start_date": "2020-05",
+            "end_date": "2022-12",
+            "company": {
+              "name": "pdl_case21 kuaishou",
+              "website": "kuaishou.com"
+            },
+            "title": {
+              "name": "pdl_case21 product manager"
+            },
+            "location_names": ["beijing, china"],
+            "summary": "pdl_case21 电商产品"
+          }
+        ],
+        "education": [
+          {
+            "school": {
+              "name": "pdl_case21 fudan university",
+              "type": "university"
+            },
+            "degrees": ["pdl_case21 bachelor of management"],
+            "majors": ["pdl_case21 information management"],
+            "start_date": "2016-09",
+            "end_date": "2020-06"
+          }
+        ],
+        "profiles": [
+          {
+            "network": "linkedin",
+            "id": "pdl_case21_xie",
+            "url": "linkedin.com/in/rr-case21-xie-one",
+            "username": "rr-case21-xie-one",
+            "num_sources": 7,
+            "first_seen": "2023-01-01",
+            "last_seen": "2026-04-15"
+          },
+          {
+            "network": "github",
+            "id": "pdl_case21_gh",
+            "url": "github.com/pdl-case21-xie",
+            "username": "pdl-case21-xie",
+            "num_sources": 3,
+            "first_seen": "2018-10-10",
+            "last_seen": "2026-04-01"
+          }
+        ],
+        "job_history": [
+          {
+            "company_id": "bytedance",
+            "company_name": "pdl_case21 bytedance",
+            "title": "pdl_case21 senior product manager",
+            "first_seen": "2023-01-01",
+            "last_seen": "2026-04-15",
+            "num_sources": 7
+          },
+          {
+            "company_id": "kuaishou",
+            "company_name": "pdl_case21 kuaishou",
+            "title": "pdl_case21 product manager",
+            "first_seen": "2020-05-01",
+            "last_seen": "2022-12-31",
+            "num_sources": 3
+          }
+        ],
+        "languages": [
+          {
+            "name": "pdl_case21 mandarin",
+            "proficiency": 5
+          },
+          {
+            "name": "pdl_case21 english",
+            "proficiency": 4
+          }
+        ],
+        "num_sources": 10,
+        "num_records": 2,
+        "dataset_version": "v30.0"
       }
     },
     "rocketreach_search_response": {
-      "profiles": []
+      "profiles": [
+        {
+          "id": 21000001,
+          "status": "complete",
+          "name": "RR_case21_Xie One",
+          "profile_pic": "https://media.licdn.com/dms/image/rr_case21_xie/profile.jpg",
+          "links": {
+            "linkedin": "linkedin.com/in/rr-case21-xie-one"
+          },
+          "linkedin_url": "https://www.linkedin.com/in/rr-case21-xie-one1",
+          "connections": 320,
+          "location": "RR_case21_Beijing, China",
+          "city": "RR_case21_Beijing",
+          "region": "RR_case21_Beijing",
+          "country": "RR_case21_China",
+          "country_code": "CN",
+          "current_title": "RR_case21_Senior Product Manager",
+          "current_employer": "RR_case21_ByteDance",
+          "current_employer_domain": "bytedance.com",
+          "current_employer_website": "https://bytedance.com",
+          "teaser": {
+            "emails": ["x***@bytedance.com"],
+            "phones": [
+              {
+                "number": "***-***-0021",
+                "is_premium": false
+              }
+            ],
+            "office_phones": [],
+            "preview": ["x***@bytedance.com"],
+            "is_premium_phone_available": false,
+            "personal_emails": [],
+            "professional_emails": ["x***@bytedance.com"]
+          },
+          "birth_year": 1998,
+          "current_employer_id": 3210001,
+          "current_employer_linkedin_url": "linkedin.com/company/bytedance",
+          "region_latitude": 39.9042,
+          "region_longitude": 116.4074,
+          "suppressed": null,
+          "skills": ["RR_case21_product_strategy", "RR_case21_user_research"],
+          "npi_data": null,
+          "update_time": "2026-04-20T10:00:00Z"
+        }
+      ]
     },
     "rocketreach_lookup_response": {
       "id": 0,
@@ -493,95 +611,489 @@
       "recommended_email": null
     },
     "github_user_response": {
-      "login": "case03-user-pdl",
-      "id": 10000003,
+      "login": "github-case21-placeholder",
+      "id": 21000001,
       "avatar_url": null,
-      "html_url": "https://github.com/case03-user-pdl",
-      "name": "GitHub_case03",
+      "html_url": "https://github.com/github-case21-placeholder",
+      "name": "GitHub_case21_占位",
       "company": null,
       "blog": null,
       "location": "GitHub_case03_Beijing",
       "email": null,
-      "hireable": false,
-      "bio": "Case03 · GitHub + Apollo 均无邮箱，由 PDL 兜底",
+      "bio": "GitHub_case21 占位 · 主信息由 Apollo enrich 提供",
       "twitter_username": null,
-      "public_repos": 1,
+      "public_repos": 0,
       "public_gists": 0,
-      "followers": 2,
-      "following": 3,
-      "created_at": "2021-03-01T00:00:00Z",
-      "updated_at": "2026-01-01T00:00:00Z"
+      "followers": 0,
+      "following": 0,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
     },
     "github_repos_response": []
   },
-
-  "case04_RocketReach命中邮箱": {
+  "case22_仅Apollo搜索_RocketReachLookup补全邮箱及其他信息": {
     "exa_response": {
-      "requestId": "exa-req-case04",
+      "requestId": "exa-req-case22",
+      "results": [],
+      "searchType": "neural",
+      "costDollars": {
+        "total": 0
+      }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [
+        {
+          "id": "apollo-case22-cao-07",
+          "first_name": "Apollo_case22",
+          "last_name": "曹",
+          "name": "Apollo_case22_曹七",
+          "email": null,
+          "email_status": "unavailable",
+          "phone_number": null,
+          "linkedin_url": "https://www.linkedin.com/in/cao-qi-case22-ms-analyst12",
+          "title": "Apollo_case22_高级数据分析师",
+          "headline": "Apollo_case22 Apollo 独家召回 · 仅基础字段，邮箱需下游 enrich",
+          "photo_url": "https://media.licdn.com/dms/image/apollo_case22_cao/profile.jpg",
+          "organization_id": "org_apollo_case22_ms",
+          "organization_name": "Apollo_case22_摩根士丹利",
+          "state": "Apollo_case22_上海市",
+          "city": "Apollo_case22_上海",
+          "country": "Apollo_case22_中国",
+          "seniority": "senior",
+          "departments": ["finance"],
+          "subdepartments": ["data_analytics"],
+          "functions": ["finance"],
+          "is_likely_to_engage": true,
+          "has_email": false,
+          "has_direct_phone": false,
+          "employment_history": [
+            {
+              "_id": "emp_case22_001",
+              "id": "emp_case22_001",
+              "current": true,
+              "organization_id": "org_apollo_case22_ms",
+              "organization_name": "Apollo_case22_摩根士丹利",
+              "title": "Apollo_case22_高级数据分析师",
+              "start_date": "2021-06-01",
+              "end_date": null,
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            },
+            {
+              "_id": "emp_case22_002",
+              "id": "emp_case22_002",
+              "current": false,
+              "organization_id": null,
+              "organization_name": "Apollo_case22_中金公司",
+              "title": "Apollo_case22_数据分析师",
+              "start_date": "2018-07-01",
+              "end_date": "2021-05-31",
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            }
+          ]
+        }
+      ],
+      "pagination": {
+        "page": 1,
+        "per_page": 10,
+        "total_entries": 1,
+        "total_pages": 1
+      }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "apollo-case22-cao-07",
+          "linkedin_url": "https://www.linkedin.com/in/cao-qi-case22-ms-analyst12",
+          "github_url": null,
+          "name": "Apollo_case22_曹七",
+          "first_name": "Apollo_case22",
+          "last_name": "曹",
+          "title": "Apollo_case22_高级数据分析师",
+          "email": null,
+          "email_status": null,
+          "phone_number": null,
+          "phone_numbers": [],
+          "city": "Apollo_case22_上海",
+          "state": "Apollo_case22_上海市",
+          "country": "Apollo_case22_中国",
+          "organization_name": "Apollo_case22_摩根士丹利",
+          "organization_id": "org_apollo_case22_ms",
+          "organization": {
+            "id": "org_apollo_case22_ms",
+            "name": "Apollo_case22_摩根士丹利",
+            "website_url": "https://morganstanley.com",
+            "primary_domain": "morganstanley.com",
+            "industry": "Apollo_case22_金融服务",
+            "estimated_num_employees": 75000,
+            "founded_year": 1935
+          },
+          "photo_url": "https://media.licdn.com/dms/image/apollo_case22_cao/profile.jpg",
+          "twitter_url": null,
+          "facebook_url": null,
+          "revealed_for_current_team": false,
+          "has_email": false,
+          "has_direct_phone": false,
+          "seniority": "senior",
+          "employment_history": [
+            {
+              "_id": "emp_case22_001",
+              "id": "emp_case22_001",
+              "current": true,
+              "organization_id": "org_apollo_case22_ms",
+              "organization_name": "Apollo_case22_摩根士丹利",
+              "title": "Apollo_case22_高级数据分析师",
+              "start_date": "2022-06-01",
+              "end_date": null,
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            },
+            {
+              "_id": "emp_case22_002",
+              "id": "emp_case22_002",
+              "current": false,
+              "organization_id": "org_apollo_case22_gs",
+              "organization_name": "Apollo_case22_高盛",
+              "title": "Apollo_case22_数据分析师",
+              "start_date": "2019-08-01",
+              "end_date": "2022-05-31",
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            },
+            {
+              "_id": "emp_case22_003",
+              "id": "emp_case22_003",
+              "current": false,
+              "organization_id": "org_apollo_case22_pwc",
+              "organization_name": "Apollo_case22_普华永道",
+              "title": "Apollo_case22_初级分析师",
+              "start_date": "2017-07-01",
+              "end_date": "2019-07-31",
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            }
+          ],
+          "education_history": [
+            {
+              "_id": "edu_case22_001",
+              "id": "edu_case22_001",
+              "degree": "Apollo_case22_硕士",
+              "major": "Apollo_case22_金融学",
+              "school_name": "Apollo_case22_伦敦政治经济学院",
+              "start_date": "2016-09-01",
+              "end_date": "2017-06-30",
+              "grade_level": "graduate"
+            },
+            {
+              "_id": "edu_case22_002",
+              "id": "edu_case22_002",
+              "degree": "Apollo_case22_学士",
+              "major": "Apollo_case22_经济学",
+              "school_name": "Apollo_case22_复旦大学",
+              "start_date": "2012-09-01",
+              "end_date": "2016-06-30",
+              "grade_level": "undergraduate"
+            }
+          ]
+        }
+      ],
+      "credits_consumed": 1
+    },
+    "pdl_search_response": {
+      "status": 200,
+      "total": 0,
+      "credits_used": 0,
+      "data": []
+    },
+    "pdl_enrich_response": {
+      "status": 404,
+      "likelihood": 0,
+      "error": {
+        "type": "not_found",
+        "message": "pdl_case22: no matching record"
+      }
+    },
+    "rocketreach_search_response": {
+      "profiles": []
+    },
+    "rocketreach_lookup_response": {
+      "profile_list": null,
+      "id": 22000001,
+      "status": "complete",
+      "name": "RR_case22_Cao Seven",
+      "profile_pic": "https://media.licdn.com/dms/image/rr_case22_cao/profile.jpg",
+      "linkedin_url": "https://www.linkedin.com/in/cao-qi-case22-ms-analyst12",
+      "linkedin_url_active": true,
+      "connections": 680,
+      "links": {
+        "linkedin": "linkedin.com/in/cao-qi-case22-ms-analyst"
+      },
+      "location": "RR_case22_Shanghai, China",
+      "current_title": "RR_case22_Senior Data Analyst",
+      "current_employer": "RR_case22_Morgan Stanley",
+      "current_employer_id": 1045,
+      "current_employer_domain": "morganstanley.com",
+      "current_employer_website": "https://www.morganstanley.com",
+      "current_employer_linkedin_url": "linkedin.com/company/morgan-stanley",
+      "current_employer_industry": "RR_case22_Financial Services",
+      "job_history": [
+        {
+          "start_date": "2022-06",
+          "end_date": "Present",
+          "company": "RR_case22_Morgan Stanley",
+          "company_name": "RR_case22_Morgan Stanley",
+          "company_id": 1045,
+          "company_linkedin_url": "linkedin.com/company/morgan-stanley",
+          "company_city": "Shanghai",
+          "company_region": "Shanghai",
+          "company_country_code": "CN",
+          "department": "RR_case22_Finance",
+          "title": "RR_case22_Senior Data Analyst",
+          "highest_level": "senior",
+          "description": "RR_case22 负责全球市场数据分析平台",
+          "last_updated": "2026-04-18T10:00:00Z",
+          "sub_department": "RR_case22_Global Markets",
+          "is_current": true
+        },
+        {
+          "start_date": "2019-08",
+          "end_date": "2022-05",
+          "company": "RR_case22_Goldman Sachs",
+          "company_name": "RR_case22_Goldman Sachs",
+          "company_id": 1072,
+          "company_linkedin_url": "linkedin.com/company/goldman-sachs",
+          "company_city": "Hong Kong",
+          "company_region": "Hong Kong",
+          "company_country_code": "HK",
+          "department": "RR_case22_Finance",
+          "title": "RR_case22_Data Analyst",
+          "highest_level": "mid",
+          "description": "RR_case22 量化风险模型开发",
+          "last_updated": "2022-05-31T00:00:00Z",
+          "sub_department": "RR_case22_Risk",
+          "is_current": false
+        },
+        {
+          "start_date": "2017-07",
+          "end_date": "2019-07",
+          "company": "RR_case22_PwC",
+          "company_name": "RR_case22_PwC",
+          "company_id": 1812,
+          "company_linkedin_url": "linkedin.com/company/pwc",
+          "company_city": "Shanghai",
+          "company_region": "Shanghai",
+          "company_country_code": "CN",
+          "department": "RR_case22_Consulting",
+          "title": "RR_case22_Junior Analyst",
+          "highest_level": "entry",
+          "description": "RR_case22 审计数据分析",
+          "last_updated": "2019-07-31T00:00:00Z",
+          "sub_department": "RR_case22_Audit",
+          "is_current": false
+        }
+      ],
+      "education": [
+        {
+          "major": "RR_case22_Finance",
+          "school": "RR_case22_London School of Economics",
+          "degree": "RR_case22_Master of Science",
+          "start": "2016-09-01",
+          "end": "2017-06-30"
+        },
+        {
+          "major": "RR_case22_Economics",
+          "school": "RR_case22_Fudan University",
+          "degree": "RR_case22_Bachelor of Economics",
+          "start": "2012-09-01",
+          "end": "2016-06-30"
+        }
+      ],
+      "skills": [
+        "RR_case22_SQL",
+        "RR_case22_Python",
+        "RR_case22_Tableau",
+        "RR_case22_Financial Modeling",
+        "RR_case22_Risk Analytics"
+      ],
+      "birth_year": 1994,
+      "region_latitude": 31.2304,
+      "region_longitude": 121.4737,
+      "city": "RR_case22_Shanghai",
+      "region": "RR_case22_Shanghai",
+      "country": "RR_case22_China",
+      "country_code": "CN",
+      "npi_data": null,
+      "tags": "RR_case22_finance,RR_case22_analytics",
+      "return_cached_emails": false,
+      "recommended_email": "rr_case22_cao@morganstanley.com",
+      "recommended_personal_email": "rr_case22_cao.personal@gmail.com",
+      "recommended_professional_email": "rr_case22_cao@morganstanley.com",
+      "current_work_email": "rr_case22_cao@morganstanley.com",
+      "current_personal_email": "rr_case22_cao.personal@gmail.com",
+      "emails": [
+        {
+          "email": "rr_case22_cao@morganstanley.com",
+          "smtp_valid": "valid",
+          "type": "professional",
+          "last_validation_check": "04/18/2026 10:00:00",
+          "grade": "A"
+        },
+        {
+          "email": "rr_case22_cao.personal@gmail.com",
+          "smtp_valid": "valid",
+          "type": "personal",
+          "last_validation_check": "04/12/2026 15:22:00",
+          "grade": "A-"
+        }
+      ],
+      "phones": [
+        {
+          "number": "+8613900000022",
+          "type": "mobile",
+          "validity": "valid",
+          "recommended": true,
+          "premium": false,
+          "last_checked": "2026-04-18T10:00:00.000Z"
+        }
+      ]
+    },
+    "github_user_response": {
+      "login": "github-case22-placeholder",
+      "id": 22000001,
+      "avatar_url": null,
+      "html_url": "https://github.com/github-case22-placeholder",
+      "name": "GitHub_case22_占位",
+      "company": null,
+      "blog": null,
+      "location": null,
+      "email": null,
+      "bio": "GitHub_case22 占位 · 主信息与联系方式由 RocketReach lookup 提供",
+      "twitter_username": null,
+      "public_repos": 0,
+      "public_gists": 0,
+      "followers": 0,
+      "following": 0,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    },
+    "github_repos_response": []
+  },
+  "case23_仅Exa搜索_Apollo补全工作与教育_RocketReach补邮箱": {
+    "exa_response": {
+      "requestId": "exa-req-case23",
+      "resolvedSearchType": "neural",
       "results": [
         {
-          "id": "exa-case04",
-          "url": "https://www.linkedin.com/in/case04-rocketreach",
-          "title": "Case04_RocketReach命中 - LinkedIn",
-          "publishedDate": "2024-11-10",
+          "id": "exa-case23",
+          "url": "https://www.linkedin.com/in/case23-exa-rr",
+          "title": "Exa_case23 林小夏 - 后端工程师 - LinkedIn",
+          "publishedDate": "2026-03-15",
           "author": null,
-          "score": 0.86,
-          "text": "Case04_RocketReach命中\n后端工程师（RocketReach priority=2 命中邮箱）",
-          "summary": "Case04 · GitHub + Apollo + PDL 均无邮箱，由 RocketReach priority=2 兜底",
+          "score": 0.88,
+          "text": "Exa_case23 林小夏 · 后端工程师 · 意图: Exa L1 主源 + Apollo 仅补工作教育 + RocketReach L3 命中邮箱",
+          "summary": "Exa 命中,Apollo L2 补 employment/education,RocketReach priority=2 命中邮箱",
           "entities": [
             {
               "type": "person",
               "properties": {
-                "name": "Case04_RocketReach命中",
-                "location": "Case04_广州",
-                "workHistory": [
-                  {
-                    "title": null,
-                    "company": { "name": "Case04_公司" },
-                    "startDate": null,
-                    "endDate": null,
-                    "isCurrent": true
-                  }
-                ],
+                "name": "Exa_case23_林小夏",
+                "location": "Exa_case23_杭州",
+                "workHistory": [],
                 "educationHistory": []
               }
             }
           ]
         }
       ],
-      "searchType": "neural",
-      "costDollars": { "total": 0.005 }
+      "costDollars": { "total": 0.005, "search": { "neural": 0.005 } }
     },
     "apollo_people_search_response": {
       "breadcrumbs": [],
       "people": [],
-      "pagination": { "page": 1, "per_page": 10, "total_entries": 0, "total_pages": 0 }
+      "pagination": {
+        "page": 1,
+        "per_page": 10,
+        "total_entries": 0,
+        "total_pages": 0
+      }
     },
     "apollo_bulk_enrich_response": {
       "matches": [
         {
-          "id": "apollo-case04",
-          "linkedin_url": "https://www.linkedin.com/in/case04-rocketreach",
-          "github_url": "https://github.com/case04-user-rocketreach",
-          "name": "Apollo_case04",
-          "first_name": "Case04",
-          "last_name": "User",
-          "title": "Apollo_case04_后端工程师",
+          "id": "apollo-case23",
+          "linkedin_url": "https://www.linkedin.com/in/case23-exa-rr",
+          "github_url": null,
+          "name": "Apollo_case23_林小夏",
+          "first_name": "Xiaoxia",
+          "last_name": "Lin",
+          "title": null,
           "email": null,
           "email_status": null,
           "phone_number": null,
           "phone_numbers": [],
-          "city": "Apollo_case04_广州",
-          "state": "Apollo_case04_广东",
-          "country": "Apollo_case04_中国",
-          "organization_name": "Apollo_case04_公司",
+          "city": null,
+          "state": null,
+          "country": null,
+          "organization_name": null,
           "organization_id": null,
           "organization": null,
           "photo_url": null,
           "twitter_url": null,
           "facebook_url": null,
-          "employment_history": [],
-          "education_history": [],
+          "employment_history": [
+            {
+              "_id": "emp_case23_001",
+              "id": "emp_case23_001",
+              "current": true,
+              "organization_id": "org_apollo_case23_bytedance",
+              "organization_name": "Apollo_case23_字节跳动",
+              "title": "Apollo_case23_高级后端工程师",
+              "start_date": "2022-06-01",
+              "end_date": null,
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            },
+            {
+              "_id": "emp_case23_002",
+              "id": "emp_case23_002",
+              "current": false,
+              "organization_id": "org_apollo_case23_alibaba",
+              "organization_name": "Apollo_case23_阿里巴巴",
+              "title": "Apollo_case23_后端工程师",
+              "start_date": "2019-07-01",
+              "end_date": "2022-05-31",
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            }
+          ],
+          "education_history": [
+            {
+              "_id": "edu_case23_001",
+              "id": "edu_case23_001",
+              "degree": "Apollo_case23_硕士",
+              "major": "Apollo_case23_计算机科学",
+              "school_name": "Apollo_case23_浙江大学",
+              "start_date": "2017-09-01",
+              "end_date": "2019-06-30",
+              "grade_level": "graduate"
+            }
+          ],
           "revealed_for_current_team": false,
           "has_email": false,
           "has_direct_phone": false,
@@ -599,29 +1111,31 @@
     "pdl_enrich_response": {
       "status": 404,
       "likelihood": 0,
-      "error": { "type": "not_found", "message": "pdl_case04: no matching record" }
+      "error": {
+        "type": "not_found",
+        "message": "pdl_case23: no matching record"
+      }
     },
-    "rocketreach_search_response": {
-      "profiles": []
-    },
+    "rocketreach_search_response": { "profiles": [] },
     "rocketreach_lookup_response": {
-      "id": 40000004,
+      "id": 23000001,
       "status": "complete",
-      "name": "RR_case04",
-      "linkedin_url": "https://www.linkedin.com/in/case04-rocketreach",
+      "name": "RR_case23_林小夏",
+      "linkedin_url": "https://www.linkedin.com/in/case23-exa-rr",
       "linkedin_url_active": true,
-      "current_title": "RR_case04_后端工程师",
-      "current_employer": "RR_case04_公司",
-      "city": "RR_case04_广州",
-      "region": "RR_case04_广东",
-      "country": "RR_case04_中国",
-      "country_code": "CN",
-      "recommended_email": "rr_case04@rocketreach.example",
-      "recommended_professional_email": "rr_case04@rocketreach.example",
-      "current_work_email": "rr_case04@rocketreach.example",
+      "current_title": null,
+      "current_employer": null,
+      "current_employer_domain": null,
+      "city": null,
+      "region": null,
+      "country": null,
+      "country_code": null,
+      "recommended_email": "rr_case23_lin@bytedance.com",
+      "recommended_professional_email": "rr_case23_lin@bytedance.com",
+      "current_work_email": "rr_case23_lin@bytedance.com",
       "emails": [
         {
-          "email": "rr_case04@rocketreach.example",
+          "email": "rr_case23_lin@bytedance.com",
           "smtp_valid": "valid",
           "type": "professional",
           "grade": "A",
@@ -632,17 +1146,195 @@
       "credits_used": 1
     },
     "github_user_response": {
-      "login": "case04-user-rocketreach",
-      "id": 10000004,
+      "login": "github-case23-placeholder",
+      "id": 23000002,
       "avatar_url": null,
-      "html_url": "https://github.com/case04-user-rocketreach",
-      "name": "GitHub_case04",
+      "html_url": "https://github.com/github-case23-placeholder",
+      "name": "GitHub_case23_占位",
       "company": null,
       "blog": null,
-      "location": "GitHub_case04_Guangzhou",
+      "location": null,
       "email": null,
-      "hireable": false,
-      "bio": "Case04 · GitHub + Apollo + PDL 均无邮箱，由 RocketReach 兜底",
+      "bio": "GitHub_case23 占位 · 邮箱由 RocketReach lookup 提供",
+      "twitter_username": null,
+      "public_repos": 0,
+      "public_gists": 0,
+      "followers": 0,
+      "following": 0,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    },
+    "github_repos_response": []
+  },
+  "case24_仅RocketReach搜索_Apollo补全工作与教育_RocketReach补邮箱": {
+    "exa_response": {
+      "requestId": "exa-req-case24",
+      "resolvedSearchType": "neural",
+      "results": [],
+      "costDollars": { "total": 0, "search": { "neural": 0 } }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [],
+      "pagination": {
+        "page": 1,
+        "per_page": 10,
+        "total_entries": 0,
+        "total_pages": 0
+      }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "apollo-case24",
+          "linkedin_url": "https://www.linkedin.com/in/case24-rr-rr",
+          "github_url": null,
+          "name": "Apollo_case24_苏漾",
+          "first_name": "Yang",
+          "last_name": "Su",
+          "title": null,
+          "email": null,
+          "email_status": null,
+          "phone_number": null,
+          "phone_numbers": [],
+          "city": null,
+          "state": null,
+          "country": null,
+          "organization_name": null,
+          "organization_id": null,
+          "organization": null,
+          "photo_url": null,
+          "twitter_url": null,
+          "facebook_url": null,
+          "employment_history": [
+            {
+              "_id": "emp_case24_001",
+              "id": "emp_case24_001",
+              "current": true,
+              "organization_id": "org_apollo_case24_tencent",
+              "organization_name": "Apollo_case24_腾讯",
+              "title": "Apollo_case24_前端工程师",
+              "start_date": "2021-03-01",
+              "end_date": null,
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            }
+          ],
+          "education_history": [
+            {
+              "_id": "edu_case24_001",
+              "id": "edu_case24_001",
+              "degree": "Apollo_case24_本科",
+              "major": "Apollo_case24_软件工程",
+              "school_name": "Apollo_case24_南京大学",
+              "start_date": "2017-09-01",
+              "end_date": "2021-06-30",
+              "grade_level": "undergraduate"
+            }
+          ],
+          "revealed_for_current_team": false,
+          "has_email": false,
+          "has_direct_phone": false,
+          "seniority": null
+        }
+      ],
+      "credits_consumed": 0
+    },
+    "pdl_search_response": {
+      "status": 200,
+      "total": 0,
+      "credits_used": 0,
+      "data": []
+    },
+    "pdl_enrich_response": {
+      "status": 404,
+      "likelihood": 0,
+      "error": {
+        "type": "not_found",
+        "message": "pdl_case24: no matching record"
+      }
+    },
+    "rocketreach_search_response": {
+      "profiles": [
+        {
+          "id": 24000001,
+          "status": "complete",
+          "name": "RR_case24_苏漾",
+          "profile_pic": "https://media.licdn.com/dms/image/rr_case24_su/profile.jpg",
+          "links": { "linkedin": "linkedin.com/in/case24-rr-rr" },
+          "linkedin_url": "https://www.linkedin.com/in/case24-rr-rr",
+          "connections": 280,
+          "location": "RR_case24_深圳, 中国",
+          "city": "RR_case24_深圳",
+          "region": "RR_case24_广东",
+          "country": "RR_case24_中国",
+          "country_code": "CN",
+          "current_title": "RR_case24_前端工程师",
+          "current_employer": "RR_case24_腾讯",
+          "current_employer_domain": "tencent.com",
+          "current_employer_website": "https://tencent.com",
+          "teaser": {
+            "emails": ["s***@tencent.com"],
+            "phones": [],
+            "office_phones": [],
+            "preview": ["s***@tencent.com"],
+            "is_premium_phone_available": false,
+            "personal_emails": [],
+            "professional_emails": ["s***@tencent.com"]
+          },
+          "birth_year": 1999,
+          "current_employer_id": 2400001,
+          "current_employer_linkedin_url": "linkedin.com/company/tencent",
+          "region_latitude": 22.5431,
+          "region_longitude": 114.0579,
+          "suppressed": null,
+          "skills": ["RR_case24_React", "RR_case24_TypeScript"],
+          "npi_data": null,
+          "update_time": "2026-04-20T10:00:00Z"
+        }
+      ]
+    },
+    "rocketreach_lookup_response": {
+      "id": 24000001,
+      "status": "complete",
+      "name": "RR_case24_苏漾",
+      "linkedin_url": "https://www.linkedin.com/in/case24-rr-rr",
+      "linkedin_url_active": true,
+      "current_title": "RR_case24_前端工程师",
+      "current_employer": "RR_case24_腾讯",
+      "current_employer_domain": "tencent.com",
+      "city": "RR_case24_深圳",
+      "region": "RR_case24_广东",
+      "country": "RR_case24_中国",
+      "country_code": "CN",
+      "recommended_email": "rr_case24_su@tencent.com",
+      "recommended_professional_email": "rr_case24_su@tencent.com",
+      "current_work_email": "rr_case24_su@tencent.com",
+      "emails": [
+        {
+          "email": "rr_case24_su@tencent.com",
+          "smtp_valid": "valid",
+          "type": "professional",
+          "grade": "A",
+          "last_validation_check": "04/18/2026 10:00:00"
+        }
+      ],
+      "phones": [],
+      "credits_used": 1
+    },
+    "github_user_response": {
+      "login": "github-case24-placeholder",
+      "id": 24000002,
+      "avatar_url": null,
+      "html_url": "https://github.com/github-case24-placeholder",
+      "name": "GitHub_case24_占位",
+      "company": null,
+      "blog": null,
+      "location": null,
+      "email": null,
+      "bio": "GitHub_case24 占位 · 邮箱由 RocketReach lookup 提供",
       "twitter_username": null,
       "public_repos": 0,
       "public_gists": 0,

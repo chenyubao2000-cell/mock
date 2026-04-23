@@ -27,7 +27,13 @@ function findCase(input: string): MockCase | null {
   if (!isNaN(num) && num >= 1 && num <= CASE_KEYS.length) {
     return (mockCases as Record<string, MockCase>)[CASE_KEYS[num - 1]];
   }
-  const key = CASE_KEYS.find((k) => k === input || k.startsWith(input));
+  // 1. 完整等值或 input 是 case key 的前缀
+  let key = CASE_KEYS.find((k) => k === input || k.startsWith(input));
+  // 2. input 中包含 caseXX 子串（处理 "case20 韩九" 这类带额外词的查询）
+  if (!key) {
+    const m = input.match(/\bcase\d+\b/i);
+    if (m) key = CASE_KEYS.find((k) => k.startsWith(m[0]));
+  }
   return key ? (mockCases as Record<string, MockCase>)[key] : null;
 }
 
@@ -157,7 +163,7 @@ function logReq(method: string, path: string, body: unknown) {
     JSON.stringify(body, null, 2)
       .split("\n")
       .map((l) => `│    ${l}`)
-      .join("\n")
+      .join("\n"),
   );
 }
 
@@ -167,7 +173,7 @@ function logRes(label: string, data: unknown) {
     JSON.stringify(data, null, 2)
       .split("\n")
       .map((l) => `│    ${l}`)
-      .join("\n")
+      .join("\n"),
   );
   console.log(`└${"─".repeat(60)}`);
 }
@@ -217,8 +223,10 @@ app.post("/admin/mock", async (c) => {
   if (body.exa !== undefined) store.exa = body.exa;
   if (body.apollo !== undefined) store.apollo = body.apollo;
   if (body.bulkEnrich !== undefined) store.bulkEnrich = body.bulkEnrich;
-  if (body.exaForceEmpty !== undefined) store.exaForceEmpty = body.exaForceEmpty;
-  if (body.apolloForceEmpty !== undefined) store.apolloForceEmpty = body.apolloForceEmpty;
+  if (body.exaForceEmpty !== undefined)
+    store.exaForceEmpty = body.exaForceEmpty;
+  if (body.apolloForceEmpty !== undefined)
+    store.apolloForceEmpty = body.apolloForceEmpty;
   if (body.apolloStatus !== undefined) store.apolloStatus = body.apolloStatus;
   if (body.bulkStatus !== undefined) store.bulkStatus = body.bulkStatus;
   if (body.pdlSearch !== undefined) store.pdlSearch = body.pdlSearch;
@@ -263,14 +271,22 @@ app.post("/admin/preset/:name", (c) => {
     return c.json({ error: "not found", available: CASE_KEYS }, 404);
   }
   if (preset.exa_response !== undefined) store.exa = preset.exa_response;
-  if (preset.apollo_people_search_response !== undefined) store.apollo = preset.apollo_people_search_response;
-  if (preset.apollo_bulk_enrich_response !== undefined) store.bulkEnrich = preset.apollo_bulk_enrich_response;
-  if (preset.pdl_search_response !== undefined) store.pdlSearch = preset.pdl_search_response;
-  if (preset.pdl_enrich_response !== undefined) store.pdlEnrich = preset.pdl_enrich_response;
-  if (preset.rocketreach_search_response !== undefined) store.rrSearch = preset.rocketreach_search_response;
-  if (preset.rocketreach_lookup_response !== undefined) store.rrLookup = preset.rocketreach_lookup_response;
-  if (preset.github_user_response !== undefined) store.githubUser = preset.github_user_response;
-  if (preset.github_repos_response !== undefined) store.githubRepos = preset.github_repos_response;
+  if (preset.apollo_people_search_response !== undefined)
+    store.apollo = preset.apollo_people_search_response;
+  if (preset.apollo_bulk_enrich_response !== undefined)
+    store.bulkEnrich = preset.apollo_bulk_enrich_response;
+  if (preset.pdl_search_response !== undefined)
+    store.pdlSearch = preset.pdl_search_response;
+  if (preset.pdl_enrich_response !== undefined)
+    store.pdlEnrich = preset.pdl_enrich_response;
+  if (preset.rocketreach_search_response !== undefined)
+    store.rrSearch = preset.rocketreach_search_response;
+  if (preset.rocketreach_lookup_response !== undefined)
+    store.rrLookup = preset.rocketreach_lookup_response;
+  if (preset.github_user_response !== undefined)
+    store.githubUser = preset.github_user_response;
+  if (preset.github_repos_response !== undefined)
+    store.githubRepos = preset.github_repos_response;
   store.exaForceEmpty = false;
   store.apolloForceEmpty = false;
   store.apolloStatus = preset.apollo_status ?? 200;
@@ -293,20 +309,27 @@ app.post("/search", async (c) => {
   if (firstToken) {
     const preset = findCase(firstToken);
     if (preset?.exa_response !== undefined) {
-      // Hydrate 整个 preset 到 store：Exa 是 pipeline 第一个被调用的 endpoint，
-      // 在这里灌好 store，后续 Apollo / PDL / RocketReach / GitHub 端点就从
-      // 同一个 case 的数据读，不用依赖 firstCase fallback
-      if (preset.apollo_people_search_response !== undefined) store.apollo = preset.apollo_people_search_response;
-      if (preset.apollo_bulk_enrich_response !== undefined) store.bulkEnrich = preset.apollo_bulk_enrich_response;
-      if (preset.pdl_search_response !== undefined) store.pdlSearch = preset.pdl_search_response;
-      if (preset.pdl_enrich_response !== undefined) store.pdlEnrich = preset.pdl_enrich_response;
-      if (preset.rocketreach_search_response !== undefined) store.rrSearch = preset.rocketreach_search_response;
-      if (preset.rocketreach_lookup_response !== undefined) store.rrLookup = preset.rocketreach_lookup_response;
-      if (preset.github_user_response !== undefined) store.githubUser = preset.github_user_response;
-      if (preset.github_repos_response !== undefined) store.githubRepos = preset.github_repos_response;
-      store.apolloStatus = preset.apollo_status ?? 200;
-      store.bulkStatus = preset.bulk_status ?? 200;
-      logRes(`preset "${firstToken}" (full hydrate)`, preset.exa_response);
+      // 预装下游 L1/L2/L3 响应：Exa 往往是第一个被调用的 L1 provider（不论最终命中与否），
+      // 在此统一把其他 L1（pdl_search / rr_search）+ L2/L3 enrich 数据全部预装，
+      // 后续任何 provider 调用都能命中本 case 数据。适用于 case20（Exa 主源）、
+      // case21（RocketReach 主源）、case18（PDL 主源）等所有流量经过 Exa 的场景。
+      if (preset.apollo_bulk_enrich_response !== undefined)
+        store.bulkEnrich = preset.apollo_bulk_enrich_response;
+      if (preset.apollo_people_search_response !== undefined)
+        store.apollo = preset.apollo_people_search_response;
+      if (preset.pdl_search_response !== undefined)
+        store.pdlSearch = preset.pdl_search_response;
+      if (preset.pdl_enrich_response !== undefined)
+        store.pdlEnrich = preset.pdl_enrich_response;
+      if (preset.rocketreach_search_response !== undefined)
+        store.rrSearch = preset.rocketreach_search_response;
+      if (preset.rocketreach_lookup_response !== undefined)
+        store.rrLookup = preset.rocketreach_lookup_response;
+      if (preset.github_user_response !== undefined)
+        store.githubUser = preset.github_user_response;
+      if (preset.github_repos_response !== undefined)
+        store.githubRepos = preset.github_repos_response;
+      logRes(`preset "${firstToken}"`, preset.exa_response);
       return c.json(preset.exa_response);
     }
   }
@@ -323,17 +346,41 @@ app.post("/search", async (c) => {
 
 app.post("/api/v1/mixed_people/api_search", async (c) => {
   const body = await c.req.json<{ q_keywords?: string }>().catch(() => ({}));
-  logReq("POST", "/api/v1/mixed_people/api_search (Apollo people search)", body);
+  logReq(
+    "POST",
+    "/api/v1/mixed_people/api_search (Apollo people search)",
+    body,
+  );
   const sentinel = body.q_keywords?.trim();
   if (sentinel) {
     const preset = findCase(sentinel);
     if (preset?.apollo_people_search_response !== undefined) {
-      // 同时预装 bulk_enrich，下一次 /people/bulk_match 就能返回对应数据
-      if (preset.apollo_bulk_enrich_response !== undefined) store.bulkEnrich = preset.apollo_bulk_enrich_response;
+      // 预装下游 L1/L2/L3 响应：Apollo 作为主源的 case（如 case22）流量不经过 Exa /search，
+      // 但后续 L2/L3 仍会调 bulk_match / rocketreach / pdl / github。统一把当前 preset 的
+      // 全部下游 mock 装进 store，保证后续任何 provider 调用都能命中本 case 的数据。
+      // 与 Exa /search handler 的预装逻辑对齐，避免"主源是 Apollo 时 rrLookup 未预装"之类的
+      // 隐蔽失败（case22 踩过）。
+      if (preset.apollo_bulk_enrich_response !== undefined)
+        store.bulkEnrich = preset.apollo_bulk_enrich_response;
+      if (preset.pdl_search_response !== undefined)
+        store.pdlSearch = preset.pdl_search_response;
+      if (preset.pdl_enrich_response !== undefined)
+        store.pdlEnrich = preset.pdl_enrich_response;
+      if (preset.rocketreach_search_response !== undefined)
+        store.rrSearch = preset.rocketreach_search_response;
+      if (preset.rocketreach_lookup_response !== undefined)
+        store.rrLookup = preset.rocketreach_lookup_response;
+      if (preset.github_user_response !== undefined)
+        store.githubUser = preset.github_user_response;
+      if (preset.github_repos_response !== undefined)
+        store.githubRepos = preset.github_repos_response;
       store.apolloStatus = preset.apollo_status ?? 200;
       store.bulkStatus = preset.bulk_status ?? 200;
       const status = preset.apollo_status ?? 200;
-      logRes(`preset "${sentinel}" [${status}]`, preset.apollo_people_search_response);
+      logRes(
+        `preset "${sentinel}" [${status}]`,
+        preset.apollo_people_search_response,
+      );
       return c.json(preset.apollo_people_search_response, status as any);
     }
   }
@@ -381,7 +428,10 @@ app.post("/person/enrich", async (c) => {
   logReq("POST", "/person/enrich (PDL enrich)", body);
   const resp = store.pdlEnrich ?? DEFAULT_PDL_ENRICH;
   const status = (resp as { status?: number }).status ?? 200;
-  logRes(store.pdlEnrich ? `custom mock [${status}]` : `default (404 not found)`, resp);
+  logRes(
+    store.pdlEnrich ? `custom mock [${status}]` : `default (404 not found)`,
+    resp,
+  );
   return c.json(resp);
 });
 
@@ -796,9 +846,13 @@ const PORT = parseInt(process.env.PORT ?? "3001", 10);
 console.log(`\n🟢 People Mock Server running at http://localhost:${PORT}`);
 console.log(`   UI:          http://localhost:${PORT}/`);
 console.log(`   Exa:         POST /search`);
-console.log(`   Apollo:      POST /api/v1/{mixed_people/api_search, people/bulk_match, mixed_companies/search}`);
+console.log(
+  `   Apollo:      POST /api/v1/{mixed_people/api_search, people/bulk_match, mixed_companies/search}`,
+);
 console.log(`   PDL:         POST /person/{search, enrich}`);
-console.log(`   RocketReach: POST /api/v2/person/search  |  GET /api/v2/person/lookup`);
+console.log(
+  `   RocketReach: POST /api/v2/person/search  |  GET /api/v2/person/lookup`,
+);
 console.log(`   GitHub:      GET /users/:login  |  GET /users/:login/repos\n`);
 
 export default {
