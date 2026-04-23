@@ -293,7 +293,20 @@ app.post("/search", async (c) => {
   if (firstToken) {
     const preset = findCase(firstToken);
     if (preset?.exa_response !== undefined) {
-      logRes(`preset "${firstToken}"`, preset.exa_response);
+      // Hydrate 整个 preset 到 store：Exa 是 pipeline 第一个被调用的 endpoint，
+      // 在这里灌好 store，后续 Apollo / PDL / RocketReach / GitHub 端点就从
+      // 同一个 case 的数据读，不用依赖 firstCase fallback
+      if (preset.apollo_people_search_response !== undefined) store.apollo = preset.apollo_people_search_response;
+      if (preset.apollo_bulk_enrich_response !== undefined) store.bulkEnrich = preset.apollo_bulk_enrich_response;
+      if (preset.pdl_search_response !== undefined) store.pdlSearch = preset.pdl_search_response;
+      if (preset.pdl_enrich_response !== undefined) store.pdlEnrich = preset.pdl_enrich_response;
+      if (preset.rocketreach_search_response !== undefined) store.rrSearch = preset.rocketreach_search_response;
+      if (preset.rocketreach_lookup_response !== undefined) store.rrLookup = preset.rocketreach_lookup_response;
+      if (preset.github_user_response !== undefined) store.githubUser = preset.github_user_response;
+      if (preset.github_repos_response !== undefined) store.githubRepos = preset.github_repos_response;
+      store.apolloStatus = preset.apollo_status ?? 200;
+      store.bulkStatus = preset.bulk_status ?? 200;
+      logRes(`preset "${firstToken}" (full hydrate)`, preset.exa_response);
       return c.json(preset.exa_response);
     }
   }
@@ -332,13 +345,6 @@ app.post("/api/v1/mixed_people/api_search", async (c) => {
     const status = store.apolloStatus ?? 200;
     logRes(`custom mock [${status}]`, store.apollo);
     return c.json(store.apollo, status as any);
-  }
-  // 没有精确匹配时，返回第一个 case 的数据作为 fallback
-  const firstCase = mockCases[CASE_KEYS[0]];
-  if (firstCase?.apollo_people_search_response !== undefined) {
-    if (firstCase.apollo_bulk_enrich_response !== undefined) store.bulkEnrich = firstCase.apollo_bulk_enrich_response;
-    logRes(`fallback → ${CASE_KEYS[0]}`, firstCase.apollo_people_search_response);
-    return c.json(firstCase.apollo_people_search_response);
   }
   logRes("default (empty)", DEFAULT_APOLLO_PEOPLE);
   return c.json(DEFAULT_APOLLO_PEOPLE);
