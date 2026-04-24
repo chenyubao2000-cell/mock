@@ -5,7 +5,7 @@
       "results": [
         {
           "id": "exa-case20-han-09",
-          "url": "https://www.linkedin.com/in/exa-case20-han-nine1",
+          "url": "https://www.linkedin.com/in/exa-case20-han-nine11",
           "title": "Exa_case20_韩九 - LinkedIn",
           "publishedDate": "2024-11-10",
           "author": null,
@@ -52,7 +52,7 @@
       "matches": [
         {
           "id": "apollo-case20-han-09",
-          "linkedin_url": "https://www.linkedin.com/in/exa-case20-han-nine1",
+          "linkedin_url": "https://www.linkedin.com/in/exa-case20-han-nine11",
           "github_url": "https://github.com/github-case20-han-nine",
           "name": "Apollo_case20_韩九",
           "first_name": "韩",
@@ -273,7 +273,7 @@
       "matches": [
         {
           "id": "apollo-case21-xie-01",
-          "linkedin_url": "https://www.linkedin.com/in/rr-case21-xie-one1",
+          "linkedin_url": "https://www.linkedin.com/in/rr-case21-xie-one11",
           "github_url": null,
           "name": "Apollo_case21_谢一",
           "first_name": "Apollo_case21",
@@ -393,8 +393,8 @@
         "full_name": "pdl_case21 xie one",
         "first_name": "pdl_case21",
         "last_name": "xie_one",
-        "linkedin_url": "https://www.linkedin.com/in/rr-case21-xie-one1",
-        "linkedin_username": "rr-case21-xie-one",
+        "linkedin_url": "https://www.linkedin.com/in/rr-case21-xie-one11",
+        "linkedin_username": "rr-case21-xie-one1",
         "linkedin_id": "pdl_case21_xie",
         "twitter_url": null,
         "twitter_username": null,
@@ -507,8 +507,8 @@
           {
             "network": "linkedin",
             "id": "pdl_case21_xie",
-            "url": "linkedin.com/in/rr-case21-xie-one",
-            "username": "rr-case21-xie-one",
+            "url": "linkedin.com/in/rr-case21-xie-one1",
+            "username": "rr-case21-xie-one1",
             "num_sources": 7,
             "first_seen": "2023-01-01",
             "last_seen": "2026-04-15"
@@ -564,9 +564,10 @@
           "name": "RR_case21_Xie One",
           "profile_pic": "https://media.licdn.com/dms/image/rr_case21_xie/profile.jpg",
           "links": {
-            "linkedin": "linkedin.com/in/rr-case21-xie-one"
+            "linkedin": "https://www.linkedin.com/in/rr-case21-xie-one1",
+            "twitter": "https://twitter.com/rr_case21_xie_one"
           },
-          "linkedin_url": "https://www.linkedin.com/in/rr-case21-xie-one1",
+          "linkedin_url": "https://www.linkedin.com/in/rr-case21-xie-one11",
           "connections": 320,
           "location": "RR_case21_Beijing, China",
           "city": "RR_case21_Beijing",
@@ -651,7 +652,7 @@
           "email": null,
           "email_status": "unavailable",
           "phone_number": null,
-          "linkedin_url": "https://www.linkedin.com/in/cao-qi-case22-ms-analyst12",
+          "linkedin_url": "https://www.linkedin.com/in/cao-qi-case22-ms-analyst112",
           "title": "Apollo_case22_高级数据分析师",
           "headline": "Apollo_case22 Apollo 独家召回 · 仅基础字段，邮箱需下游 enrich",
           "photo_url": "https://media.licdn.com/dms/image/apollo_case22_cao/profile.jpg",
@@ -710,7 +711,7 @@
       "matches": [
         {
           "id": "apollo-case22-cao-07",
-          "linkedin_url": "https://www.linkedin.com/in/cao-qi-case22-ms-analyst12",
+          "linkedin_url": "https://www.linkedin.com/in/cao-qi-case22-ms-analyst112",
           "github_url": null,
           "name": "Apollo_case22_曹七",
           "first_name": "Apollo_case22",
@@ -834,11 +835,11 @@
       "status": "complete",
       "name": "RR_case22_Cao Seven",
       "profile_pic": "https://media.licdn.com/dms/image/rr_case22_cao/profile.jpg",
-      "linkedin_url": "https://www.linkedin.com/in/cao-qi-case22-ms-analyst12",
+      "linkedin_url": "https://www.linkedin.com/in/cao-qi-case22-ms-analyst112",
       "linkedin_url_active": true,
       "connections": 680,
       "links": {
-        "linkedin": "linkedin.com/in/cao-qi-case22-ms-analyst"
+        "linkedin": "https://www.linkedin.com/in/cao-qi-case22-ms-analyst1"
       },
       "location": "RR_case22_Shanghai, China",
       "current_title": "RR_case22_Senior Data Analyst",
@@ -997,7 +998,7 @@
       "results": [
         {
           "id": "exa-case23",
-          "url": "https://www.linkedin.com/in/case23-exa-rr",
+          "url": "https://www.linkedin.com/in/case23-exa-rr1",
           "title": "Exa_case23 林小夏 - 后端工程师 - LinkedIn",
           "publishedDate": "2026-03-15",
           "author": null,
@@ -1033,7 +1034,7 @@
       "matches": [
         {
           "id": "apollo-case23",
-          "linkedin_url": "https://www.linkedin.com/in/case23-exa-rr",
+          "linkedin_url": "https://www.linkedin.com/in/case23-exa-rr1",
           "github_url": null,
           "name": "Apollo_case23_林小夏",
           "first_name": "Xiaoxia",
@@ -1121,7 +1122,7 @@
       "id": 23000001,
       "status": "complete",
       "name": "RR_case23_林小夏",
-      "linkedin_url": "https://www.linkedin.com/in/case23-exa-rr",
+      "linkedin_url": "https://www.linkedin.com/in/case23-exa-rr1",
       "linkedin_url_active": true,
       "current_title": null,
       "current_employer": null,
@@ -1187,7 +1188,7 @@
       "matches": [
         {
           "id": "apollo-case24",
-          "linkedin_url": "https://www.linkedin.com/in/case24-rr-rr",
+          "linkedin_url": "https://www.linkedin.com/in/case24-rr-rr1",
           "github_url": null,
           "name": "Apollo_case24_苏漾",
           "first_name": "Yang",
@@ -1263,8 +1264,8 @@
           "status": "complete",
           "name": "RR_case24_苏漾",
           "profile_pic": "https://media.licdn.com/dms/image/rr_case24_su/profile.jpg",
-          "links": { "linkedin": "linkedin.com/in/case24-rr-rr" },
-          "linkedin_url": "https://www.linkedin.com/in/case24-rr-rr",
+          "links": { "linkedin": "https://www.linkedin.com/in/case24-rr-rr1", "twitter": "https://twitter.com/rr_case24_su_yang" },
+          "linkedin_url": "https://www.linkedin.com/in/case24-rr-rr1",
           "connections": 280,
           "location": "RR_case24_深圳, 中国",
           "city": "RR_case24_深圳",
@@ -1300,7 +1301,7 @@
       "id": 24000001,
       "status": "complete",
       "name": "RR_case24_苏漾",
-      "linkedin_url": "https://www.linkedin.com/in/case24-rr-rr",
+      "linkedin_url": "https://www.linkedin.com/in/case24-rr-rr1",
       "linkedin_url_active": true,
       "current_title": "RR_case24_前端工程师",
       "current_employer": "RR_case24_腾讯",
@@ -1342,6 +1343,855 @@
       "following": 1,
       "created_at": "2022-04-01T00:00:00Z",
       "updated_at": "2026-01-01T00:00:00Z"
+    },
+    "github_repos_response": []
+  },
+  "case25_仅Apollo搜索_Apollo补全履历与邮箱手机_RocketReach降级": {
+    "exa_response": {
+      "requestId": "exa-req-case25",
+      "resolvedSearchType": "neural",
+      "results": [],
+      "costDollars": { "total": 0, "search": { "neural": 0 } }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [
+        {
+          "id": "apollo-case25-zhou-08",
+          "first_name": "Apollo_case25",
+          "last_name": "周",
+          "name": "Apollo_case25_周八",
+          "email": "apollo_case25_zhou@jd.com",
+          "email_status": "verified",
+          "linkedin_url": "https://www.linkedin.com/in/zhou-ba-case25-jd-tech81",
+          "title": "Apollo_case25_技术总监",
+          "headline": "Apollo_case25 Apollo L1 搜索独家命中 · Apollo 已含邮箱与手机,RocketReach lookup 结果应被降级",
+          "photo_url": "https://media.licdn.com/dms/image/apollo_case25_zhou/profile.jpg",
+          "organization_id": "org_apollo_case25_jd",
+          "organization_name": "Apollo_case25_京东",
+          "state": "Apollo_case25_北京市",
+          "city": "Apollo_case25_北京",
+          "country": "Apollo_case25_中国",
+          "seniority": "director",
+          "departments": ["engineering"],
+          "subdepartments": ["backend"],
+          "functions": ["engineering"],
+          "is_likely_to_engage": true,
+          "has_email": true,
+          "has_direct_phone": true,
+          "employment_history": [
+            {
+              "_id": "emp_case25_001",
+              "id": "emp_case25_001",
+              "current": true,
+              "organization_id": "org_apollo_case25_jd",
+              "organization_name": "Apollo_case25_京东",
+              "title": "Apollo_case25_技术总监",
+              "start_date": "2022-03-01",
+              "end_date": null,
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            },
+            {
+              "_id": "emp_case25_002",
+              "id": "emp_case25_002",
+              "current": false,
+              "organization_id": "org_apollo_case25_meituan",
+              "organization_name": "Apollo_case25_美团",
+              "title": "Apollo_case25_高级技术专家",
+              "start_date": "2018-09-01",
+              "end_date": "2022-02-28",
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            }
+          ]
+        }
+      ],
+      "pagination": {
+        "page": 1,
+        "per_page": 10,
+        "total_entries": 1,
+        "total_pages": 1
+      }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "apollo-case25-zhou-08",
+          "linkedin_url": "https://www.linkedin.com/in/zhou-ba-case25-jd-tech81",
+          "github_url": null,
+          "name": "Apollo_case25_周八",
+          "first_name": "Apollo_case25",
+          "last_name": "周",
+          "title": "Apollo_case25_技术总监",
+          "email": "apollo_case25_zhou@jd.com",
+          "email_status": "verified",
+          "phone_number": "+8613900000025",
+          "phone_numbers": [
+            {
+              "sanitized_number": "+8613900000025",
+              "raw_number": "139-0000-0025"
+            }
+          ],
+          "city": "Apollo_case25_北京",
+          "state": "Apollo_case25_北京市",
+          "country": "Apollo_case25_中国",
+          "organization_name": "Apollo_case25_京东",
+          "organization_id": "org_apollo_case25_jd",
+          "organization": {
+            "id": "org_apollo_case25_jd",
+            "name": "Apollo_case25_京东",
+            "website_url": "https://jd.com",
+            "primary_domain": "jd.com",
+            "industry": "Apollo_case25_电商",
+            "estimated_num_employees": 450000,
+            "founded_year": 1998
+          },
+          "photo_url": "https://media.licdn.com/dms/image/apollo_case25_zhou/profile.jpg",
+          "twitter_url": null,
+          "facebook_url": null,
+          "revealed_for_current_team": true,
+          "has_email": true,
+          "has_direct_phone": true,
+          "seniority": "director",
+          "employment_history": [
+            {
+              "_id": "emp_case25_001",
+              "id": "emp_case25_001",
+              "current": true,
+              "organization_id": "org_apollo_case25_jd",
+              "organization_name": "Apollo_case25_京东",
+              "title": "Apollo_case25_技术总监",
+              "start_date": "2022-03-01",
+              "end_date": null,
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            },
+            {
+              "_id": "emp_case25_002",
+              "id": "emp_case25_002",
+              "current": false,
+              "organization_id": "org_apollo_case25_meituan",
+              "organization_name": "Apollo_case25_美团",
+              "title": "Apollo_case25_高级技术专家",
+              "start_date": "2018-09-01",
+              "end_date": "2022-02-28",
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            },
+            {
+              "_id": "emp_case25_003",
+              "id": "emp_case25_003",
+              "current": false,
+              "organization_id": "org_apollo_case25_baidu",
+              "organization_name": "Apollo_case25_百度",
+              "title": "Apollo_case25_后端工程师",
+              "start_date": "2015-07-01",
+              "end_date": "2018-08-31",
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            }
+          ],
+          "education_history": [
+            {
+              "_id": "edu_case25_001",
+              "id": "edu_case25_001",
+              "degree": "Apollo_case25_硕士",
+              "major": "Apollo_case25_计算机科学与技术",
+              "school_name": "Apollo_case25_北京大学",
+              "start_date": "2013-09-01",
+              "end_date": "2015-06-30",
+              "grade_level": "graduate"
+            },
+            {
+              "_id": "edu_case25_002",
+              "id": "edu_case25_002",
+              "degree": "Apollo_case25_学士",
+              "major": "Apollo_case25_软件工程",
+              "school_name": "Apollo_case25_哈尔滨工业大学",
+              "start_date": "2009-09-01",
+              "end_date": "2013-06-30",
+              "grade_level": "undergraduate"
+            }
+          ]
+        }
+      ],
+      "credits_consumed": 1
+    },
+    "pdl_search_response": {
+      "status": 200,
+      "total": 0,
+      "credits_used": 0,
+      "data": []
+    },
+    "pdl_enrich_response": {
+      "status": 404,
+      "likelihood": 0,
+      "error": {
+        "type": "not_found",
+        "message": "pdl_case25: no matching record"
+      }
+    },
+    "rocketreach_search_response": { "profiles": [] },
+    "rocketreach_lookup_response": {
+      "id": 25000001,
+      "status": "complete",
+      "name": "RR_case25_Zhou Eight",
+      "profile_pic": "https://media.licdn.com/dms/image/rr_case25_zhou/profile.jpg",
+      "linkedin_url": "https://www.linkedin.com/in/zhou-ba-case25-jd-tech81",
+      "linkedin_url_active": true,
+      "connections": 420,
+      "location": "RR_case25_Beijing, China",
+      "current_title": "RR_case25_Director of Engineering",
+      "current_employer": "RR_case25_JD.com",
+      "current_employer_domain": "jd.com",
+      "current_employer_website": "https://jd.com",
+      "current_employer_linkedin_url": "linkedin.com/company/jd-com",
+      "current_employer_industry": "RR_case25_E-commerce",
+      "city": "RR_case25_Beijing",
+      "region": "RR_case25_Beijing",
+      "country": "RR_case25_China",
+      "country_code": "CN",
+      "recommended_email": "rr_case25_zhou@jd-fallback.com",
+      "recommended_professional_email": "rr_case25_zhou@jd-fallback.com",
+      "recommended_personal_email": "rr_case25_zhou.personal@gmail-fallback.com",
+      "current_work_email": "rr_case25_zhou@jd-fallback.com",
+      "current_personal_email": "rr_case25_zhou.personal@gmail-fallback.com",
+      "emails": [
+        {
+          "email": "rr_case25_zhou@jd-fallback.com",
+          "smtp_valid": "valid",
+          "type": "professional",
+          "grade": "A",
+          "last_validation_check": "04/18/2026 11:00:00"
+        },
+        {
+          "email": "rr_case25_zhou.personal@gmail-fallback.com",
+          "smtp_valid": "valid",
+          "type": "personal",
+          "grade": "A-",
+          "last_validation_check": "04/18/2026 11:00:00"
+        }
+      ],
+      "phones": [
+        {
+          "number": "+8618825550825",
+          "type": "mobile",
+          "validity": "valid",
+          "recommended": true,
+          "premium": false,
+          "last_checked": "2026-04-18T11:00:00.000Z"
+        }
+      ],
+      "job_history": [
+        {
+          "start_date": "2022-03",
+          "end_date": "Present",
+          "company": "RR_case25_JD.com",
+          "company_name": "RR_case25_JD.com",
+          "company_id": 2501,
+          "company_linkedin_url": "linkedin.com/company/jd-com",
+          "company_city": "Beijing",
+          "company_region": "Beijing",
+          "company_country_code": "CN",
+          "department": "RR_case25_Engineering",
+          "title": "RR_case25_Director of Engineering",
+          "highest_level": "director",
+          "description": "RR_case25 主导京东后端平台研发",
+          "last_updated": "2026-04-18T11:00:00Z",
+          "is_current": true
+        }
+      ],
+      "education": [
+        {
+          "major": "RR_case25_Computer Science",
+          "school": "RR_case25_Peking University",
+          "degree": "RR_case25_Master of Science",
+          "start": "2013-09-01",
+          "end": "2015-06-30"
+        }
+      ],
+      "skills": [
+        "RR_case25_Java",
+        "RR_case25_Go",
+        "RR_case25_Distributed Systems",
+        "RR_case25_Microservices"
+      ],
+      "credits_used": 1
+    },
+    "github_user_response": {
+      "login": "github-case25-placeholder",
+      "id": 25000002,
+      "avatar_url": null,
+      "html_url": "https://github.com/github-case25-placeholder",
+      "name": "GitHub_case25_占位",
+      "company": null,
+      "blog": null,
+      "location": null,
+      "email": null,
+      "bio": "GitHub_case25 占位 · 邮箱与手机由 Apollo 提供,RocketReach 为降级/未选用源",
+      "twitter_username": null,
+      "public_repos": 0,
+      "public_gists": 0,
+      "followers": 0,
+      "following": 0,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    },
+    "github_repos_response": []
+  },
+  "case26_仅Apollo搜索_Apollo补全履历与邮箱_手机降级走RocketReach": {
+    "exa_response": {
+      "requestId": "exa-req-case26",
+      "resolvedSearchType": "neural",
+      "results": [],
+      "costDollars": { "total": 0, "search": { "neural": 0 } }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [
+        {
+          "id": "apollo-case26-wu-02",
+          "first_name": "Apollo_case26",
+          "last_name": "吴",
+          "name": "Apollo_case26_吴二",
+          "email": "apollo_case26_wu@xiaomi.com",
+          "email_status": "verified",
+          "linkedin_url": "https://www.linkedin.com/in/wu-er-case26-mi-pm21",
+          "title": "Apollo_case26_产品总监",
+          "headline": "Apollo_case26 Apollo L1 搜索独家命中 · Apollo 有邮箱但无手机,手机降级由 RocketReach lookup 提供",
+          "photo_url": "https://media.licdn.com/dms/image/apollo_case26_wu/profile.jpg",
+          "organization_id": "org_apollo_case26_mi",
+          "organization_name": "Apollo_case26_小米",
+          "state": "Apollo_case26_广东省",
+          "city": "Apollo_case26_深圳",
+          "country": "Apollo_case26_中国",
+          "seniority": "director",
+          "departments": ["product"],
+          "subdepartments": ["mobile_product"],
+          "functions": ["product_management"],
+          "is_likely_to_engage": true,
+          "has_email": true,
+          "has_direct_phone": false,
+          "employment_history": [
+            {
+              "_id": "emp_case26_001",
+              "id": "emp_case26_001",
+              "current": true,
+              "organization_id": "org_apollo_case26_mi",
+              "organization_name": "Apollo_case26_小米",
+              "title": "Apollo_case26_产品总监",
+              "start_date": "2021-08-01",
+              "end_date": null,
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            },
+            {
+              "_id": "emp_case26_002",
+              "id": "emp_case26_002",
+              "current": false,
+              "organization_id": "org_apollo_case26_oppo",
+              "organization_name": "Apollo_case26_OPPO",
+              "title": "Apollo_case26_高级产品经理",
+              "start_date": "2017-06-01",
+              "end_date": "2021-07-31",
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            }
+          ]
+        }
+      ],
+      "pagination": {
+        "page": 1,
+        "per_page": 10,
+        "total_entries": 1,
+        "total_pages": 1
+      }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "apollo-case26-wu-02",
+          "linkedin_url": "https://www.linkedin.com/in/wu-er-case26-mi-pm21",
+          "github_url": null,
+          "name": "Apollo_case26_吴二",
+          "first_name": "Apollo_case26",
+          "last_name": "吴",
+          "title": "Apollo_case26_产品总监",
+          "email": "apollo_case26_wu@xiaomi.com",
+          "email_status": "verified",
+          "phone_number": null,
+          "phone_numbers": [],
+          "city": "Apollo_case26_深圳",
+          "state": "Apollo_case26_广东省",
+          "country": "Apollo_case26_中国",
+          "organization_name": "Apollo_case26_小米",
+          "organization_id": "org_apollo_case26_mi",
+          "organization": {
+            "id": "org_apollo_case26_mi",
+            "name": "Apollo_case26_小米",
+            "website_url": "https://mi.com",
+            "primary_domain": "mi.com",
+            "industry": "Apollo_case26_消费电子",
+            "estimated_num_employees": 32000,
+            "founded_year": 2010
+          },
+          "photo_url": "https://media.licdn.com/dms/image/apollo_case26_wu/profile.jpg",
+          "twitter_url": null,
+          "facebook_url": null,
+          "revealed_for_current_team": true,
+          "has_email": true,
+          "has_direct_phone": false,
+          "seniority": "director",
+          "employment_history": [
+            {
+              "_id": "emp_case26_001",
+              "id": "emp_case26_001",
+              "current": true,
+              "organization_id": "org_apollo_case26_mi",
+              "organization_name": "Apollo_case26_小米",
+              "title": "Apollo_case26_产品总监",
+              "start_date": "2021-08-01",
+              "end_date": null,
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            },
+            {
+              "_id": "emp_case26_002",
+              "id": "emp_case26_002",
+              "current": false,
+              "organization_id": "org_apollo_case26_oppo",
+              "organization_name": "Apollo_case26_OPPO",
+              "title": "Apollo_case26_高级产品经理",
+              "start_date": "2017-06-01",
+              "end_date": "2021-07-31",
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            },
+            {
+              "_id": "emp_case26_003",
+              "id": "emp_case26_003",
+              "current": false,
+              "organization_id": "org_apollo_case26_lenovo",
+              "organization_name": "Apollo_case26_联想",
+              "title": "Apollo_case26_产品经理",
+              "start_date": "2014-07-01",
+              "end_date": "2017-05-31",
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            }
+          ],
+          "education_history": [
+            {
+              "_id": "edu_case26_001",
+              "id": "edu_case26_001",
+              "degree": "Apollo_case26_硕士",
+              "major": "Apollo_case26_工业设计",
+              "school_name": "Apollo_case26_同济大学",
+              "start_date": "2012-09-01",
+              "end_date": "2014-06-30",
+              "grade_level": "graduate"
+            },
+            {
+              "_id": "edu_case26_002",
+              "id": "edu_case26_002",
+              "degree": "Apollo_case26_学士",
+              "major": "Apollo_case26_机械工程",
+              "school_name": "Apollo_case26_华中科技大学",
+              "start_date": "2008-09-01",
+              "end_date": "2012-06-30",
+              "grade_level": "undergraduate"
+            }
+          ]
+        }
+      ],
+      "credits_consumed": 1
+    },
+    "pdl_search_response": {
+      "status": 200,
+      "total": 0,
+      "credits_used": 0,
+      "data": []
+    },
+    "pdl_enrich_response": {
+      "status": 404,
+      "likelihood": 0,
+      "error": {
+        "type": "not_found",
+        "message": "pdl_case26: no matching record"
+      }
+    },
+    "rocketreach_search_response": { "profiles": [] },
+    "rocketreach_lookup_response": {
+      "id": 26000001,
+      "status": "complete",
+      "name": "RR_case26_Wu Two",
+      "profile_pic": "https://media.licdn.com/dms/image/rr_case26_wu/profile.jpg",
+      "linkedin_url": "https://www.linkedin.com/in/wu-er-case26-mi-pm21",
+      "linkedin_url_active": true,
+      "connections": 380,
+      "location": "RR_case26_Shenzhen, China",
+      "current_title": "RR_case26_Director of Product",
+      "current_employer": "RR_case26_Xiaomi",
+      "current_employer_domain": "mi.com",
+      "current_employer_website": "https://mi.com",
+      "current_employer_linkedin_url": "linkedin.com/company/xiaomi",
+      "current_employer_industry": "RR_case26_Consumer Electronics",
+      "city": "RR_case26_Shenzhen",
+      "region": "RR_case26_Guangdong",
+      "country": "RR_case26_China",
+      "country_code": "CN",
+      "recommended_email": "rr_case26_wu@xiaomi-fallback.com",
+      "recommended_professional_email": "rr_case26_wu@xiaomi-fallback.com",
+      "current_work_email": "rr_case26_wu@xiaomi-fallback.com",
+      "emails": [
+        {
+          "email": "rr_case26_wu@xiaomi-fallback.com",
+          "smtp_valid": "valid",
+          "type": "professional",
+          "grade": "A",
+          "last_validation_check": "04/18/2026 12:00:00"
+        }
+      ],
+      "phones": [
+        {
+          "number": "+8617755550226",
+          "type": "mobile",
+          "validity": "valid",
+          "recommended": true,
+          "premium": false,
+          "last_checked": "2026-04-18T12:00:00.000Z"
+        }
+      ],
+      "job_history": [
+        {
+          "start_date": "2021-08",
+          "end_date": "Present",
+          "company": "RR_case26_Xiaomi",
+          "company_name": "RR_case26_Xiaomi",
+          "company_id": 2601,
+          "company_linkedin_url": "linkedin.com/company/xiaomi",
+          "company_city": "Shenzhen",
+          "company_region": "Guangdong",
+          "company_country_code": "CN",
+          "department": "RR_case26_Product",
+          "title": "RR_case26_Director of Product",
+          "highest_level": "director",
+          "description": "RR_case26 负责小米手机产品线",
+          "last_updated": "2026-04-18T12:00:00Z",
+          "is_current": true
+        }
+      ],
+      "education": [
+        {
+          "major": "RR_case26_Industrial Design",
+          "school": "RR_case26_Tongji University",
+          "degree": "RR_case26_Master of Engineering",
+          "start": "2012-09-01",
+          "end": "2014-06-30"
+        }
+      ],
+      "skills": [
+        "RR_case26_Product Strategy",
+        "RR_case26_UX Design",
+        "RR_case26_Mobile Product"
+      ],
+      "credits_used": 1
+    },
+    "github_user_response": {
+      "login": "github-case26-placeholder",
+      "id": 26000002,
+      "avatar_url": null,
+      "html_url": "https://github.com/github-case26-placeholder",
+      "name": "GitHub_case26_占位",
+      "company": null,
+      "blog": null,
+      "location": null,
+      "email": null,
+      "bio": "GitHub_case26 占位 · 邮箱由 Apollo 提供,手机降级由 RocketReach lookup 提供",
+      "twitter_username": null,
+      "public_repos": 0,
+      "public_gists": 0,
+      "followers": 0,
+      "following": 0,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    },
+    "github_repos_response": []
+  },
+  "case27_仅Exa搜索_Apollo补履历与邮箱_手机降级走RocketReach": {
+    "exa_response": {
+      "requestId": "exa-req-case27",
+      "resolvedSearchType": "neural",
+      "results": [
+        {
+          "id": "exa-case27-qian-03",
+          "url": "https://www.linkedin.com/in/qian-san-case27-huawei-algo3",
+          "title": "Exa_case27_钱三 - 算法工程师 - LinkedIn",
+          "publishedDate": "2026-02-20",
+          "author": null,
+          "score": 0.9,
+          "text": "Exa_case27_钱三 · 算法工程师 · 意图: Exa L1 独家召回 + Apollo L2 补履历与邮箱 + RocketReach L3 补手机",
+          "summary": "Exa 命中, Apollo enrich 带邮箱但无手机, RocketReach lookup 命中邮箱(被压)与手机(降级胜)",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "Exa_case27_钱三",
+                "location": "Exa_case27_上海",
+                "workHistory": [
+                  {
+                    "title": null,
+                    "company": { "name": "Exa_case27_华为" },
+                    "startDate": null,
+                    "endDate": null,
+                    "isCurrent": true
+                  }
+                ],
+                "educationHistory": []
+              }
+            }
+          ]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": { "total": 0.005, "search": { "neural": 0.005 } }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [],
+      "pagination": {
+        "page": 1,
+        "per_page": 10,
+        "total_entries": 0,
+        "total_pages": 0
+      }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "apollo-case27-qian-03",
+          "linkedin_url": "https://www.linkedin.com/in/qian-san-case27-huawei-algo3",
+          "github_url": null,
+          "name": "Apollo_case27_钱三",
+          "first_name": "Apollo_case27",
+          "last_name": "钱",
+          "title": "Apollo_case27_算法工程师",
+          "email": "apollo_case27_qian@huawei.com",
+          "email_status": "verified",
+          "phone_number": null,
+          "phone_numbers": [],
+          "city": "Apollo_case27_上海",
+          "state": "Apollo_case27_上海市",
+          "country": "Apollo_case27_中国",
+          "organization_name": "Apollo_case27_华为",
+          "organization_id": "org_apollo_case27_hw",
+          "organization": {
+            "id": "org_apollo_case27_hw",
+            "name": "Apollo_case27_华为",
+            "website_url": "https://huawei.com",
+            "primary_domain": "huawei.com",
+            "industry": "Apollo_case27_通信设备",
+            "estimated_num_employees": 207000,
+            "founded_year": 1987
+          },
+          "photo_url": "https://media.licdn.com/dms/image/apollo_case27_qian/profile.jpg",
+          "twitter_url": null,
+          "facebook_url": null,
+          "revealed_for_current_team": true,
+          "has_email": true,
+          "has_direct_phone": false,
+          "seniority": "senior",
+          "employment_history": [
+            {
+              "_id": "emp_case27_001",
+              "id": "emp_case27_001",
+              "current": true,
+              "organization_id": "org_apollo_case27_hw",
+              "organization_name": "Apollo_case27_华为",
+              "title": "Apollo_case27_算法工程师",
+              "start_date": "2020-07-01",
+              "end_date": null,
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            },
+            {
+              "_id": "emp_case27_002",
+              "id": "emp_case27_002",
+              "current": false,
+              "organization_id": "org_apollo_case27_ms",
+              "organization_name": "Apollo_case27_微软亚洲研究院",
+              "title": "Apollo_case27_算法研究员",
+              "start_date": "2017-09-01",
+              "end_date": "2020-06-30",
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            }
+          ],
+          "education_history": [
+            {
+              "_id": "edu_case27_001",
+              "id": "edu_case27_001",
+              "degree": "Apollo_case27_博士",
+              "major": "Apollo_case27_人工智能",
+              "school_name": "Apollo_case27_上海交通大学",
+              "start_date": "2013-09-01",
+              "end_date": "2017-06-30",
+              "grade_level": "doctorate"
+            },
+            {
+              "_id": "edu_case27_002",
+              "id": "edu_case27_002",
+              "degree": "Apollo_case27_学士",
+              "major": "Apollo_case27_数学与应用数学",
+              "school_name": "Apollo_case27_南京大学",
+              "start_date": "2009-09-01",
+              "end_date": "2013-06-30",
+              "grade_level": "undergraduate"
+            }
+          ]
+        }
+      ],
+      "credits_consumed": 1
+    },
+    "pdl_search_response": {
+      "status": 200,
+      "total": 0,
+      "credits_used": 0,
+      "data": []
+    },
+    "pdl_enrich_response": {
+      "status": 404,
+      "likelihood": 0,
+      "error": {
+        "type": "not_found",
+        "message": "pdl_case27: no matching record"
+      }
+    },
+    "rocketreach_search_response": { "profiles": [] },
+    "rocketreach_lookup_response": {
+      "id": 27000001,
+      "status": "complete",
+      "name": "RR_case27_Qian Three",
+      "profile_pic": "https://media.licdn.com/dms/image/rr_case27_qian/profile.jpg",
+      "linkedin_url": "https://www.linkedin.com/in/qian-san-case27-huawei-algo3",
+      "linkedin_url_active": true,
+      "connections": 450,
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/qian-san-case27-huawei-algo3",
+        "twitter": "https://twitter.com/rr_case27_qian_three"
+      },
+      "location": "RR_case27_Shanghai, China",
+      "current_title": "RR_case27_Algorithm Engineer",
+      "current_employer": "RR_case27_Huawei",
+      "current_employer_domain": "huawei.com",
+      "current_employer_website": "https://huawei.com",
+      "current_employer_linkedin_url": "linkedin.com/company/huawei",
+      "current_employer_industry": "RR_case27_Telecommunications",
+      "city": "RR_case27_Shanghai",
+      "region": "RR_case27_Shanghai",
+      "country": "RR_case27_China",
+      "country_code": "CN",
+      "recommended_email": "rr_case27_qian@huawei-fallback.com",
+      "recommended_professional_email": "rr_case27_qian@huawei-fallback.com",
+      "current_work_email": "rr_case27_qian@huawei-fallback.com",
+      "emails": [
+        {
+          "email": "rr_case27_qian@huawei-fallback.com",
+          "smtp_valid": "valid",
+          "type": "professional",
+          "grade": "A",
+          "last_validation_check": "04/20/2026 09:00:00"
+        }
+      ],
+      "phones": [
+        {
+          "number": "+8615566660027",
+          "type": "mobile",
+          "validity": "valid",
+          "recommended": true,
+          "premium": false,
+          "last_checked": "2026-04-20T09:00:00.000Z"
+        }
+      ],
+      "job_history": [
+        {
+          "start_date": "2020-07",
+          "end_date": "Present",
+          "company": "RR_case27_Huawei",
+          "company_name": "RR_case27_Huawei",
+          "company_id": 2701,
+          "company_linkedin_url": "linkedin.com/company/huawei",
+          "company_city": "Shanghai",
+          "company_region": "Shanghai",
+          "company_country_code": "CN",
+          "department": "RR_case27_Engineering",
+          "title": "RR_case27_Algorithm Engineer",
+          "highest_level": "senior",
+          "description": "RR_case27 负责昇腾平台算法优化",
+          "last_updated": "2026-04-20T09:00:00Z",
+          "is_current": true
+        }
+      ],
+      "education": [
+        {
+          "major": "RR_case27_Artificial Intelligence",
+          "school": "RR_case27_Shanghai Jiao Tong University",
+          "degree": "RR_case27_Doctor of Philosophy",
+          "start": "2013-09-01",
+          "end": "2017-06-30"
+        }
+      ],
+      "skills": [
+        "RR_case27_Deep Learning",
+        "RR_case27_Computer Vision",
+        "RR_case27_PyTorch",
+        "RR_case27_Distributed Training"
+      ],
+      "credits_used": 1
+    },
+    "github_user_response": {
+      "login": "github-case27-placeholder",
+      "id": 27000002,
+      "avatar_url": null,
+      "html_url": "https://github.com/github-case27-placeholder",
+      "name": "GitHub_case27_占位",
+      "company": null,
+      "blog": null,
+      "location": null,
+      "email": null,
+      "bio": "GitHub_case27 占位 · 邮箱由 Apollo 提供,手机降级由 RocketReach lookup 提供",
+      "twitter_username": null,
+      "public_repos": 0,
+      "public_gists": 0,
+      "followers": 0,
+      "following": 0,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
     },
     "github_repos_response": []
   }

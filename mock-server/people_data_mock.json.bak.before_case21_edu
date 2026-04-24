@@ -1,0 +1,397 @@
+{
+  "case20_仅Exa搜索_Apollo补全基本信息与联系方式": {
+    "exa_response": {
+      "requestId": "exa-req-case20",
+      "results": [
+        {
+          "id": "exa-case20-han-09",
+          "url": "https://www.linkedin.com/in/exa-case20-han-nine",
+          "title": "Exa_case20_韩九 - LinkedIn",
+          "publishedDate": "2024-11-10",
+          "author": null,
+          "score": 0.88,
+          "text": "Exa_case20_韩九\n后端工程师",
+          "summary": "Exa_case20 Exa 独家召回，基本信息稀疏 · Apollo 负责补全",
+          "entities": [
+            {
+              "type": "person",
+              "properties": {
+                "name": "Exa_case20_韩九",
+                "location": "Exa_case20_深圳",
+                "workHistory": [
+                  {
+                    "title": null,
+                    "company": {
+                      "name": "Exa_case20_某互联网公司"
+                    },
+                    "startDate": null,
+                    "endDate": null,
+                    "isCurrent": true
+                  }
+                ],
+                "educationHistory": []
+              }
+            }
+          ]
+        }
+      ],
+      "searchType": "neural",
+      "costDollars": {
+        "total": 0.005
+      }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [],
+      "pagination": {
+        "page": 1,
+        "per_page": 10,
+        "total_entries": 0,
+        "total_pages": 0
+      }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "apollo-case20-han-09",
+          "first_name": "Apollo_case20",
+          "last_name": "韩",
+          "name": "Apollo_case20_韩九",
+          "email": "apollo_case20_han@tencent.com",
+          "email_status": "verified",
+          "phone_number": "+8613900000020",
+          "linkedin_url": "https://www.linkedin.com/in/exa-case20-han-nine",
+          "title": "Apollo_case20_高级后端工程师",
+          "headline": "Apollo_case20_enrich 补全 · 邮箱 + 手机 + 完整履历",
+          "photo_url": "https://media.licdn.com/dms/image/apollo_case20_han/profile.jpg",
+          "twitter_url": null,
+          "github_url": null,
+          "facebook_url": null,
+          "organization_id": "org_apollo_case20_tencent",
+          "organization_name": "Apollo_case20_腾讯",
+          "state": "Apollo_case20_广东省",
+          "city": "Apollo_case20_深圳",
+          "country": "Apollo_case20_中国",
+          "seniority": "senior",
+          "has_email": true,
+          "has_direct_phone": true,
+          "revealed_for_current_team": true,
+          "employment_history": [
+            {
+              "_id": "emp_c20_1",
+              "id": "emp_c20_1",
+              "current": true,
+              "organization_id": "org_apollo_case20_tencent",
+              "organization_name": "Apollo_case20_腾讯",
+              "title": "Apollo_case20_高级后端工程师",
+              "start_date": "2022-04-01",
+              "end_date": null,
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            },
+            {
+              "_id": "emp_c20_2",
+              "id": "emp_c20_2",
+              "current": false,
+              "organization_id": "org_apollo_case20_vivo",
+              "organization_name": "Apollo_case20_vivo",
+              "title": "Apollo_case20_后端工程师",
+              "start_date": "2019-08-01",
+              "end_date": "2022-03-31",
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            },
+            {
+              "_id": "emp_c20_3",
+              "id": "emp_c20_3",
+              "current": false,
+              "organization_id": null,
+              "organization_name": "Apollo_case20_华南理工大学",
+              "title": null,
+              "start_date": "2015-09-01",
+              "end_date": "2019-06-30",
+              "kind": "education",
+              "degree": "Apollo_case20_学士",
+              "major": "Apollo_case20_软件工程",
+              "grade_level": "undergraduate"
+            }
+          ],
+          "organization": {
+            "id": "org_apollo_case20_tencent",
+            "name": "Apollo_case20_腾讯",
+            "website_url": "https://tencent.com",
+            "primary_domain": "tencent.com",
+            "industry": "Apollo_case20_互联网",
+            "estimated_num_employees": 110000,
+            "founded_year": 1998
+          },
+          "phone_numbers": [
+            {
+              "raw_number": "+86 139 0000 0020",
+              "sanitized_number": "+8613900000020",
+              "type": "mobile",
+              "status": "verified_caller_id",
+              "position": 0
+            }
+          ],
+          "education_history": [
+            {
+              "_id": "edu_case20_001",
+              "id": "edu_case20_001",
+              "degree": "Apollo_case20_硕士",
+              "major": "Apollo_case20_计算机科学与技术",
+              "school_name": "Apollo_case20_清华大学",
+              "start_date": "2015-09-01",
+              "end_date": "2018-06-30",
+              "grade_level": "graduate"
+            },
+            {
+              "_id": "edu_case20_002",
+              "id": "edu_case20_002",
+              "degree": "Apollo_case20_学士",
+              "major": "Apollo_case20_软件工程",
+              "school_name": "Apollo_case20_北京邮电大学",
+              "start_date": "2011-09-01",
+              "end_date": "2015-06-30",
+              "grade_level": "undergraduate"
+            }
+          ]
+        }
+      ],
+      "credits_consumed": 1
+    },
+    "pdl_search_response": {
+      "status": 200,
+      "total": 0,
+      "credits_used": 0,
+      "data": []
+    },
+    "pdl_enrich_response": {
+      "status": 404,
+      "likelihood": 0,
+      "error": {
+        "type": "not_found",
+        "message": "pdl_case20: no matching record"
+      }
+    },
+    "rocketreach_search_response": {
+      "profiles": []
+    },
+    "rocketreach_lookup_response": {
+      "id": 0,
+      "status": "complete",
+      "emails": [],
+      "phones": [],
+      "recommended_email": null
+    },
+    "github_user_response": {
+      "login": "github-case20-placeholder",
+      "id": 20000001,
+      "avatar_url": null,
+      "html_url": "https://github.com/github-case20-placeholder",
+      "name": "GitHub_case20_占位",
+      "company": null,
+      "blog": null,
+      "location": null,
+      "email": null,
+      "bio": "GitHub_case20 占位 · 主信息由 Apollo enrich 提供",
+      "twitter_username": null,
+      "public_repos": 0,
+      "public_gists": 0,
+      "followers": 0,
+      "following": 0,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    },
+    "github_repos_response": []
+  },
+  "case21_仅RocketReach搜索_Apollo补全基本信息与联系方式": {
+    "exa_response": {
+      "requestId": "exa-req-case21",
+      "results": [],
+      "searchType": "neural",
+      "costDollars": { "total": 0 }
+    },
+    "apollo_people_search_response": {
+      "breadcrumbs": [],
+      "people": [],
+      "pagination": { "page": 1, "per_page": 10, "total_entries": 0, "total_pages": 0 }
+    },
+    "apollo_bulk_enrich_response": {
+      "matches": [
+        {
+          "id": "apollo-case21-xie-01",
+          "first_name": "Apollo_case21",
+          "last_name": "谢",
+          "name": "Apollo_case21_谢一",
+          "email": "apollo_case21_xie@bytedance.com",
+          "email_status": "verified",
+          "phone_number": "+8613900000021",
+          "linkedin_url": "https://www.linkedin.com/in/rr-case21-xie-one",
+          "title": "Apollo_case21_资深产品经理",
+          "headline": "Apollo_case21_enrich 补全 · 邮箱 + 手机 + 完整履历",
+          "photo_url": "https://media.licdn.com/dms/image/apollo_case21_xie/profile.jpg",
+          "twitter_url": null,
+          "github_url": null,
+          "facebook_url": null,
+          "organization_id": "org_apollo_case21_bd",
+          "organization_name": "Apollo_case21_字节跳动",
+          "state": "Apollo_case21_北京市",
+          "city": "Apollo_case21_北京",
+          "country": "Apollo_case21_中国",
+          "seniority": "senior",
+          "has_email": true,
+          "has_direct_phone": true,
+          "revealed_for_current_team": true,
+          "employment_history": [
+            {
+              "_id": "emp_c21_1",
+              "id": "emp_c21_1",
+              "current": true,
+              "organization_id": "org_apollo_case21_bd",
+              "organization_name": "Apollo_case21_字节跳动",
+              "title": "Apollo_case21_资深产品经理",
+              "start_date": "2023-01-01",
+              "end_date": null,
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            },
+            {
+              "_id": "emp_c21_2",
+              "id": "emp_c21_2",
+              "current": false,
+              "organization_id": "org_apollo_case21_ks",
+              "organization_name": "Apollo_case21_快手",
+              "title": "Apollo_case21_产品经理",
+              "start_date": "2020-05-01",
+              "end_date": "2022-12-31",
+              "kind": "job",
+              "degree": null,
+              "major": null,
+              "grade_level": null
+            },
+            {
+              "_id": "emp_c21_3",
+              "id": "emp_c21_3",
+              "current": false,
+              "organization_id": null,
+              "organization_name": "Apollo_case21_复旦大学",
+              "title": null,
+              "start_date": "2016-09-01",
+              "end_date": "2020-06-30",
+              "kind": "education",
+              "degree": "Apollo_case21_学士",
+              "major": "Apollo_case21_信息管理",
+              "grade_level": "undergraduate"
+            }
+          ],
+          "organization": {
+            "id": "org_apollo_case21_bd",
+            "name": "Apollo_case21_字节跳动",
+            "website_url": "https://bytedance.com",
+            "primary_domain": "bytedance.com",
+            "industry": "Apollo_case21_互联网",
+            "estimated_num_employees": 150000,
+            "founded_year": 2012
+          },
+          "phone_numbers": [
+            {
+              "raw_number": "+86 139 0000 0021",
+              "sanitized_number": "+8613900000021",
+              "type": "mobile",
+              "status": "verified_caller_id",
+              "position": 0
+            }
+          ]
+        }
+      ],
+      "credits_consumed": 1
+    },
+    "pdl_search_response": {
+      "status": 200,
+      "total": 0,
+      "credits_used": 0,
+      "data": []
+    },
+    "pdl_enrich_response": {
+      "status": 404,
+      "likelihood": 0,
+      "error": { "type": "not_found", "message": "pdl_case21: no matching record" }
+    },
+    "rocketreach_search_response": {
+      "profiles": [
+        {
+          "id": 21000001,
+          "status": "complete",
+          "name": "RR_case21_Xie One",
+          "profile_pic": "https://media.licdn.com/dms/image/rr_case21_xie/profile.jpg",
+          "links": {
+            "linkedin": "linkedin.com/in/rr-case21-xie-one"
+          },
+          "linkedin_url": "https://www.linkedin.com/in/rr-case21-xie-one",
+          "connections": 320,
+          "location": "RR_case21_Beijing, China",
+          "city": "RR_case21_Beijing",
+          "region": "RR_case21_Beijing",
+          "country": "RR_case21_China",
+          "country_code": "CN",
+          "current_title": "RR_case21_Senior Product Manager",
+          "current_employer": "RR_case21_ByteDance",
+          "current_employer_domain": "bytedance.com",
+          "current_employer_website": "https://bytedance.com",
+          "teaser": {
+            "emails": ["x***@bytedance.com"],
+            "phones": [{ "number": "***-***-0021", "is_premium": false }],
+            "office_phones": [],
+            "preview": ["x***@bytedance.com"],
+            "is_premium_phone_available": false,
+            "personal_emails": [],
+            "professional_emails": ["x***@bytedance.com"]
+          },
+          "birth_year": 1998,
+          "current_employer_id": 3210001,
+          "current_employer_linkedin_url": "linkedin.com/company/bytedance",
+          "region_latitude": 39.9042,
+          "region_longitude": 116.4074,
+          "suppressed": null,
+          "skills": ["RR_case21_product_strategy", "RR_case21_user_research"],
+          "npi_data": null,
+          "update_time": "2026-04-20T10:00:00Z"
+        }
+      ]
+    },
+    "rocketreach_lookup_response": {
+      "id": 0,
+      "status": "complete",
+      "emails": [],
+      "phones": [],
+      "recommended_email": null
+    },
+    "github_user_response": {
+      "login": "github-case21-placeholder",
+      "id": 21000001,
+      "avatar_url": null,
+      "html_url": "https://github.com/github-case21-placeholder",
+      "name": "GitHub_case21_占位",
+      "company": null,
+      "blog": null,
+      "location": null,
+      "email": null,
+      "bio": "GitHub_case21 占位 · 主信息由 Apollo enrich 提供",
+      "twitter_username": null,
+      "public_repos": 0,
+      "public_gists": 0,
+      "followers": 0,
+      "following": 0,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    },
+    "github_repos_response": []
+  }
+}
